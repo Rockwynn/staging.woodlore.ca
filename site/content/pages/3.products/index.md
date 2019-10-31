@@ -125,15 +125,15 @@ id: 3c3ce3db-07bb-45e4-9239-831bd989d9e8
 <div class="block">
     <div class="row aligner">
         <div class="col">
-        <h5 class="orange bold">Supporting the Open Plan</h5>
-        <p>Precision engineering and uncompromising quality are built into every component</p>
-        <ul>
-            <li><span>delivers a clean, contemporary aesthetic</span></li>
-            <li><span>available at a very attractive price point</span></li>
-            <li><span>choice of 24 laminate finish options</span></li>
-            <li><span>frosted acrylic panel dividers, available in 12" and 18" heights offer a simple, pleasing option for space division and visual privacy</span></li>
-            <li><span>extensive breadth of line delivers unlimited application possibilities</span></li>
-        </ul>
+            <h5 class="orange bold">Supporting the Open Plan</h5>
+            <p>Precision engineering and uncompromising quality are built into every component</p>
+            <ul>
+                <li><span>delivers a clean, contemporary aesthetic</span></li>
+                <li><span>available at a very attractive price point</span></li>
+                <li><span>choice of 24 laminate finish options</span></li>
+                <li><span>frosted acrylic panel dividers, available in 12" and 18" heights offer a simple, pleasing option for space division and visual privacy</span></li>
+                <li><span>extensive breadth of line delivers unlimited application possibilities</span></li>
+            </ul>
         </div>
         <div class="col">
             <div class="card-group">
