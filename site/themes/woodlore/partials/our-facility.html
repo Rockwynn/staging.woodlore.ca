@@ -1,0 +1,133 @@
+<div class="container">
+	<div class="row d-flex">
+			<a class=" example-image-link" href="/assets/images/our-facilities/assembly1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+				<img class="img-responsive example-image" src="/assets/images/our-facilities/assembly1.jpg" alt=""/>
+			</a>
+
+			<a class=" example-image-link" href="/assets/images/our-facilities/bander1.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
+				<img class="example-image" src="/assets/images/our-facilities/bander1.jpg" alt="" />
+			</a>
+
+	    	 <a class=" example-image-link" href="/assets/images/our-facilities/cnc1.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
+				<img class="example-image" src="/assets/images/our-facilities/cnc1.jpg" alt="" />
+			</a>
+
+	</div>
+	<div class="row">
+
+		    <a class=" example-image-link" href="/assets/images/our-facilities/maintenance1.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
+			    <img class="example-image" src="/assets/images/our-facilities/maintenance1.jpg" alt="" />
+
+		    <a class=" example-image-link" href="/assets/images/our-facilities/saw1.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing.">
+			    <img class="example-image" src="/assets/images/our-facilities/saw1.jpg" alt="" />
+		    </a>
+
+		    <a class=" example-image-link" href="/assets/images/our-facilities/shipping3.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close.">
+			   <img class="example-image" src="/assets/images/our-facilities/shipping3.jpg" alt="" />
+		    </a>
+
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row d-flex">
+		<div class="col">
+			<a class=" example-image-link" href="/assets/images/our-facilities/assembly1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+				<img class="img-responsive example-image" src="/assets/images/our-facilities/assembly1.jpg" alt=""/>
+			</a>
+        </div>
+		<div class="col">
+			<a class=" example-image-link" href="/assets/images/our-facilities/bander1.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
+				<img class="example-image" src="/assets/images/our-facilities/bander1.jpg" alt="" />
+			</a>
+		</div>
+		<div class="col">
+	    	 <a class=" example-image-link" href="/assets/images/our-facilities/cnc1.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
+				<img class="example-image" src="/assets/images/our-facilities/cnc1.jpg" alt="" />
+			</a>
+		</div>
+	</div>
+	<div class="row">
+	    <div class="col">
+		    <a class=" example-image-link" href="/assets/images/our-facilities/maintenance1.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
+			    <img class="example-image" src="/assets/images/our-facilities/maintenance1.jpg" alt="" />
+		    </a></div>
+	    <div class="col">
+		    <a class=" example-image-link" href="/assets/images/our-facilities/saw1.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing.">
+			    <img class="example-image" src="/assets/images/our-facilities/saw1.jpg" alt="" />
+		    </a>
+	    </div>
+	    <div class="col">
+		    <a class=" example-image-link" href="/assets/images/our-facilities/shipping3.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close.">
+			   <img class="example-image" src="/assets/images/our-facilities/shipping3.jpg" alt="" />
+		    </a>
+	    </div>
+	</div>
+</div>
+
+
+
+
+<!--
+<div>
+	{{ assets:myimages }}
+  <a class="example-image-link" href="{{ glide:url }}"                                               data-lightbox="example-set" data-title="Click the right half of the image to move forward.">              <img class="example-image" src="{{ glide:url }}" alt="{{ alt }}"/></a>
+  <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">                      <img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
+  <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing.">       <img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
+  <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
+	{{ /assets:myimages }}
+</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="row">
+	<div class="card-deck-wrapper">
+		<div class="card-deck">
+			{{ card }}
+				<div class="card card-program">
+					<div class="content-wrap">
+						<div class="content-inner card-inner-{{ switch between='purple|orange|blue|pink' }}">
+							<h4 class="card-title">{{ card_title }}</h4>
+							{{ if card_copy }}<p class="card-copy">{{ card_copy }}</p>{{ endif }}
+							{{ if card_list }}
+								<ul class="program-list">
+									{{ card_list }}
+										<li class="program-list-item">
+											<p class="program-list-title">{{ value }}</p>
+										</li>
+									{{ /card_list }}
+								</ul>
+							{{ endif }}
+						</div>
+					</div>
+				</div>
+				{{ if index % 3 == 0 && index > 0 && index != total_results }}
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="card-deck-wrapper">
+		<div class="card-deck">
+				{{ endif }}
+			{{ /card }}
+		</div>
+	</div>
+</div>-->

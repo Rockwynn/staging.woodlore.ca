@@ -1,0 +1,238 @@
+<!--
+
+    |---------------------------|
+        01 - Sliding Duration
+    |---------------------------|
+    data-duration="" You can change Sliding Duration of the slides by changing the value
+
+    |------------------------|
+        02 - Sliding Delay
+    |------------------------|
+    data-interval="" You can change Sliding Delay of the slides by changing the value.
+    On "false" value Sliding Effect will stop completely.
+
+    |--------------------------|
+        03 - Sliding Effects
+    |--------------------------|
+    You can use the following classes to change the sliding effect of slides from "slide".
+    Just replace the ".slide" class with the one of the following classes:
+    (bs4-zoom-i) || (bs4-spread) || (bs4-spread-y) || (bs4-rotate-scale-c) || (bs4-rotate-scale-o)
+    - But if you want to create "Vertical Sliding" effect then use the (bs4-slide-y) class and don't remove ".slide" class.
+    - If you want to create "fade Sliding" effect then use the (carousel-fade) class and don't remove ".slide" class.
+
+    |------------------------|
+        04 - Swipe Effects
+    |------------------------|
+    - If you want to enable touchSwipe Horizontally then use (swipe_x) class.
+    - If you want to enable touchSwipe Vertically then use (swipe_y) class.
+
+    |----------------------------------|
+        05 - Sliding Timing Function
+    |----------------------------------|
+    You can also change Sliding timing function just replacing the (bs4-ease) class with any of the following:
+    (bs4-ease) 		   || (bs4-easeInOut) 	   || (bs4-speedy) 	      || (bs4-slowSpeedy)     || (bs4-easeOutInCubic)
+    (bs4-easeOutCubic) || (bs4-easeInOutCubic) || (bs4-easeOutCirc)   || (bs4-easeOutExpo)    || (bs4-easeInQuad)
+    (bs4-easeOutQuad)  || (bs4-easeInOutQuad)  || (bs4-easeOutQuart)  || (bs4-easeInOutQuart) || (bs4-easeOutQuint)
+    (bs4-easeInSine)   || (bs4-easeOutSine)    || (bs4-easeInOutSine) || (bs4-swing)
+
+    |----------------------------|
+        06 - React To Keyboard
+    |----------------------------|
+    data-keyboard="" attribute describes that whether the carousel should react to keyboard left and right arrows keys.
+    On "true" value the carousel slides will change by pressing left and right keys of keyboard.
+    Remember this function will work only in case of when someone focus on carousel.
+
+    |-------------------------------|
+        07 - React To Mouse Wheel
+    |-------------------------------|
+    If you want to make sure that carousel should react to mouse wheel scrolling up only then then add
+    the following class	with ( bs4-carousel ) : ( bs4-mouse-wheel-y )
+    But if you want to make sure that carousel should react to mouse wheel scrolling up Or Down then then add
+    the following class	with ( bs4-carousel ) : ( bs4-mouse-wheel-xy )
+
+    |-------------------------------|
+        08 - Pause on Mouse Hover
+    |-------------------------------|
+    data-pause="" attribute value if set to "hover", pauses the cycling of the carousel on mouse-enter
+    and resumes the cycling of the carousel on mouse-leave. If set to "false", hovering over the carousel won't pause it.
+
+    |-------------------------------------------------|
+        09 - Start Cycling Of The Carousel Manually
+    |-------------------------------------------------|
+    data-ride="" attribute value "false" auto-plays the carousel after the user manually cycles the first item.
+    If value is "carousel", auto-plays the carousel on load.
+
+    |-------------------------------------------------|
+        10 - Start Cycling Of The Carousel Manually
+    |-------------------------------------------------|
+    data-wrap="" attribute value "true" makes sure that carousel's cycling continuously.
+    If value is "false", cycling of carousel stop on last slide.
+
+    |--------------------------------------------|
+        11 - Left And Right Navigation Buttons
+    |--------------------------------------------|
+        |-----------|
+            Types
+        |-----------|
+        You can change types of left and right navigation buttons by just replacing the (carousel-control-ip) classes
+        with any of the following :
+        (carousel-control-bs4)  || (carousel-control-bs3)    || (carousel-control-ng) || (carousel-control-env)
+        (carousel-control-amz)  || (carousel-control-ab)     || (carousel-control-yt) || (carousel-control-gm)
+        (carousel-control-fill) || (carousel-control-border) || (carousel-control-border-radius)
+
+        |-----------------|
+            Positioning
+        |-----------------|
+        You can change the position of left and right navigation buttons from horizontal to vertical by just replacing
+        the ( carousel-control-x ) classes to ( carousel-control-y ).
+
+        |------------|
+            Colors
+        |------------|
+        data-color="" attribute value represents the colors of navigation buttons. Just put the value, name of any
+        color or a gradient code to show that particular color.
+
+    |--------------------------------------------------|
+        12 - Left And Right Navigation Group Buttons
+    |--------------------------------------------------|
+    Note: Group Navigation Buttons have their own classes and the above navigation buttons section classes will not work
+    with "Group Navigation Buttons"
+        |-----------|
+            Types
+        |-----------|
+        If you want to show "group navigation button" then first remove all previous added classes
+        (carousel-control-ip, carousel-control-x) of above section and then add the following class with
+        ( bs4-carousel-control ) : ( carousel-control-group )
+        After adding the ( carousel-control-group ) class now you can choose your type by just adding the one from these
+        classes :
+        ( carousel-control-group-fill ) || ( carousel-control-group-border )
+
+        |-----------------|
+            Positioning
+        |-----------------|
+        You can change the position of left and right group navigation buttons from horizontal and vertical by just adding
+        the following Classes With ( carousel-control-group ) :
+        (carousel-control-right-y)           || (carousel-control-left-y)         || (carousel-control-left-right)
+        (carousel-control-top-center)        || (carousel-control-top-right-x)    || (carousel-control-top-right-y)
+        (carousel-control-top-left-right)    || (carousel-control-top-left-x)     || (carousel-control-top-left-y)
+        (carousel-control-bottom-center)     || (carousel-control-bottom-right-x) || (carousel-control-bottom-right-y)
+        (carousel-control-bottom-left-right) || (carousel-control-bottom-left-x)  || (carousel-control-bottom-left-y)
+
+        |------------|
+            Radius
+        |------------|
+        You can make radius buttons by just selecting one from the following classes :
+        (carousel-control-group-light-radius) || (carousel-control-group-semi-radius)
+        (carousel-control-group-full-radius)
+
+        |------------|
+            Colors
+        |------------|
+        data-color="" attribute value represents the colors of navigation buttons. Just put the value, name of any
+        color or a gradient code to show that particular color.
+
+    |---------------------------------------------|
+        13 - Thumbnails With Relative Positions
+    |---------------------------------------------|
+        |-----------|
+            Types
+        |-----------|
+        You can replace one of the following classes with ( carousel-thumb-border ) class to show different types
+        of Thumbnails :
+        ( carousel-thumb-border-bottom ) || ( carousel-thumb-border-top )
+        ( carousel-thumb-border-left )   || ( carousel-thumb-border-right )
+
+        |-----------------|
+            Positioning
+        |-----------------|
+        if you want to show thumbnails separately or relatively from carousel then first add (data-thumb="") attribute
+        in first div ( bs4-carousel ) of carousel. After that you can put the one of the following values in this
+        attribute to show thumbnails on different positions:
+        ( top ) || ( left ) || ( right ) || ( bottom )
+
+        For example in this file we are using data-thumb="bottom"
+
+        |------------|
+            Colors
+        |------------|
+        data-color="" attribute value represents the colors of thumbnails. Just put the value, name of any
+        color or a gradient code to show that particular color.
+
+        |-----------------------|
+            Background Colors
+        |-----------------------|
+        data-bgcolor="" attribute value represents the background colors of thumbnails. Just put the value, name of any
+        color or a gradient code to show that particular color.
+
+        |------------|
+            Radius
+        |------------|
+        You can make radius thumbnails by just adding ( carousel-thumb-radius ) class with ( carousel-indicators ).
+
+        |------------|
+            Filter
+        |------------|
+        You can make black and white thumbnails by just adding ( carousel-thumb-gray-scale ) class
+        with ( carousel-indicators ).
+
+    |----------------------------------------------------|
+        14 - Thumbnails Auto Scrolling On Over-Flowing
+    |----------------------------------------------------|
+    For vertical thumbnails use (thumb_scroll_y) class and for horizontal thumbnails use (thumb_scroll_x) class.
+
+    For More Detail Read The Documentation
+
+-->
+
+<!--
+    Delete parent div when using carousel in your own file.
+    If the parent will not exist then it will not show.
+    Height value of parent div must be fixed in pixels then it will works.
+-->
+<div style="width: 100%; height: 500px; margin: 50px auto;">
+    <!-- Carousel Start -->
+    <div id="full-screen-thumb-btm-rel" class="carousel slide bs4-carousel bs4-full-screen-parent bs4-indicators-thumb swipe_x bs4-easeOutSine thumb_scroll_x" data-ride="carousel" data-pause="hover" data-duration="1500" data-interval="5000" data-keyboard="false" data-wrap="true" data-thumb="bottom">
+        <!-- Indicators Start -->
+        <ol class="carousel-indicators carousel-thumb-border" data-bgcolor="#f6f6f6" data-color="#dfef90">
+            {{ assets:tackboard-fabrics }}
+                <!-- Indicators 1 Start -->
+                <li data-target="#full-screen-thumb-btm-rel" data-slide-to="{{ zero_index }}" {{ if first }}class="active"{{/if}}">
+                    <!-- Image -->
+                    <img src="{{ glide:url }}" alt="{{ alt }}">
+                </li>
+                <!-- Indicators 1 End -->
+            {{ /assets:tackboard-fabrics }}
+        </ol>
+        <!-- Indicators End -->
+        <!-- Carousel Inner Start -->
+        <div class="carousel-inner" role="listbox">
+            {{ assets:tackboard-fabrics }}
+                <!-- All Slides -->
+                <div class="carousel-item {{ if first }}active{{/if}}">
+                    <!-- Image -->
+                    <img src="{{ glide:url }}" alt="{{ alt }}" class="bs4-carousel-img">
+                    <!-- image caption -->
+                    <div class="carousel-caption d-md-block"><!-- took out d-none -->
+                        <h3>{{ filename }}</h3>
+                    </div>
+                </div>
+                <!-- end of All Slides -->
+            {{ /assets:tackboard-fabrics }}
+        </div>
+        <!-- Carousel Inner End -->
+        <!-- Arrow Left Start -->
+        <a class="carousel-control-prev bs4-carousel-control carousel-control-ip carousel-control-x" href="#full-screen-thumb-btm-rel" data-slide="prev" data-color="rgba(150,150,150,0.3)">
+            <!-- Icon -->
+            <i class="fas fa-angle-left"></i>
+        </a>
+        <!-- Arrow Left End -->
+        <!-- Arrow Right Start -->
+        <a class="carousel-control-next bs4-carousel-control carousel-control-ip carousel-control-x" href="#full-screen-thumb-btm-rel" data-slide="next" data-color="rgba(150,150,150,0.3)">
+            <!-- Icon -->
+            <i class="fas fa-angle-right"></i>
+        </a>
+        <!-- Arrow Right End -->
+    </div>
+    <!-- Carousel End -->
+</div>
+<!-- Parent Div End -->
