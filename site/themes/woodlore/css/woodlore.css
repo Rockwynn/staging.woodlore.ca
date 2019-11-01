@@ -1620,6 +1620,23 @@ Element by thecodeblock.com
   min-height: 480px;
 }
 
+@media screen and (min-width: 576px) {
+  .card-deck .card {
+    max-width: 30%;
+  }
+}
+
+.card-deck .card {
+  -ms-flex: auto;
+  flex: auto;
+  margin: 1em;
+  padding-bottom: 1em;
+}
+
+p.card-text {
+  padding: 0 0.5em;
+}
+
 /* end of adding css3 animations to bootstrap carousel slider */
 
 /*swiper css */

@@ -3,5 +3,8 @@ fieldset: things
 template: thing
 columns:
   - title
-  - amazon_id
+  - image_title
+  - photo
+  - blurb
+  - link
   - slug

@@ -1,133 +1,110 @@
-<div class="container">
-	<div class="row d-flex">
-			<a class=" example-image-link" href="/assets/images/our-facilities/assembly1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-				<img class="img-responsive example-image" src="/assets/images/our-facilities/assembly1.jpg" alt=""/>
-			</a>
-
-			<a class=" example-image-link" href="/assets/images/our-facilities/bander1.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
-				<img class="example-image" src="/assets/images/our-facilities/bander1.jpg" alt="" />
-			</a>
-
-	    	 <a class=" example-image-link" href="/assets/images/our-facilities/cnc1.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
-				<img class="example-image" src="/assets/images/our-facilities/cnc1.jpg" alt="" />
-			</a>
-
-	</div>
-	<div class="row">
-
-		    <a class=" example-image-link" href="/assets/images/our-facilities/maintenance1.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
-			    <img class="example-image" src="/assets/images/our-facilities/maintenance1.jpg" alt="" />
-
-		    <a class=" example-image-link" href="/assets/images/our-facilities/saw1.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing.">
-			    <img class="example-image" src="/assets/images/our-facilities/saw1.jpg" alt="" />
-		    </a>
-
-		    <a class=" example-image-link" href="/assets/images/our-facilities/shipping3.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close.">
-			   <img class="example-image" src="/assets/images/our-facilities/shipping3.jpg" alt="" />
-		    </a>
-
-	</div>
-</div>
-
-
-<div class="container">
-	<div class="row d-flex">
+<!--<section class="regular">
+	<div class="container-fluid centered">
+		<div class="block">
+		    <div class="row">
+		        <div class="col">
+					{{ assets:topimage }}
+		            <img src="{{ glide:url }}" class="large-image" />
+					{{ /assets:topimage }}
+		        </div>
+		    </div>
+		</div>
+		<div class="block">
+			<h5 class="orange bold">{{ title }}</h5>
+			<p>{{ top-image-caption }}</p>
+		</div>
+		<hr>
 		<div class="col">
-			<a class=" example-image-link" href="/assets/images/our-facilities/assembly1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-				<img class="img-responsive example-image" src="/assets/images/our-facilities/assembly1.jpg" alt=""/>
-			</a>
+			{{ assets:myimages }}
+				<a class="example-image-link" href="{{ glide:url width="552" height="552" fit="crop" }}" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
+					<img class="example-image" src="{{ glide:url width="250" height="250" }}" alt="" />
+				</a>
+			{{ /assets:myimages }}
+		</div>
+	</div>
+</section>-->
+
+
+
+
+
+<section class="regular">
+	<div class="container-fluid centered">
+		<div class="row">
+		    <div class="card-deck">
+				{{ collection:things }}
+			        <div class="card">
+						<a class="example-image-link" href="{{ photo }}" width="552" height="552" fit="crop" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
+					    	<img class="example-image card-img-top" src="{{ photo }}" width="250" height="250" fit="crop" alt="Card image cap" />
+						</a>
+				        <div class="card-block">
+				            <h5 class="orange bold card-title">{{ title }}</h5>
+				            <p class="card-text">{{ blurb }}</p>
+							<a href="{{ link }}"><span class="dgreen">More Pictures</span></a>
+				        </div>
+			        </div>
+			    {{ /collection:things }}
+		    </div>
+		</div>
+	</div>
+</section>
+
+<!--<section class="regular">
+	<div class="container-fluid centered">
+	<header>
+		<h1>{{ title }}</h1>
+		{{ content_raw wrap="h2" }}
+	</header>
+
+    <div class="col">
+        {{ collection:things }}
+			<a class="example-image-link" href="{{ photo }}" width="552" height="552" fit="crop" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">-->
+				<!--<img class="example-image" src="{{ photo }}" width="250" height="250" alt="" /><h3 class="caption">{{ title }}</h3><figcaption class="figure-caption">{{ blurb }}</figcaption></a>-->
+				<!--<img class="example-image" src="{{ photo }}" width="250" height="250" alt="" /><span class="caption">{{ blurb }}</span> </a>
+
+      {{ /collection:things }}
+    </div>
+</div>
+</section>-->
+
+     <!-- <div class="card">
+        <img class="card-img-top" src="//placehold.it/720x350" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
-		<div class="col">
-			<a class=" example-image-link" href="/assets/images/our-facilities/bander1.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
-				<img class="example-image" src="/assets/images/our-facilities/bander1.jpg" alt="" />
-			</a>
-		</div>
-		<div class="col">
-	    	 <a class=" example-image-link" href="/assets/images/our-facilities/cnc1.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
-				<img class="example-image" src="/assets/images/our-facilities/cnc1.jpg" alt="" />
-			</a>
-		</div>
-	</div>
-	<div class="row">
-	    <div class="col">
-		    <a class=" example-image-link" href="/assets/images/our-facilities/maintenance1.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
-			    <img class="example-image" src="/assets/images/our-facilities/maintenance1.jpg" alt="" />
-		    </a></div>
-	    <div class="col">
-		    <a class=" example-image-link" href="/assets/images/our-facilities/saw1.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing.">
-			    <img class="example-image" src="/assets/images/our-facilities/saw1.jpg" alt="" />
-		    </a>
-	    </div>
-	    <div class="col">
-		    <a class=" example-image-link" href="/assets/images/our-facilities/shipping3.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close.">
-			   <img class="example-image" src="/assets/images/our-facilities/shipping3.jpg" alt="" />
-		    </a>
-	    </div>
-	</div>
-</div>
-
-
-
-
-<!--
-<div>
-	{{ assets:myimages }}
-  <a class="example-image-link" href="{{ glide:url }}"                                               data-lightbox="example-set" data-title="Click the right half of the image to move forward.">              <img class="example-image" src="{{ glide:url }}" alt="{{ alt }}"/></a>
-  <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">                      <img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
-  <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing.">       <img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
-  <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
-	{{ /assets:myimages }}
-</div>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--<div class="row">
-	<div class="card-deck-wrapper">
-		<div class="card-deck">
-			{{ card }}
-				<div class="card card-program">
-					<div class="content-wrap">
-						<div class="content-inner card-inner-{{ switch between='purple|orange|blue|pink' }}">
-							<h4 class="card-title">{{ card_title }}</h4>
-							{{ if card_copy }}<p class="card-copy">{{ card_copy }}</p>{{ endif }}
-							{{ if card_list }}
-								<ul class="program-list">
-									{{ card_list }}
-										<li class="program-list-item">
-											<p class="program-list-title">{{ value }}</p>
-										</li>
-									{{ /card_list }}
-								</ul>
-							{{ endif }}
-						</div>
-					</div>
-				</div>
-				{{ if index % 3 == 0 && index > 0 && index != total_results }}
-		</div>
-	</div>
-</div>
-<div class="row">
-	<div class="card-deck-wrapper">
-		<div class="card-deck">
-				{{ endif }}
-			{{ /card }}
-		</div>
-	</div>
-</div>-->
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="//placehold.it/720x350" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+	  <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="//placehold.it/720x350" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="//placehold.it/720x350" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="//placehold.it/720x350" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>-->
