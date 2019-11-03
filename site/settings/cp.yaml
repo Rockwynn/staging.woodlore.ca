@@ -5,7 +5,7 @@ widgets:
     limit: 5
   -
     type: collection
-    collection: things
+    collection: facility
     limit: 5
   -
     type: form

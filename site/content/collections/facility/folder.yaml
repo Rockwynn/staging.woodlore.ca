@@ -1,0 +1,10 @@
+title: facility
+fieldset: things
+template: things
+columns:
+  - title
+  - image_title
+  - photo
+  - blurb
+  - link
+  - slug

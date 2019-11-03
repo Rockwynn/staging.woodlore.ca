@@ -1,10 +1,9 @@
-title: Things
+title: Precision-Cutting
+order: number
 fieldset: things
-template: thing
+template: things
 columns:
   - title
   - image_title
   - photo
-  - blurb
-  - link
   - slug

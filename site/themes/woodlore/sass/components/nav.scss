@@ -1,6 +1,11 @@
 .navbar-woodlore {
-    background: #fff;
-	border-bottom: 1px solid rgba(0,0,0,.1);
+    /*background-image: url("/assets/images/logosandmisc/header-slice.png");
+    background-size: contain;*/
+
+    background-repeat: repeat-x;
+    padding-left: 30px;
+    /*background: #fff;*/
+	border-bottom: 0.3em solid rgba(0,94,50,.8);
 	border-radius: 0;
 	min-height: 60px;
 
@@ -55,9 +60,13 @@
 		color: $color_dark;
 		font-weight: 900;
 		font-size: 32px;
-		height: 60px;
-		padding: 20px 15px;
+		/*height: 60px;*/
+		padding: 0px 15px;
 		letter-spacing: -.05em;
+
+        img {
+            max-height: 90px;
+        }
 	}
 
 	.navbar-form {
@@ -86,4 +95,19 @@
 }
 .navbar a {
     text-transform: uppercase;
+}
+.breadcrumbs, .breadcrumb {
+    background-color: #eaeaea;
+}
+.bc-icons-2 {
+    max-width: 1032px;
+    margin: 0 auto;
+}
+.bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
+content: none; }
+.bc-icons-2 .breadcrumb-item.active {
+color: #455a64; }
+a.black-text {
+    color: rgba(0, 0, 0, 0.5);
+    /*text-transform: uppercase;*/
 }

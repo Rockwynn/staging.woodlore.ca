@@ -213,10 +213,11 @@ article.content {
 
 	img {
 		max-width: 100%;
+		border: 3px double #999;
 	}
 
 	img.small-image {
-		border: 1px solid rgba(0,0,0,0.05);
+		/*border: 1px solid rgba(0,0,0,0.05);*/
 		float: right;
 		margin: 3px 0 0 $gap;
 		max-height: 333px;
@@ -224,7 +225,7 @@ article.content {
 	}
 
 	img.large-image {
-		border: 1px solid rgba(0,0,0,0.05);
+		/*border: 1px solid rgba(0,0,0,0.05);*/
 		margin-bottom: $gap / 2;
 	}
 }
