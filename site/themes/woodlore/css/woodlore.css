@@ -160,6 +160,7 @@ footer.container .footer-widget p {
 
 footer.container .footer-widget p span.infotitle {
   color: #dfef90;
+  text-decoration: none;
 }
 
 footer.container .footer-widget .widget-1 {
@@ -210,6 +211,10 @@ footer.container .footer-widget .widget-2 h5 {
 
 footer.container .footer-widget .widget-2 hr {
   background-color: #e6e6e6;
+}
+
+footer.container .footer-widget .widget-2 a {
+  color: #fff;
 }
 
 footer.container .footer-widget .widget-3 {
