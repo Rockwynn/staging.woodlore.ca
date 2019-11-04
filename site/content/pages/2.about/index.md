@@ -1,6 +1,7 @@
 ---
-title: About Us
-nav-title: 'About Us'
-template: about
+title: About
+nav-title: 'About'
+template: redirect-about-us
 fieldset: Page_Builder
 id: 72c016c6-cc0a-4928-b53b-3275f3f6da0a
+---

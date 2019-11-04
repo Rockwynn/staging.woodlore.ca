@@ -8,3 +8,9 @@ columns:
   - blurb
   - link
   - slug
+searchable:
+  - title
+  - photo
+  - blurb
+  - link
+  - slug

@@ -7,3 +7,7 @@ columns:
   - image_title
   - photo
   - slug
+searchable:
+  - title
+  - photo
+  - slug

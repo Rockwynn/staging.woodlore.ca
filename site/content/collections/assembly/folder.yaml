@@ -2,8 +2,7 @@ title: assembly
 order: number
 fieldset: things
 template: things
-columns:
+searchable:
   - title
-  - image_title
   - photo
   - slug
