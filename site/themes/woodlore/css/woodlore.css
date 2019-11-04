@@ -1030,6 +1030,22 @@ width: 7rem;
   opacity: 1;
 }
 
+.navbar-woodlore ul.navbar-nav {
+  line-height: 1;
+}
+
+.navbar-woodlore li.nav-item {
+  border-right: 1px solid silver;
+}
+
+.navbar-woodlore li.nav-item.active a.nav-link {
+  color: #005e32;
+}
+
+.navbar-woodlore li.nav-item a.nav-link:hover {
+  color: #005e32;
+}
+
 .navbar-woodlore .navbar-brand {
   color: #3c3c3c;
   font-weight: 900;
@@ -1062,11 +1078,26 @@ width: 7rem;
 
 .dropdown-divider {
   margin: 0;
+  border: 0;
+}
+
+a.dropdown-item {
+  color: #005e32;
+  background-color: #dfef90;
+}
+
+.dropdown-item:hover {
+  text-decoration: underline;
+}
+
+a.dropdown-item:hover {
+  color: #005e32;
 }
 
 .dropdown-menu {
-  padding-bottom: 0;
+  /*padding-bottom: 0;*/
   font-size: 0.85rem;
+  background-color: #005e32;
 }
 
 .navbar a {
@@ -1094,6 +1125,11 @@ width: 7rem;
 a.black-text {
   color: rgba(0, 0, 0, 0.5);
   /*text-transform: uppercase;*/
+}
+
+.btn-primary {
+  background-color: #005e32;
+  border-color: #005e32;
 }
 
 .tags {
@@ -1268,6 +1304,29 @@ img.zoom-img {
 }
 
 .list-menu-dark a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.list-menu-form {
+  background-image: url("/assets/images/logosandmisc/arrow-circle-right-solid-dgreen.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  color: #005e32;
+  font-weight: 300;
+  /*font-family: 'FontAwesome';
+    content: '\f0a9';
+    margin:0 5px 0 -15px;
+    color: #dfef90;*/
+}
+
+.list-menu-form a {
+  color: #000;
+  font-weight: 300;
+}
+
+.list-menu-form a:hover {
   text-decoration: none;
   color: #000;
 }

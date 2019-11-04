@@ -1,4 +1,12 @@
 <section class="regular">
+
+    <div class="block">
+        <div class="row aligner">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d92261.87532554135!2d-79.64771848601023!3d43.72751256633075!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0ef7977d2e1c77!2sWoodlore+International+Inc!5e0!3m2!1sen!2sca!4v1426969937026" width="1000" height="300" frameborder="0" style="border:0"></iframe>
+        </div>
+    </div>
+
+
     <div class="block">
         <div class="row aligner">
             <div class="col">
@@ -13,7 +21,7 @@
                 <h5 class="dgreen bold">Request for Special Quotes</h5>
                 <ul class="list-menus">
                     <li class="list-menu-dark"><span class="dgreen bold"><strong>Email: </strong></span><a href="mailto:specialquotes@woodlore.ca">specialquotes@woodlore.ca</a></li>
-                    <li><h1 class="dgreen bold">1-866-791-9555</h1><a href="tel:+1-866-791-9555"></a></li>
+                    <li><a href="tel:+1-866-791-9555"><h1 class="dgreen bold">1-866-791-9555</h1></a></li>
                 </ul>
             </div>
             <div class="col">
@@ -41,27 +49,27 @@
             {{ /if }}
 
             <div class="form-group">
-                <label>Name</label>
+                <label class="list-menu-form">Name</label>
                 <input type="text" name="name" value="{{ old:name }}" placeholder="Name" class="form-control" />
             </div>
 
             <div class="form-group">
-                <label>Email</label>
+                <label class="list-menu-form">Email</label>
                 <input type="text" name="email" value="{{ old:email }}" placeholder="Email" class="form-control" />
             </div>
 
             <div class="form-group">
-                <label>Phone</label>
+                <label class="list-menu-form">Phone</label>
                 <input type="text" name="phone" value="{{ old:phone }}" placeholder="Phone Number" class="form-control" />
             </div>
 
             <div class="state form-group">
-                <label>State</label>
+                <label class="list-menu-form">State</label>
                 <input type="text" name="state" value="(( old:state ))" placeholder="State" class="state" />
             </div>
 
             <div class="form-group">
-                <label>Message</label>
+                <label class="list-menu-form">Message</label>
                 <textarea name="comment" placeholder="Add a note..." class="form-control">{{ old:comment }}</textarea>
             </div>
 
