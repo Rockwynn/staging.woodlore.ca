@@ -1,5 +1,6 @@
 ---
 title: Governing-Principles
+nav-title: 'Governing Principles'
 fieldset: default
 template: about
 id: b7f7cee5-a169-4dcf-85de-60fa1fe4e7bd

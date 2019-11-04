@@ -4,11 +4,17 @@
 .dgreen {
 	color: #005e32;
 }
+.bg-dgreen {
+	background-color: #005e32
+}
 .orange {
 	color: #ff6600;
 }
 .black {
 	background-color: #000;
+}
+.white {
+	color: #fff;
 }
 /*h1, h2, h3, h4, h5, h6 {
 	font-family: $font_sans;
@@ -77,7 +83,7 @@ section {
 
 article.content {
 	p {
-		font-family: $font_serif;
+		font-family: $font_sans;
 		font-size: 18px;
 		line-height: $gap;
 		margin: 0 0 $gap;

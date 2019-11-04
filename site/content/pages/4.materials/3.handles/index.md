@@ -1,5 +1,7 @@
 ---
 title: Handles
+blurb: 'A selection of 5 handle options available in a choice of Black, Nickel or Aluminum finishes.'
+nav-title: Handles
 layout: default
 template: handles
 fieldset: default
@@ -22,5 +24,3 @@ handles:
   - /assets/images/handles/nickle-open-pull.jpg
   - /assets/images/handles/rod-pull.jpg
 ---
-Handles
-A selection of 5 handle options available in a choice of Black, Nickel or Aluminum finishes

@@ -1,5 +1,6 @@
 ---
 title: Products
+nav-title: Products
 fieldset: default
 template: about
 id: 3c3ce3db-07bb-45e4-9239-831bd989d9e8
@@ -12,7 +13,7 @@ id: 3c3ce3db-07bb-45e4-9239-831bd989d9e8
     </div>
 </div>
 <div class="block">
-    <h5 class="orange bold">Woodlore’s most extensive laminate office solution</h5>
+    <h5 class="orange bold">Woodlore's most extensive laminate office solution</h5>
     <p>Create the look and function that best supports your working style. With a multitude of components, Haven delivers a unique and sophisticated design solution to every work environment – and does it at an affordable price.</p>
 </div>
 <!--<div class="block">

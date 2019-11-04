@@ -1,5 +1,6 @@
 ---
 title: Sustainability
+nav-title: Sustainability
 template: about
 fieldset: default
 id: 4504b5c0-dd84-413f-84ec-19c1e975b349

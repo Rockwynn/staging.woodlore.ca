@@ -1,6 +1,7 @@
 ---
-title: Precision Cutting
-sub-title: High Quality Precision Results
+title: 'Precision Cutting'
+nav-title: 'Precision Cutting'
+sub-title: 'High Quality Precision Results'
 top-caption: 'Top-of-the-line equipment allows us to process our panels faster, more economically, and with greater flexibility. Superior performance coupled with high-end technology ensures all board is precision-cut to the exact size required.'
 layout: precision-cutting
 myimages:

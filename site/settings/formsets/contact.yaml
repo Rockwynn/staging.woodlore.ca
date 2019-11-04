@@ -1,28 +1,88 @@
-title: Contact Me
-
+title: 'Contact Me'
 fields:
+  section:
+    display: Article Hero
+    type: section
+  subtitle:
+    display: Subtitle
+    type: text
+  background_image:
+    display: Background Image
+    type: assets
+    container: main
+    max_files: 1
+  background_color:
+    display: Background Overlay Color
+    type: text
+    mode: color
+    width: 50
+  blend_mode:
+    display: Background Blend Mode
+    type: select
+    default: none
+    width: 50
+    options:
+      none: none
+      overlay: overlay
+      soft-light: soft-light
+      multiply: multiply
+  headline:
+    type: text
+  subhead:
+    type: text
   name:
     display: Name
-    validate: required|min:2
+    validate: 'required|min:2'
   email:
-    display: Email Address
+    display: 'Email Address'
     validate: required|email
-  number:
-    display: Favorite Number
-    validate: integer
+  phone:
+    display: Phone
   comment:
     display: Comment
-
+honeypot: state
+columns:
+  - name
+  - email
+  - phone
+  - comment
 metrics:
   -
     type: total
-    label: Total Responses
+    label: 'Total Responses'
+
+email:
   -
-    type: sum
-    field: number
-    label: Sum of Favorite Number
-  -
-    type: average
-    field: number
-    label: Average Favorite Number
-    precision: 1
+    to: info@woodlore.ca
+    from: info@woodlore.ca
+    reply_to: '{{email}}'
+    subject: 'CONTACT FORM WOODLORE INTERNATIONAL INC.'
+
+
+#title: Contact Me
+
+#fields:
+#  name:
+#    display: Name
+#    validate: required|min:2
+ # email:
+#    display: Email Address
+#    validate: required|email
+ # number:
+#    display: Favorite Number
+#    validate: integer
+ # comment:
+#    display: Comment
+
+#metrics:
+ # -
+#    type: total
+#    label: Total Responses
+ # -
+#    type: sum
+##    label: Sum of Favorite Number
+#  -
+#    type: average
+#    field: number
+#    label: Average Favorite Number
+#    precision: 1

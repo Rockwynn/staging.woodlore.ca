@@ -1,5 +1,6 @@
 ---
 title: Assembly
+nav-title: Assembly
 sub-title: Assembly Department
 top-caption: 'Our long-term, highly experienced employees make certain that the finished product meets the highest quality standards, that all necessary hardware components are included, and the product is ready to ship on time'
 layout: assembly

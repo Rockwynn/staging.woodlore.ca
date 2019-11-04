@@ -1,5 +1,6 @@
 ---
 title: 'Privacy Policy'
+nav-title: 'Privacy Policy'
 template: about
 fieldset: default
 id: 7ba14627-6d99-40c8-8f0c-0e78f8df5bc3
@@ -13,7 +14,7 @@ id: 7ba14627-6d99-40c8-8f0c-0e78f8df5bc3
 </div>
 <div class="block">
     <h5 class="orange bold">Privacy Policy</h5>
-    <p>Welcome to the Woodlore International Inc. web site <strong class="dgreen">www.woodlore.ca</strong> Please know that we respect your privacy and make every effort to protect your personal information.</p>
+    <p>Welcome to the Woodlore International Inc. web site <strong>https://woodlore.ca</strong> Please know that we respect your privacy and make every effort to protect your personal information.</p>
     <p>Any personal information you provide to us including and similar to your name, address, telephone number and e-mail address will not be released, sold, or rented to any entities or individuals outside of Woodlore.</p>
 </div>
 <div class="block">
@@ -32,5 +33,5 @@ id: 7ba14627-6d99-40c8-8f0c-0e78f8df5bc3
     <h5 class="orange bold">Remember The Risks Whenever You Use The Internet</h5>
     <p>While we do our best to protect your personal information, we cannot guarantee the security of any information that you transmit to Woodlore and you are solely responsible for maintaining the secrecy of any passwords or other account information. In addition other Internet sites or services that may be accessible through Woodlore have separate data and privacy practices independent of us, and therefore we disclaim any responsibility or liability for their policies or actions. Please contact those vendors and others directly if you have any questions about their privacy policies.</p>
     <p>You may choose to actively provide personally identifiable information (e.g. name, address, phone number, e-mail address, etc). By doing so, you specifically consent to the use of such information.</p>
-    <p>Should you have any questions regarding the above statements or should you wish to change/modify previously provided information, please send an e-mail to <a href="../contact"><strong class="dgreen">info@woodlore.ca</strong></a> or you can call us at <a href="tel:18667919555"><strong class="dgreen">1-866-791-9555</strong></a></p>
+    <p>Should you have any questions regarding the above statements or should you wish to change/modify previously provided information, please send an e-mail to <a href="mailto:info@woodlore.ca"><strong class="dgreen">info@woodlore.ca</strong></a> or you can call us at <a href="tel:+18667919555"><strong class="dgreen">1-866-791-9555</strong></a></p>
 </div>

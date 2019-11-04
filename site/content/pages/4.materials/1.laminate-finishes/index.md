@@ -1,5 +1,7 @@
 ---
 title: 'Laminate Finishes'
+blurb: 'A selection of 24 laminate colours allows you to coordinate or contrast, for myriad possibilities.'
+nav-title: 'Laminate Finishes'
 template: laminates
 fieldset: default
 layout: default
@@ -41,5 +43,3 @@ laminates:
   - /assets/images/laminates/Black.jpg
   - /assets/images/laminates/WhiteChocolate.jpg
 ---
-Laminate Finishes
-A selection of 24 laminate colours allows you to coordinate or contrast, for myriad possibilities.

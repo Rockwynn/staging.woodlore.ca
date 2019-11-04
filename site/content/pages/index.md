@@ -1,5 +1,6 @@
 ---
 title: Home
+nav-title: Home
 layout: default
 template: home-page
 fieldset: home

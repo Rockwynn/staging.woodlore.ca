@@ -1,5 +1,6 @@
 ---
 title: Outsource
+nav-title: Outsource
 fieldset: default
 template: about
 id: 9c129759-fd69-494c-ad42-ea0530d3a974

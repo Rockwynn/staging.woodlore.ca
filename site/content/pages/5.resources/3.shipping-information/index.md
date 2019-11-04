@@ -1,5 +1,6 @@
 ---
 title: 'Shipping Information'
+nav-title: 'Shipping Information'
 fieldset: default
 template: about
 id: 136dc325-b4ae-45de-b9d5-208d83eccfc6

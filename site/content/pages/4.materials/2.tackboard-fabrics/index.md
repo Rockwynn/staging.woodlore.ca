@@ -1,5 +1,7 @@
 ---
-title: 'Tackboard Finishes'
+title: 'Tackboard Fabrics'
+blurb: 'A wide selection of patterns and colours designed to complement your office environment.'
+nav-title: 'Tackboard Fabrics'
 fieldset: default
 template: tackboard-fabrics
 id: 9714ff2e-e7d4-46f3-997e-64a0574d6fb5
@@ -52,7 +54,4 @@ tackboard-fabrics:
   - /assets/images/tackboard-fabrics/Dune-Cocoweed-1219.jpg
   - /assets/images/tackboard-fabrics/Dune-Basin-1214.jpg
   - /assets/images/tackboard-fabrics/Dune-HotSun -1212.jpg
-
 ---
-Tackboard Fabrics
-A wide selection of patterns and colours designed to complement your office environment.

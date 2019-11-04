@@ -1,5 +1,6 @@
 ---
 title: Performance
+nav-title: Performance
 fieldset: default
 template: about
 id: ce257a34-c252-48b0-a650-1ce2e0e44296

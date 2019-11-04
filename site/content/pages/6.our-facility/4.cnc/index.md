@@ -1,5 +1,6 @@
 ---
 title: CNC
+nav-title: CNC
 sub-title: CNC Department
 top-caption: Leading edge equipment, run by state-of-the-art technology delivers maximum flexibility and enhanced customization capabilities with unsurpassed speed and accuracy.
 layout: cnc

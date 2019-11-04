@@ -1,5 +1,6 @@
 ---
 title: About Us
+nav-title: 'About Us'
 template: about
 fieldset: Page_Builder
 id: 72c016c6-cc0a-4928-b53b-3275f3f6da0a

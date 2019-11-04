@@ -1,12 +1,28 @@
 <section class="regular">
+    <div class="block">
+        <div class="row aligner">
+            <div class="col">
+                <h4 class="dgreen bold">{{ site_name }}</h4>
+                <p>{{ address }}</p>
+                <ul class="list-menus">
+                    <li class="list-menu-dark"><span class="dgreen bold">Phone: </span><a href="tel:+19057919555">905-791-9555</a></li>
+                    <li class="list-menu-dark"><span class="dgreen bold">Toll Free: </span><a href="tel:+18667919555">1-866-791-9555</a></li>
+                    <li class="list-menu-dark"><span class="dgreen bold">Fax: </span><a href=="">905-791-2228</a></li>
+                    <li class="list-menu-dark"><span class="dgreen bold">Email: </span><a href="mailto:info@wwoodlore.ca">info@woodlore.ca</a></li>
+                </ul>
+                <h5 class="dgreen bold">Request for Special Quotes</h5>
+                <ul class="list-menus">
+                    <li class="list-menu-dark"><span class="dgreen bold"><strong>Email: </strong></span><a href="mailto:specialquotes@woodlore.ca">specialquotes@woodlore.ca</a></li>
+                    <li><h1 class="dgreen bold">1-866-791-9555</h1><a href="tel:+1-866-791-9555"></a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <img src="/assets/images/logosandmisc/160DeltaPark.jpg" />
+            </div>
+        </div>
+    </div>
 
-    <header>
-        <h1>Contact</h1>
-    </header>
-
-    <article class="content">
-
-        {{ content }}
+    <div class="block">
 
         {{ form:create in="contact" }}
 
@@ -20,34 +36,38 @@
 
             {{ if success }}
                 <div class="alert alert-success">
-                    Form was submitted successfully.
+                    Thanks we'll be in touch as (super) humanly possible!
                 </div>
             {{ /if }}
 
             <div class="form-group">
                 <label>Name</label>
-                <input type="text" name="name" value="{{ old:name }}" class="form-control" />
+                <input type="text" name="name" value="{{ old:name }}" placeholder="Name" class="form-control" />
             </div>
 
             <div class="form-group">
                 <label>Email</label>
-                <input type="text" name="email" value="{{ old:email }}" class="form-control" />
+                <input type="text" name="email" value="{{ old:email }}" placeholder="Email" class="form-control" />
             </div>
 
             <div class="form-group">
-                <label>Favorite Number</label>
-                <input type="number" name="number" value="{{ old:number }}" class="form-control" />
+                <label>Phone</label>
+                <input type="text" name="phone" value="{{ old:phone }}" placeholder="Phone Number" class="form-control" />
+            </div>
+
+            <div class="state form-group">
+                <label>State</label>
+                <input type="text" name="state" value="(( old:state ))" placeholder="State" class="state" />
             </div>
 
             <div class="form-group">
-                <label>Comment</label>
-                <textarea name="comment" class="form-control">{{ old:comment }}</textarea>
+                <label>Message</label>
+                <textarea name="comment" placeholder="Add a note..." class="form-control">{{ old:comment }}</textarea>
             </div>
 
             <button class="btn btn-primary">Submit</button>
 
         {{ /form:create }}
 
-    </article>
-
+    </div>
 </section>

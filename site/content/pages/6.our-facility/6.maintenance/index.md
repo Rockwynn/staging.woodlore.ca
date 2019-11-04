@@ -1,8 +1,9 @@
 ---
 title: Maintenance
+nav-title: Maintenance
 layout: maintenance
 sub-title: Maintenance Department
-top-caption: Our in-house maintenance team has electrical and mechanical expertise. Metal welding and cutting capabilities, and an extensive spare parts equipment library, ensure that things keep running smoothly around the clock. 
+top-caption: Our in-house maintenance team has electrical and mechanical expertise. Metal welding and cutting capabilities, and an extensive spare parts equipment library, ensure that things keep running smoothly around the clock.
 myimages:
   - /assets/images/maintenance-page/maintenance1.jpg
   - /assets/images/maintenance-page/maintenance2.jpg

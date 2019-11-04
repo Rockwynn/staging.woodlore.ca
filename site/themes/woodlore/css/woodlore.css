@@ -1,11 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,400italic,900);
-@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
 @charset "UTF-8";
+
+/*@import url(https://fonts.googleapis.com/css?family=Lato:400,300,400italic,900);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);*/
+
+/*$font_sans:  'Lato', sans-serif;
+$font_serif: 'Lora', serif;*/
 
 body {
   background: #fff;
   color: #3c3c3c;
-  font-family: "Lora", serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
 
@@ -27,7 +31,11 @@ body {
 }
 
 .regular {
-  padding: 16px 16px;
+  /*padding: ($gap / 4) $gap / 2;*/
+  padding-top: 0px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 16px;
   max-width: 1032px;
   margin: 0 auto;
 }
@@ -78,7 +86,7 @@ body {
 }
 
 .hero header h2 {
-  font-family: "Lora", serif;
+  font-family: "Georgia", "serif";
   font-style: italic;
   -webkit-font-smoothing: antialiased;
 }
@@ -104,7 +112,7 @@ body {
 .hero .meta .name {
   color: #fff;
   margin: 5px 0;
-  font-family: "Lora", serif;
+  font-family: "Georgia", "serif";
   font-style: italic;
   font-size: 18px;
   text-transform: normal;
@@ -247,7 +255,7 @@ footer.page {
 }
 
 footer.page p.copyright {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.5);
@@ -257,7 +265,7 @@ footer.page p.copyright {
 footer.page p.tribute {
   /*padding: ($gap) 0;
 		color: $color_light;*/
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 13px;
   color: rgba(0, 0, 0, 0.5);
@@ -289,10 +297,10 @@ footer.page div.container-fluid img.my-footer {
 
 .read-more {
   margin-top: 96px;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   display: block;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #b8b8b8;
   font-size: 13px;
   text-transform: uppercase;
@@ -353,7 +361,7 @@ ul.navbar-nav li.nav-item::before {
 /*list-style-type: none;*/
 
 input.giant {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 60px;
   font-weight: 300;
   color: #3c3c3c;
@@ -374,6 +382,10 @@ input.giant:active {
   box-shadow: none !important;
 }
 
+.state {
+  display: none;
+}
+
 .lgreen {
   color: #dfef90;
 }
@@ -382,12 +394,20 @@ input.giant:active {
   color: #005e32;
 }
 
+.bg-dgreen {
+  background-color: #005e32;
+}
+
 .orange {
   color: #ff6600;
 }
 
 .black {
   background-color: #000;
+}
+
+.white {
+  color: #fff;
 }
 
 /*h1, h2, h3, h4, h5, h6 {
@@ -431,13 +451,13 @@ h6 {
 }
 
 .special {
-  font-family: "Lora", serif;
+  font-family: "Georgia", "serif";
   margin-bottom: 64px;
 }
 
 .special small {
   display: block;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #b8b8b8;
   font-size: 13px;
   text-transform: uppercase;
@@ -463,7 +483,7 @@ section header h2 {
 }
 
 article.content p {
-  font-family: "Lora", serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 32px;
   margin: 0 0 32px;
@@ -555,7 +575,7 @@ article.content img.oversized {
 }
 
 article.content p.caption {
-  font-family: "Lora", serif;
+  font-family: "Georgia", "serif";
   font-style: italic;
   font-size: 14px;
   text-align: center;
@@ -573,7 +593,7 @@ article.content iframe {
 }
 
 .block h3 {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 900;
   margin: 0 0 5px;
@@ -581,7 +601,7 @@ article.content iframe {
 }
 
 .block p {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 17px;
   line-height: 1.2;
   font-weight: 300;
@@ -617,7 +637,7 @@ article.content iframe {
 
 .meta {
   color: #b8b8b8;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   margin: 0 0 64px;
 }
@@ -960,7 +980,7 @@ width: 7rem;
 
 .navbar-woodlore .nav {
   color: #b8b8b8;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   overflow: hidden;
 }
@@ -1029,7 +1049,7 @@ width: 7rem;
 
 .navbar-woodlore .search {
   border-radius: 32px;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   width: 180px;
   display: block;
@@ -1093,7 +1113,7 @@ a.black-text {
   background: rgba(0, 0, 0, 0.05);
   color: #445566;
   cursor: pointer;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   padding: 6px 10px;
   border-radius: 2px;
@@ -1200,6 +1220,68 @@ img.zoom-img {
   cursor: default;
 }
 
+.brochure {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 0.3em;
+}
+
+.list-menu {
+  background-image: url("/assets/images/logosandmisc/arrow-circle-right-solid.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  color: #e6e6e6;
+  font-weight: 300;
+  /*font-family: 'FontAwesome';
+    content: '\f0a9';
+    margin:0 5px 0 -15px;
+    color: #dfef90;*/
+}
+
+.list-menu a {
+  color: #e6e6e6;
+  font-weight: 300;
+}
+
+.list-menu a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.list-menu-dark {
+  background-image: url("/assets/images/logosandmisc/arrow-circle-right-solid-dgreen.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  color: #e6e6e6;
+  font-weight: 300;
+  /*font-family: 'FontAwesome';
+    content: '\f0a9';
+    margin:0 5px 0 -15px;
+    color: #dfef90;*/
+}
+
+.list-menu-dark a {
+  color: #000;
+  font-weight: 300;
+}
+
+.list-menu-dark a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.list-menus {
+  list-style-type: none;
+  padding-left: 1px;
+  font-size: 13px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 /*!
  * Bootstrap Reboot v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -1236,7 +1318,7 @@ section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Open Sans', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 400;
   line-height: 1.5;
@@ -1316,7 +1398,7 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 small {

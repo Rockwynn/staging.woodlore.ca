@@ -1,12 +1,7 @@
 <section class="regular">
-
-	<header>
-		<h1>{{ title }}</h1>
-		{{ sub_title wrap="h2" }}
-	</header>
-		{{ partial:full-screen-parent-thumbnails-bottom-relative-handles }}
-	<article class="content">
-		{{ content }}
-	</article>
-
+	{{ partial:full-screen-parent-thumbnails-bottom-relative-handles }}
+	<div class="block">
+		<h4 class="bold orange">{{ title }}</h4>
+		{{ blurb wrap="p" }}
+	</div>
 </section>

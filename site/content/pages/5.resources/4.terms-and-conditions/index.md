@@ -1,5 +1,6 @@
 ---
 title: 'Terms and Conditions'
+nav-title: 'Terms and Conditions'
 fieldset: default
 template: about
 id: 23aa6747-8b15-4329-8769-8641e7a8fa37
