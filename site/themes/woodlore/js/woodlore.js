@@ -685,7 +685,7 @@
 
 }(jQuery)
 $(function() {
-	
+
 	// Automatically add Zoom interaction
 	$('article.content img').attr('data-action', 'zoom');
 
@@ -702,7 +702,7 @@ $(function() {
 	search.focus().val(search.val());
 
 	// Fire up that gallery
-	$(window).load(function () {
+	$(window).on(function () {
 		collage();
 	});
 
@@ -725,9 +725,9 @@ function collage() {
 var resizeTimer = null;
 $(window).bind('resize', function() {
     $('.gallery-images img').css("opacity", 0);
-    
+
     if (resizeTimer) clearTimeout(resizeTimer);
-    
+
     resizeTimer = setTimeout(collage, 200);
 });
 //# sourceMappingURL=woodlore.js.map
