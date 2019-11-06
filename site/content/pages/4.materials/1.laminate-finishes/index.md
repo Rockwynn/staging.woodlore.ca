@@ -4,7 +4,7 @@ blurb: 'A selection of 24 laminate colours allows you to coordinate or contrast,
 nav-title: 'Laminate Finishes'
 template: laminates
 fieldset: default
-layout: default
+layout: materials
 id: 1c54b72f-4d55-446a-a4c9-defe6d8be9ef
 carousel:
   - /assets/images/slideshow/black-bear-cubs.jpg

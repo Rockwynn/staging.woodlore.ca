@@ -4,6 +4,7 @@ blurb: 'A wide selection of patterns and colours designed to complement your off
 nav-title: 'Tackboard Fabrics'
 fieldset: default
 template: tackboard-fabrics
+layout: materials
 id: 9714ff2e-e7d4-46f3-997e-64a0574d6fb5
 carousel:
   - /assets/images/slideshow/black-bear-cubs.jpg
@@ -53,5 +54,5 @@ tackboard-fabrics:
   - /assets/images/tackboard-fabrics/Dune-Gecho-1207.jpg
   - /assets/images/tackboard-fabrics/Dune-Cocoweed-1219.jpg
   - /assets/images/tackboard-fabrics/Dune-Basin-1214.jpg
-  - /assets/images/tackboard-fabrics/Dune-HotSun -1212.jpg
+  - /assets/images/tackboard-fabrics/Dune-HotSun-1212.jpg
 ---
