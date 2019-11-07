@@ -8,7 +8,7 @@ id: 9c129759-fd69-494c-ad42-ea0530d3a974
 <div class="block">
     <div class="row">
         <div class="col">
-            <img src="/assets/images/outsource-page/globe4.jpg" class="large-image">
+            <img src="/assets/img/outsource-page/globe4.jpg" class="large-image">
         </div>
     </div>
 </div>

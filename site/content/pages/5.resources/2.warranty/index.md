@@ -8,7 +8,7 @@ id: a1303f13-43f0-48ff-bb8b-581d73f30a56
 <div class="block">
     <div class="row">
         <div class="col">
-            <img src="/assets/images/warranty-page/warranty.png" class="large-image">
+            <img src="/assets/img/warranty-page/warranty.png" class="large-image">
         </div>
     </div>
 </div>

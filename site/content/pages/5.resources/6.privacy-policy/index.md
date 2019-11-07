@@ -8,7 +8,7 @@ id: 7ba14627-6d99-40c8-8f0c-0e78f8df5bc3
 <div class="block">
     <div class="row">
         <div class="col">
-            <img src="/assets/images/privacy-policy-page/privacypolicy.jpg" class="large-image">
+            <img src="/assets/img/privacy-policy-page/privacypolicy.jpg" class="large-image">
         </div>
     </div>
 </div>

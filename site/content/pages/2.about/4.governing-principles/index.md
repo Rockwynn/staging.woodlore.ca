@@ -8,7 +8,7 @@ id: b7f7cee5-a169-4dcf-85de-60fa1fe4e7bd
 <div class="block">
     <div class="row">
         <div class="col">
-            <img src="/assets/images/principles-page/sailtree3.jpg" class="large-image">
+            <img src="/assets/img/principles-page/sailtree3.jpg" class="large-image">
         </div>
     </div>
 </div>

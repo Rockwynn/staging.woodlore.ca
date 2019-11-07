@@ -8,7 +8,7 @@ id: 4504b5c0-dd84-413f-84ec-19c1e975b349
 <div class="block">
     <div class="row">
         <div class="col">
-            <img src="/assets/images/principles-page/sailtree3.jpg" class="large-image">
+            <img src="/assets/img/principles-page/sailtree3.jpg" class="large-image">
         </div>
     </div>
 </div>
@@ -56,7 +56,7 @@ id: 4504b5c0-dd84-413f-84ec-19c1e975b349
             <p>Our furniture has been tested and is compliant with the requirements set forth by ANSI/BIFMA X7.1 – 2007, LEEDS EQ Credit 4.5 and Greenguard.</p>
         </div>
         <div class="col">
-            <img src="/assets/images/sustainability-page/leafdrop.jpg" class="small-image">
+            <img src="/assets/img/sustainability-page/leafdrop.jpg" class="small-image">
         </div>
     </div>
 </div>
@@ -77,7 +77,7 @@ id: 4504b5c0-dd84-413f-84ec-19c1e975b349
             <p>Our products meet CARB Phase II requirements</p>
         </div>
         <div class="col">
-            <img src="/assets/images/sustainability-page/bulb.jpg" class="small-image">
+            <img src="/assets/img/sustainability-page/bulb.jpg" class="small-image">
         </div>
     </div>
 </div>

@@ -8,7 +8,7 @@ id: 8a8a399c-2daa-4fb7-93cb-05c9299e80f2
 <div class="block">
     <div class="row">
         <div class="col">
-            <img src="/assets/images/terms-and-conditions-page/terms-and-conditions.jpg" class="large-image">
+            <img src="/assets/img/terms-and-conditions-page/terms-and-conditions.jpg" class="large-image">
         </div>
     </div>
 </div>

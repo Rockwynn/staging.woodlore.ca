@@ -8,7 +8,7 @@ id: ce257a34-c252-48b0-a650-1ce2e0e44296
 <div class="block">
     <div class="row">
         <div class="col">
-            <img src="/assets/images/performance-page/performance9.jpg" class="large-image">
+            <img src="/assets/img/performance-page/performance9.jpg" class="large-image">
         </div>
     </div>
 </div>

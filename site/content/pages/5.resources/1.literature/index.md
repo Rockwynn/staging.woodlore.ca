@@ -1,13 +1,17 @@
 ---
 title: Literature
 nav-title: Catalogues
-top-image: /assets/images/logosandmisc/HAVENCATALOGUE2019R.jpg
+top-image: /assets/img/logosandmisc/HAVENCATALOGUE2019R.jpg
 sub-title: 'Woodlore''s 2019 Catalogues'
 sub-sub-title: 'Catalogued Products'
 brochure: 'Woodlore Brochure'
 top-image-caption: 'At Woodlore, quick-ship is standard. We ship any catalogued product, in any of our 24 standard finishes in 8 business days from receipt of order, with no quantity limitations. If you need it faster, just let us know. Processes are in place to expedite shipping for those times when it just can’t wait. When it comes to custom product, Woodlore can design, engineer and deliver the majority of custom product requirements in 2-4 weeks, depending on the level of complexity.'
 template: about
 id: '01a012e7-ad6a-4df9-95af-1138ffda6744 --- <section class="regular"> <div class="container-fluid centered"> <div class="block"> <div class="row"> <div class="col"> {{ assets:topimage }} <img src="{{ glide:url }}" class="large-image" /> {{ /assets:topimage }} </div> </div> </div> <div class="block"> <h4 class="orange bold">{{ sub-title }}</h4> <h5 class="orange">{{ sub-sub-title }}</h5> <p>{{ top-image-caption }}</p> </div> <hr> </div> </section>'
+
+id: '01a012e7-ad6a-4df9-95af-1138ffda6744 --- <section class="regular"> <div class="container-fluid centered"> <div class="block"> <div class="row"> <div class="col"> {{ assets:topimage }} <img src="{{ glide:url }}" class="large-image" /> {{ /assets:topimage }} </div> </div> </div> <div class="block"> <h4 class="orange bold">{{ sub-title }}</h4> <h5 class="orange">{{ sub-sub-title }}</h5> <p>{{ top-image-caption }}</p> </div> <hr> </div> </section>'
+
+
 fieldset: default
 ---
 <section class="regular">

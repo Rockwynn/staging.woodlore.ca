@@ -8,7 +8,7 @@ id: 3c3ce3db-07bb-45e4-9239-831bd989d9e8
 <div class="block">
     <div class="row">
         <div class="col">
-            <img src="/assets/images/products-page/painted-edge.jpg" class="large-image">
+            <img src="/assets/img/products-page/painted-edge.jpg" class="large-image">
         </div>
     </div>
 </div>
@@ -55,7 +55,7 @@ id: 3c3ce3db-07bb-45e4-9239-831bd989d9e8
         <div class="col">
             <div class="card-group">
                 <div class="card">
-                    <img src="/assets/images/products-page/closeup2.jpg" class="card-img-top" alt="...">
+                    <img src="/assets/img/products-page/closeup2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="centered card-text">Haven Modular Furniture Components</p>
                     </div>
@@ -88,7 +88,7 @@ id: 3c3ce3db-07bb-45e4-9239-831bd989d9e8
         <div class="col">
             <div class="card-group">
                 <div class="card">
-                    <img src="/assets/images/products-page/closeup1.jpg" class="card-img-top" alt="...">
+                    <img src="/assets/img/products-page/closeup1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="centered card-text">Haven Plus</p>
                     </div>
@@ -113,7 +113,7 @@ id: 3c3ce3db-07bb-45e4-9239-831bd989d9e8
         <div class="col">
             <div class="card-group">
                 <div class="card">
-                    <img src="/assets/images/products-page/closeup5.jpg" class="card-img-top" alt="...">
+                    <img src="/assets/img/products-page/closeup5.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="centered card-text">Custom Reception Office Furniture</p>
                     </div>
@@ -139,7 +139,7 @@ id: 3c3ce3db-07bb-45e4-9239-831bd989d9e8
         <div class="col">
             <div class="card-group">
                 <div class="card">
-                    <img src="/assets/images/products-page/closeup3.jpg" class="card-img-top" alt="...">
+                    <img src="/assets/img/products-page/closeup3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="centered card-text">Frosted Acrylic Panel Dividers</p>
                     </div>
@@ -165,7 +165,7 @@ id: 3c3ce3db-07bb-45e4-9239-831bd989d9e8
         <div class="col">
             <div class="card-group">
                 <div class="card">
-                    <img src="/assets/images/products-page/closeup4.jpg" class="card-img-top" alt="...">
+                    <img src="/assets/img/products-page/closeup4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="centered card-text">Sophisticated Workspaces</p>
                     </div>

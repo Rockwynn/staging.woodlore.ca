@@ -7,7 +7,7 @@ id: f7a43dc7-f9da-49e8-b5ae-1578c08415f0
 <div class="block">
     <div class="row">
         <div class="col">
-            <img src="/assets/images/advantages-page/arrow.jpg" class="large-image">
+            <img src="/assets/img/advantages-page/arrow.jpg" class="large-image">
         </div>
     </div>
 </div>
@@ -25,7 +25,7 @@ id: f7a43dc7-f9da-49e8-b5ae-1578c08415f0
             <p>At Woodlore, quick-ship is standard. We ship any catalogued product, in any of our 24 standard finishes in 8 business days from receipt of order, with no quantity limitations. If you need it faster, just let us know. Processes are in place to expedite shipping for those times when it just can’t wait. When it comes to custom product, Woodlore can design, engineer and deliver the majority of custom product requirements in 2-4 weeks, depending on the level of complexity.</p>
         </div>
         <div class="col">
-            <img src="/assets/images/advantages-page/save-money2.jpg" class="small-image">
+            <img src="/assets/img/advantages-page/save-money2.jpg" class="small-image">
         </div>
     </div>
 </div>
@@ -37,7 +37,7 @@ id: f7a43dc7-f9da-49e8-b5ae-1578c08415f0
         </div>
 
         <div class="col">
-            <img src="/assets/images/advantages-page/ECO1.jpg" class="small-image">
+            <img src="/assets/img/advantages-page/ECO1.jpg" class="small-image">
         </div>
     </div>
 </div>
@@ -49,7 +49,7 @@ id: f7a43dc7-f9da-49e8-b5ae-1578c08415f0
         </div>
 
         <div class="col">
-            <img src="/assets/images/advantages-page/teamwork2.jpg" class="small-image">
+            <img src="/assets/img/advantages-page/teamwork2.jpg" class="small-image">
         </div>
     </div>
 </div>
