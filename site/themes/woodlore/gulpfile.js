@@ -18,11 +18,6 @@ elixir(function(mix) {
     mix.sass(theme + '.scss', 'css/' + theme + '.css');
 
     mix.scripts([
-        'jquery-3.4.1.min.js',
-        'bootstrap.min.js',
-        'jquery.touchSwipe.min.js',
-        'bs4-image-slideshow-min.js',
-        'lightbox.js',
         'vendor/collage-plus.js',
         'vendor/zoom.js',
         'jabbascripts.js'
