@@ -105,6 +105,7 @@ body.lb-disable-scrolling {
   left: 0;
   float: left;
   background: url(/assets/img/logosandmisc/prev.png) left 48% no-repeat;
+
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
