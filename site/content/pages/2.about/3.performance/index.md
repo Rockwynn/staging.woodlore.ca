@@ -4,12 +4,37 @@ nav-title: Performance
 fieldset: default
 template: about
 id: ce257a34-c252-48b0-a650-1ce2e0e44296
+woodlorelogo:
+  - /assets/img/logosandmisc/logo3.png
+footer-widget-images-1:
+  - /assets/img/footer-widget-images/pg1-office.jpg
+footer-widget-images-2:
+  - /assets/img/footer-widget-images/pg8-l-shape-workstation.jpg
+footer-widget-images-3:
+  - /assets/img/footer-widget-images/pg12-office.jpg
+footer-widget-images-4:
+  - /assets/img/footer-widget-images/pg13-double-pedestal-desk.jpg
+footer-widget-images-5:
+  - /assets/img/footer-widget-images/pg14-single-pedestal-desk-left.jpg
+footer-widget-images-6:
+  - /assets/img/footer-widget-images/pg15-single-pedestal-desk-right.jpg
+footer-widget-images-7:
+  - /assets/img/footer-widget-images/pg16-executive-corner-desk.jpg
+footer-widget-images-8:
+  - /assets/img/footer-widget-images/pg26-professional-office-furniture.jpg
+steelcase:
+  - /assets/img/logosandmisc/steelcase.png
+performance-header:
+  - /assets/img/performance-page/performance9.jpg
 ---
 <div class="block">
     <div class="row">
+    {{ assets:performance-header }}
         <div class="col">
-            <img src="/assets/img/performance-page/performance9.jpg" class="large-image">
+            <img src="{{ glide:url q="75" fm="webp" }}" class="large-image" />
+            <!--<img src="/assets/img/performance-page/performance9.jpg" class="large-image">-->
         </div>
+        {{ /assets:performance-header }}
     </div>
 </div>
 

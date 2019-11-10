@@ -3,12 +3,43 @@ title: Advantages
 nav-title: Advantages
 template: about
 id: f7a43dc7-f9da-49e8-b5ae-1578c08415f0
+woodlorelogo:
+  - /assets/img/logosandmisc/logo3.png
+footer-widget-images-1:
+  - /assets/img/footer-widget-images/pg1-office.jpg
+footer-widget-images-2:
+  - /assets/img/footer-widget-images/pg8-l-shape-workstation.jpg
+footer-widget-images-3:
+  - /assets/img/footer-widget-images/pg12-office.jpg
+footer-widget-images-4:
+  - /assets/img/footer-widget-images/pg13-double-pedestal-desk.jpg
+footer-widget-images-5:
+  - /assets/img/footer-widget-images/pg14-single-pedestal-desk-left.jpg
+footer-widget-images-6:
+  - /assets/img/footer-widget-images/pg15-single-pedestal-desk-right.jpg
+footer-widget-images-7:
+  - /assets/img/footer-widget-images/pg16-executive-corner-desk.jpg
+footer-widget-images-8:
+  - /assets/img/footer-widget-images/pg26-professional-office-furniture.jpg
+steelcase:
+  - /assets/img/logosandmisc/steelcase.png
+advantages-header:
+  - /assets/img/advantages-page/arrow.jpg
+quality-standards:
+  - /assets/img/advantages-page/save-money2.jpg
+environmental-standards:
+  - /assets/img/advantages-page/ECO1.jpg
+our-team:
+  - /assets/img/advantages-page/teamwork2.jpg
 ---
 <div class="block">
     <div class="row">
-        <div class="col">
-            <img src="/assets/img/advantages-page/arrow.jpg" class="large-image">
-        </div>
+        {{ assets:advantages-header }}
+            <div class="col">
+                <img src="{{ glide:url q="75" fm="webp" }}" class="large-image" />
+                <!--<img src="/assets/img/advantages-page/arrow.jpg" class="large-image">-->
+            </div>
+        {{ /assets:advantages-header }}
     </div>
 </div>
 <div class="block">
@@ -24,9 +55,12 @@ id: f7a43dc7-f9da-49e8-b5ae-1578c08415f0
             <h5 class="orange bold">Eight Day Shipping</h5>
             <p>At Woodlore, quick-ship is standard. We ship any catalogued product, in any of our 24 standard finishes in 8 business days from receipt of order, with no quantity limitations. If you need it faster, just let us know. Processes are in place to expedite shipping for those times when it just can’t wait. When it comes to custom product, Woodlore can design, engineer and deliver the majority of custom product requirements in 2-4 weeks, depending on the level of complexity.</p>
         </div>
-        <div class="col">
-            <img src="/assets/img/advantages-page/save-money2.jpg" class="small-image">
-        </div>
+        {{ assets:quality-standards }}
+            <div class="col">
+                <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
+                <!--<img src="/assets/img/advantages-page/save-money2.jpg" class="small-image">-->
+            </div>
+        {{ /assets:quality-standards }}
     </div>
 </div>
 <div class="block">
@@ -35,10 +69,12 @@ id: f7a43dc7-f9da-49e8-b5ae-1578c08415f0
             <h5 class="orange bold">Environmental Standards</h5>
             <p>All Woodlore products meet stringent environmental standards. We use only ABS edgebanding, FSC certified board, and we are compliant with the requirements set forth by ANSI/BIFMA X7.1 – 2007, LEEDS EQ Credit 4.5 and Greenguard. Our packaging methods are designed to minimize waste, and use almost 100% recycled or recyclable materials. Woodlore also has a goal to achieve 100% solid waste diversion from landfill by 2025. <a href="/about/sustainability"><strong class="dgreen bold">Learn more</strong></a></p>
         </div>
-
-        <div class="col">
-            <img src="/assets/img/advantages-page/ECO1.jpg" class="small-image">
-        </div>
+        {{ assets:environmental-standards }}
+            <div class="col">
+                <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
+                <!--<img src="/assets/img/advantages-page/ECO1.jpg" class="small-image">-->
+            </div>
+        {{ /assets:environmental-standards }}
     </div>
 </div>
 <div class="block">
@@ -47,9 +83,11 @@ id: f7a43dc7-f9da-49e8-b5ae-1578c08415f0
             <h5 class="orange bold">Our Team</h5>
             <p>We are very proud of our dedicated and highly-trained workforce. The average tenure of our employees, including front line workers, is seven years, with many having been with the company for over 20 years. Woodlore provides a great working environment, demonstrated by the loyalty and commitment of our people. We are all focused on achieving the same goal – Correct, Complete and On Time – ensuring our customers’ total satisfaction.</p>
         </div>
-
-        <div class="col">
-            <img src="/assets/img/advantages-page/teamwork2.jpg" class="small-image">
-        </div>
+        {{ assets:our-team }}
+            <div class="col">
+                <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
+                <!--<img src="/assets/img/advantages-page/teamwork2.jpg" class="small-image">-->
+            </div>
+        {{ /assets:our-team }}
     </div>
 </div>

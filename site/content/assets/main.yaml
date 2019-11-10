@@ -5,7 +5,7 @@ assets:
   img/black-bear-cubs.jpg:
     title: Black Bear Cubs
     alt: Some black bears standing up
-  img/coffee-mug.jpg:
+  img/swcoffee-mug.jpg:
     title: Coffee Mug
   img/me.jpg:
     title: Me
@@ -14,7 +14,7 @@ assets:
     title: woodlore sign
   img/desert.jpg:
     focus: 77-70
-  img/laminates/Chips.jpg:
+  img/laminate-finishes/Chips.jpg:
     alt: Assorted Laminate Chip Samples
   img/tackboard-fabrics/Berwick-B417.jpg:
     alt: Berwick B417
@@ -104,3 +104,17 @@ assets:
     alt: Nickle Open Pull
   img/handles/rod-pull.jpg:
     alt: Rod Pull
+  img/home-page-slider/1-multiple-user-workstation.jpg:
+    alt: myalt
+  img/home-page-slider/2-L-shape-workstation.jpg:
+    alt: myalt2
+  img/home-page-slider/3-steelcase-office-furniture-solutions.jpg:
+    alt: myalt3
+  img/home-page-slider/4-L-shape-reception-workstation-with-storage-cabinets.jpg:
+    alt: myalt4
+  img/home-page-slider/5-woodlore-logo.png:
+    alt: myalt5
+  img/home-page-slider/6-woodlore-office-furniture-manufacturing.jpg:
+    alt: myalt6
+  img/home-page-slider/7-woodlore-office-products.jpg:
+    alt: myalt7

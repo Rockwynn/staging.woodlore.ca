@@ -62,21 +62,22 @@
         			<!-- Slide 1 Start -->
         			<div class="carousel-item">
         				<div class="row">
-
+                            {{collection:footer-widget-images-1 }}
         					<!-- Column 1 Start -->
                             <div class="col">
         						<!-- Image -->
-        						<img src="/assets/img/footer-widget-images/pg1-office.jpg" alt="{{ Office page 1 }}" class="bs4-column-img">
+                                <img src="{{ glide:photo q="75" fm="webp" }}" alt="{{ Office page 1 }}" class="bs4-column-img" />
         					</div> <!-- /.col --><!-- /.col-12 -->
         					<!-- Column 1 End -->
-
+                            {{ /collection:footer-widget-images-1}}
+                            {{ collection:footer-widget-images-2 }}
         					<!-- Column 2 Start -->
                             <div class="col">
         						<!-- Image -->
-        						<img src="/assets/img/footer-widget-images/pg8-l-shape-workstation.jpg" alt="{{ L Shape Workstation page 8 }}" class="bs4-column-img">
+        						<img src="{{ glide:photo q="75" fm="webp" }}" alt="{{ L Shape Workstation page 8 }}" class="bs4-column-img" />
         					</div>  <!-- /.col-12 -->
         					<!-- Column 2 End -->
-
+                            {{ /collection:footer-widget-images-2 }}
         				</div> <!-- /.row -->
         			</div> <!-- /.carousel-item -->
         			<!-- Slide 1 End -->
@@ -84,21 +85,22 @@
         			<!-- Slide 2 Start -->
         			<div class="carousel-item">
         				<div class="row">
-
+                            {{ collection:footer-widget-images-3 }}
         					<!-- Column 1 Start -->
                             <div class="col">
         						<!-- Image -->
-        						<img src="/assets/img/footer-widget-images/pg12-office.jpg" alt="{{ Office page 12 }}" class="bs4-column-img">
+        						<img src="{{ glide:photo q="75" fm="webp" }}"  alt="{{ Office page 12 }}" class="bs4-column-img" />
         					</div>  <!-- /.col-12 -->
         					<!-- Column 1 End -->
-
+                            {{ /collection:footer-widget-images-3 }}
+                            {{ collection:footer-widget-images-4 }}
         					<!-- Column 2 Start -->
                             <div class="col">
         						<!-- Image -->
-        						<img src="/assets/img/footer-widget-images/pg13-double-pedestal-desk.jpg" alt="{{ Double Pedestal Desk page 13 }}" class="bs4-column-img">
+        						<img src="{{ glide:photo q="75" fm="webp" }}"  alt="{{ Double Pedestal Desk page 13 }}" class="bs4-column-img" />
         					</div>  <!-- /.col-12 -->
         					<!-- Column 2 End -->
-
+                            {{ /collection:footer-widget-images-4 }}
         				</div> <!-- /.row -->
         			</div> <!-- /.carousel-item -->
         			<!-- Slide 2 End -->
@@ -106,21 +108,22 @@
                     <!-- Slide 3 Start -->
         			<div class="carousel-item">
         				<div class="row">
-
+                            {{ collection:footer-widget-images-5 }}
         					<!-- Column 1 Start -->
                             <div class="col">
         						<!-- Image -->
-        						<img src="/assets/img/footer-widget-images/pg14-single-pedestal-desk-left.jpg" alt="{{ Single Pedestal Desk Left page 14 }}" class="bs4-column-img">
+        						<img src="{{ glide:photo q="75" fm="webp" }}"  alt="{{ Single Pedestal Desk Left page 14 }}" class="bs4-column-img" />
         					</div>  <!-- /.col-12 -->
         					<!-- Column 1 End -->
-
+                            {{ /collection:footer-widget-images-5 }}
+                            {{ collection:footer-widget-images-6 }}
         					<!-- Column 2 Start -->
                             <div class="col">
         						<!-- Image -->
-        						<img src="/assets/img/footer-widget-images/pg15-single-pedestal-desk-right.jpg" alt="{{ SIngle Pedestal Desk Right page 15 }}" class="bs4-column-img">
+        						<img src="{{ glide:photo q="75" fm="webp" }}"  alt="{{ SIngle Pedestal Desk Right page 15 }}" class="bs4-column-img" />
         					</div>  <!-- /.col-12 -->
         					<!-- Column 2 End -->
-
+                            {{ /collection:footer-widget-images-6 }}
         				</div> <!-- /.row -->
         			</div> <!-- /.carousel-item -->
         			<!-- Slide 3 End -->
@@ -128,21 +131,22 @@
                     <!-- Slide 4 Start -->
         			<div class="carousel-item">
         				<div class="row">
-
+                            {{ collection:footer-widget-images-7 }}
         					<!-- Column 1 Start -->
                             <div class="col">
         						<!-- Image -->
-        						<img src="/assets/img/footer-widget-images/pg16-executive-corner-desk.jpg" alt="{{ Executive Corner Desk page 16 }}" class="bs4-column-img">
+        						<img src="{{ glide:photo q="75" fm="webp" }}"  alt="{{ Executive Corner Desk page 16 }}" class="bs4-column-img" />
         					</div>   <!-- /.col-12 -->
         					<!-- Column 1 End -->
-
+                            {{ /collection:footer-widget-images-7 }}
+                            {{ collection:footer-widget-images-8 }}
         					<!-- Column 2 Start -->
                             <div class="col">
         						<!-- Image -->
-        						<img src="/assets/img/footer-widget-images/pg26-professional-office-furniture.jpg" alt="{{ Professional Office Furniture page 26 }}" class="bs4-column-img">
+        						<img src="{{ glide:photo q="75" fm="webp" }}"  alt="{{ Professional Office Furniture page 26 }}" class="bs4-column-img" />
         					</div>  <!-- /.col-12 -->
         					<!-- Column 2 End -->
-
+                            {{ /collection:footer-widget-images-8 }}
         				</div> <!-- /.row -->
         			</div> <!-- /.carousel-item -->
         			<!-- Slide 4 End -->
@@ -171,16 +175,16 @@
             <!--<div class="black">
                 <div class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        {{ assets:carousel }}
+                        {{ carousel }}
                             <li data-slide-to="{{ zero_index }}" {{ if first }}class="active"{{/if}}></li>
-                        {{ /assets:carousel }}
+                        {{ /carousel }}
                     </ol>
                     <div class="carousel-inner" role="listbox">
-                        {{ assets:carousel }}
+                        {{ carousel }}
                             <div class="carousel-item {{ if first }}active{{/if}}">
-                                <img class="d-block img-fluid" src="{{ glide:url width="1000" height="500" }}" alt="{{ alt }}">
+                                {{ glide class="d-block img-fluid" src="{{ glide:url width="1000" height="500" }}" alt="{{ alt }}">
                             </div>
-                        {{ /assets:carousel }}
+                        {{ /carousel }}
                     </div>
                 </div>
             </div>-->
@@ -200,11 +204,13 @@
                 <p class="tribute"><a href="https:rockwynnwebdesign.ca" target="blank">Designed & Developed by Rockwynn Web Design</a></p>
 
             </div>-->
+            {{ assets:steelcase }}
             <!--<div class="col col-md-6">-->
             <div class="col col-md-6">
                 <!--<p class="tribute">Built with Statamic</p>-->
-                <img class="my-footer" src="/assets/img/logosandmisc/steelcase.png"/>
+                <img src="{{ glide:url q="75" fm="webp" }}" class="my-footer" />
             </div>
+            {{ /assets:steelcase }}
         </div>
     </div>
     <div class="container-fluid">

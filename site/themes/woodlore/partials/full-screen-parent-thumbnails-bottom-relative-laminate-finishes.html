@@ -193,31 +193,31 @@
     <!-- Carousel Start -->
     <div id="full-screen-thumb-btm-rel" class="carousel slide bs4-carousel bs4-full-screen-parent bs4-indicators-thumb swipe_x bs4-easeOutSine thumb_scroll_x" data-ride="carousel" data-pause="hover" data-duration="1500" data-interval="5000" data-keyboard="false" data-wrap="true" data-thumb="bottom">
         <!-- Indicators Start -->
-        <ol class="carousel-indicators carousel-thumb-border" data-bgcolor="#f6f6f6" data-color="#dfef90">
-            {{ assets:laminates }}
+        <ol class="carousel-indicators carousel-thumb-border" data-bgcolor="#f6f6f6" data-color="#ffffff">
+            {{ assets:laminate-finishes }}
                 <!-- Indicators 1 Start -->
                 <li data-target="#full-screen-thumb-btm-rel" data-slide-to="{{ zero_index }}" {{ if first }}class="active"{{/if}}">
                     <!-- Image -->
-                    <img src="{{ glide:url }}" alt="{{ alt }}">
+                    <img src="{{ glide:url q="75" fm="webp" }}" alt="{{ alt }}">
                 </li>
                 <!-- Indicators 1 End -->
-            {{ /assets:laminates }}
+            {{ /assets:laminate-finishes }}
         </ol>
         <!-- Indicators End -->
         <!-- Carousel Inner Start -->
         <div class="carousel-inner" role="listbox">
-            {{ assets:laminates }}
+            {{ assets:laminate-finishes }}
                 <!-- All Slides -->
                 <div class="carousel-item style="background-size: cover" {{ if first }}active{{/if}}">
                     <!-- Image -->
-                    <img src="{{ glide:url }}" alt="{{ alt }}" class="bs4-carousel-img">
+                    <img src="{{ glide:url q="75" fm="webp" }}" alt="{{ alt }}" class="bs4-carousel-img">
                     <!-- image caption -->
                     <div class="carousel-caption d-md-block"><!-- took out d-none -->
-                        <h3>{{ filename }}</h3>
+                        <h3 class="woodlore-carousel-caption black bold">{{ filename }}</h3>
                     </div>
                 </div>
                 <!-- end of All Slides -->
-            {{ /assets:laminates }}
+            {{ /assets:laminate-finishes }}
         </div>
         <!-- Carousel Inner End -->
         <!-- Arrow Left Start -->

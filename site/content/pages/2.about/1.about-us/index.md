@@ -3,13 +3,44 @@ title: 'About Us'
 nav-title: 'About Us'
 id: d8f4a89a-fe62-42ac-a168-619eba594162
 template: about
+woodlorelogo:
+  - /assets/img/logosandmisc/logo3.png
+footer-widget-images-1:
+  - /assets/img/footer-widget-images/pg1-office.jpg
+footer-widget-images-2:
+  - /assets/img/footer-widget-images/pg8-l-shape-workstation.jpg
+footer-widget-images-3:
+  - /assets/img/footer-widget-images/pg12-office.jpg
+footer-widget-images-4:
+  - /assets/img/footer-widget-images/pg13-double-pedestal-desk.jpg
+footer-widget-images-5:
+  - /assets/img/footer-widget-images/pg14-single-pedestal-desk-left.jpg
+footer-widget-images-6:
+  - /assets/img/footer-widget-images/pg15-single-pedestal-desk-right.jpg
+footer-widget-images-7:
+  - /assets/img/footer-widget-images/pg16-executive-corner-desk.jpg
+footer-widget-images-8:
+  - /assets/img/footer-widget-images/pg26-professional-office-furniture.jpg
+steelcase:
+  - /assets/img/logosandmisc/steelcase.png
+about-us-header:
+  - /assets/img/about-us-page/woodloreglass.jpg
+flexibility-is-key:
+  - /assets/img/about-us-page/tech1.jpg
+fully-automated-production:
+  - /assets/img/about-us-page/saw1.jpg
+engineering:
+  - /assets/img/about-us-page/furniture-engineering.jpg
 ---
 <!--<div class="list">-->
         <div class="block">
             <div class="row">
+            {{ assets:about-us-header }}
                 <div class="col">
-                    <img src="/assets/img/about-us-page/woodloreglass.jpg" class="large-image">
+                    <img src="{{ glide:url q="75" fm="webp" }}" class="large-image" />
+                    <!--<img src="/assets/img/about-us-page/woodloreglass.jpg" class="large-image">-->
                 </div>
+            {{ /assets:about-us-header }}
             </div>
         </div>
         <div class="block">
@@ -48,9 +79,12 @@ template: about
                     <p>Our in-house development team has over 25 years of experience in enterprise class database, manufacturing and engineering.</p>
                     <p>With Woodlore’s standard lead time of 8 days, we've engineered our infrastructure with next-to-no downtime. With redundant power supplies and mirrored data to protect against complete failovers, we have taken every measure possible to maintain services 24/7. We’ve acquired and written leading-edge tools to help us monitor all facets of our hardware. Regular, preventative maintenance keeps things running smoothly. In the very unlikely event of a complete failure, our commitment is to have our systems back up and running within an hour.</p>
                 </div><!-- end of col -->
+                {{ assets:flexibility-is-key }}
                 <div class="col">
-                    <img src="/assets/img/about-us-page/tech1.jpg" class="small-image">
+                <img src="{{ glide:url q="75" fm="webp"}}" class="small-image" />
+                    <!--<img src="/assets/img/about-us-page/tech1.jpg" class="small-image">-->
                 </div><!-- end of col -->
+                {{ /assets:flexibility-is-key }}
             </div><!-- end of row -->
         </div><!-- end of block --> <div class="block">
             <div class="row aligner">
@@ -58,9 +92,12 @@ template: about
                     <h5 class="orange bold">Fully-automated Production</h5>
                     <p>We pride ourselves on having fully-automated machinery and a highly organized, pristine, manufacturing facility. <a href="/our-facility"><strong class="dgreen bold">Learn more</strong></a></p>
                 </div>
+                {{ assets:fully-automated-production }}
                 <div class="col">
-                    <img src="/assets/img/about-us-page/saw1.jpg" class="small-image">
+                    <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
+                    <!--<img src="/assets/img/about-us-page/saw1.jpg" class="small-image">-->
                 </div>
+                {{ /assets:fully-automated-production }}
             </div>
         </div>
         <div class="block">
@@ -69,9 +106,12 @@ template: about
                     <h5 class="orange bold">Engineering</h5>
                     <p>Our proprietary in-house software, in conjunction with 20-20 Technology software, allow our engineering department to reduce product developmen time significantly.</p>
                 </div>
+                {{ assets:engineering }}
                 <div class="col">
-                    <img src="/assets/img/about-us-page/furniture-engineering.jpg" class="small-image">
-                </div>    
+                <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
+                    <!--<img src="/assets/img/about-us-page/furniture-engineering.jpg" class="small-image">-->
+                </div>
+                {{ /assets:engineering }}    
             </div>
         </div>
 <!--</div>--><!--end of list element-->

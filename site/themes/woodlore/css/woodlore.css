@@ -786,8 +786,33 @@ code {
 }
 
 .carousel-indicators li {
-  background-color: #dfef90;
+  opacity: 0.7;
 }
+
+h3.woodlore-carousel-caption {
+  text-align: center;
+}
+
+/*.carousel-indicators.carousel-thumb-border li {
+    border: 2px solid rgb(68, 68, 68);
+    border-top-color: rgb(68, 68, 68);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-right-color: rgb(68, 68, 68);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-bottom-color: rgb(68, 68, 68);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-left-color: rgb(68, 68, 68);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}*/
 
 .carousel-inner {
   position: relative;

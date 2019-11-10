@@ -4,12 +4,41 @@ nav-title: Sustainability
 template: about
 fieldset: default
 id: 4504b5c0-dd84-413f-84ec-19c1e975b349
+woodlorelogo:
+  - /assets/img/logosandmisc/logo3.png
+footer-widget-images-1:
+  - /assets/img/footer-widget-images/pg1-office.jpg
+footer-widget-images-2:
+  - /assets/img/footer-widget-images/pg8-l-shape-workstation.jpg
+footer-widget-images-3:
+  - /assets/img/footer-widget-images/pg12-office.jpg
+footer-widget-images-4:
+  - /assets/img/footer-widget-images/pg13-double-pedestal-desk.jpg
+footer-widget-images-5:
+  - /assets/img/footer-widget-images/pg14-single-pedestal-desk-left.jpg
+footer-widget-images-6:
+  - /assets/img/footer-widget-images/pg15-single-pedestal-desk-right.jpg
+footer-widget-images-7:
+  - /assets/img/footer-widget-images/pg16-executive-corner-desk.jpg
+footer-widget-images-8:
+  - /assets/img/footer-widget-images/pg26-professional-office-furniture.jpg
+steelcase:
+  - /assets/img/logosandmisc/steelcase.png
+sustainability-header:
+  - /assets/img/sustainability-page/sailtree3.jpg
+bifma:
+  - /assets/img/sustainability-page/leafdrop.jpg
+carb:
+  - /assets/img/sustainability-page/bulb.jpg
 ---
 <div class="block">
     <div class="row">
+        {{ assets:sustainability-header }}
         <div class="col">
-            <img src="/assets/img/principles-page/sailtree3.jpg" class="large-image">
+            <img src="{{ glide:url q="75" fm="webp" }}" class="large-image" />
+            <!--<img src="/assets/img/sustainability-page/sailtree3.jpg" class="large-image">-->
         </div>
+        {{ /assets:sustainability-header }}
     </div>
 </div>
 
@@ -55,9 +84,12 @@ id: 4504b5c0-dd84-413f-84ec-19c1e975b349
             <h5 class="orange bold">Woodlore</h5>
             <p>Our furniture has been tested and is compliant with the requirements set forth by ANSI/BIFMA X7.1 – 2007, LEEDS EQ Credit 4.5 and Greenguard.</p>
         </div>
-        <div class="col">
-            <img src="/assets/img/sustainability-page/leafdrop.jpg" class="small-image">
-        </div>
+        {{ assets:bifma }}
+            <div class="col">
+                <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
+                <!--<img src="/assets/img/sustainability-page/leafdrop.jpg" class="small-image">-->
+            </div>
+        {{ /assets:bifma }}
     </div>
 </div>
 
@@ -76,9 +108,12 @@ id: 4504b5c0-dd84-413f-84ec-19c1e975b349
             <h5 class="orange bold">Woodlore</h5>
             <p>Our products meet CARB Phase II requirements</p>
         </div>
-        <div class="col">
-            <img src="/assets/img/sustainability-page/bulb.jpg" class="small-image">
-        </div>
+        {{ assets:carb }}
+            <div class="col">
+                <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
+                <!--<img src="/assets/img/sustainability-page/bulb.jpg" class="small-image">-->
+            </div>
+        {{ /assets:carb }}
     </div>
 </div>
 

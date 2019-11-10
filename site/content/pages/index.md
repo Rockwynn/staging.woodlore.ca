@@ -14,4 +14,8 @@ home-page-slider:
   - /assets/img/home-page-slider/5-woodlore-logo.png
   - /assets/img/home-page-slider/6-woodlore-office-furniture-manufacturing.jpg
   - /assets/img/home-page-slider/7-woodlore-office-products.jpg
+woodlorelogo:
+  - /assets/img/logosandmisc/logo3.png
+steelcase:
+  - /assets/img/logosandmisc/steelcase.png
 ---
