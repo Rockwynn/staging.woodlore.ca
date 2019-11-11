@@ -11,6 +11,7 @@ woodlorelogo:
 steelcase:
   - /assets/img/logosandmisc/steelcase.png
 tackboard-fabrics:
+  - /assets/img/tackboard-fabrics/Fabrics.jpg
   - /assets/img/tackboard-fabrics/Berwick-B417.jpg
   - /assets/img/tackboard-fabrics/Berwick-B424.jpg
   - /assets/img/tackboard-fabrics/Berwick-B174.jpg
