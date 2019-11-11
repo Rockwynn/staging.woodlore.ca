@@ -21,7 +21,7 @@ engineering:
             <div class="row">
             {{ assets:about-us-header }}
                 <div class="col">
-                    <img src="{{ glide:url q="75" fm="webp" }}" class="large-image" />
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" />
                     <!--<img src="/assets/img/about-us-page/woodloreglass.jpg" class="large-image">-->
                 </div>
             {{ /assets:about-us-header }}
@@ -44,7 +44,7 @@ engineering:
                 </div><!-- end of col -->
                 {{ assets:flexibility-is-key }}
                 <div class="col">
-                <img src="{{ glide:url q="75" fm="webp"}}" class="small-image" />
+                <img src="{{ glide:url q="75" fm="jpg"}}" class="small-image" />
                 </div><!-- end of col -->
                 {{ /assets:flexibility-is-key }}
             </div><!-- end of row -->
@@ -56,7 +56,7 @@ engineering:
                 </div>
                 {{ assets:fully-automated-production }}
                 <div class="col">
-                    <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" />
                 </div>
                 {{ /assets:fully-automated-production }}
             </div>
@@ -69,7 +69,7 @@ engineering:
                 </div>
                 {{ assets:engineering }}
                 <div class="col">
-                <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
+                <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" />
                 </div>
                 {{ /assets:engineering }}    
             </div>

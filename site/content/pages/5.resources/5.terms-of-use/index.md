@@ -15,7 +15,7 @@ terms-of-use-header:
     <div class="row">
         {{ assets:terms-of-use-header }}
             <div class="col">
-                <img src="{{ glide:url fm="webp" }}" class="large-image">
+                <img src="{{ glide:url fm="jpg" }}" class="large-image">
             </div>
         {{ /assets:terms-of-use-header }}
     </div>

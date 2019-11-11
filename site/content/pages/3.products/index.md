@@ -25,7 +25,7 @@ distinctive-look:
     <div class="row">
         {{ assets:products-header }}
         <div class="col">
-            <img src="{{ glide:url q="75" fm="webp" }}" class="large-image">
+            <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image">
         </div>
         {{ /assets:products-header }}
     </div>
@@ -56,7 +56,7 @@ distinctive-look:
             <div class="card-group">
                 {{ assets:haven }}
                 <div class="card">
-                    <img src="{{ glide:url q="75" fm="webp" }}" class="card-img-top" alt="...">
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="centered card-text">Haven Modular Furniture Components</p>
                     </div>
@@ -91,7 +91,7 @@ distinctive-look:
             <div class="card-group">
                 {{ assets:haven-plus }}
                 <div class="card">
-                    <img src="{{ glide:url q="75" fm="webp" }}" class="card-img-top" alt="...">
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="centered card-text">Haven Plus</p>
                     </div>
@@ -118,7 +118,7 @@ distinctive-look:
             <div class="card-group">
                 {{ assets:reception }}
                 <div class="card">
-                    <img src="{{ glide:url q="75" fm="webp" }}" class="card-img-top" alt="...">
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="centered card-text">Custom Reception Office Furniture</p>
                     </div>
@@ -146,7 +146,7 @@ distinctive-look:
             <div class="card-group">
                 {{ assets:open-plan }}
                 <div class="card">
-                    <img src="{{ glide:url q="75" fm="webp" }}" class="card-img-top" alt="...">
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="centered card-text">Frosted Acrylic Panel Dividers</p>
                     </div>
@@ -174,7 +174,7 @@ distinctive-look:
             <div class="card-group">
                 {{ assets:distinctive-look }}
                 <div class="card">
-                    <img src="{{ glide:url q="75" fm="webp" }}" class="card-img-top" alt="...">
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="centered card-text">Sophisticated Workspaces</p>
                     </div>

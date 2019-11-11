@@ -15,7 +15,7 @@ terms-and-conditions-header:
     <div class="row">
         {{ assets:terms-and-conditions-header }}
             <div class="col">
-                <img src="{{ glide:url q="75" fm="webp" }}" class="large-image" />
+                <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" />
             </div>
         {{ /assets:terms-and-conditions-header }}
     </div>
