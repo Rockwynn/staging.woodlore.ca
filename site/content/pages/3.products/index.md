@@ -34,24 +34,6 @@ distinctive-look:
     <h5 class="orange bold">Woodlore's most extensive laminate office solution</h5>
     <p>Create the look and function that best supports your working style. With a multitude of components, Haven delivers a unique and sophisticated design solution to every work environment – and does it at an affordable price.</p>
 </div>
-<!--<div class="block">
-    <h5 class="orange bold">To achieve these objectives we subscribe to the following governing principles:</h5>
-    <p></p>
-    <ul>
-        <li>Act lawfully, ethically and responsibly in all areas of our business</li>
-        <li>Be a good corporate citizen within the community</li>
-        <li>Provide product and service of exceptional qualityProvide product and service of exceptional quality</li>
-        <li>Deal fairly with our customers, suppliers and competitors</li>
-        <li>Support fair and equal treatment of workers</li>
-        <li>Provide fair and competitive wages</li>
-        <li>Provide opportunity for employee growth and development</li>
-        <li>Provide a safe and healthy workplace</li>
-        <li>Commit to sustainable use of resources, through waste reduction, reuse, recycling, clean</li>
-        <li>Manufacturing processes and energy conservation</li>
-        <li>Dedicate ourselves to continual improvement</li>
-        </ul>
-</div>-->
-
 <div class="block">
     <div class="row aligner">
         <div class="col">

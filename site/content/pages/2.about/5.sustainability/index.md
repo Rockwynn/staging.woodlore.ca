@@ -20,7 +20,6 @@ carb:
         {{ assets:sustainability-header }}
         <div class="col">
             <img src="{{ glide:url q="75" fm="webp" }}" class="large-image" />
-            <!--<img src="/assets/img/sustainability-page/sailtree3.jpg" class="large-image">-->
         </div>
         {{ /assets:sustainability-header }}
     </div>
@@ -71,7 +70,6 @@ carb:
         {{ assets:bifma }}
             <div class="col">
                 <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
-                <!--<img src="/assets/img/sustainability-page/leafdrop.jpg" class="small-image">-->
             </div>
         {{ /assets:bifma }}
     </div>
@@ -95,7 +93,6 @@ carb:
         {{ assets:carb }}
             <div class="col">
                 <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
-                <!--<img src="/assets/img/sustainability-page/bulb.jpg" class="small-image">-->
             </div>
         {{ /assets:carb }}
     </div>

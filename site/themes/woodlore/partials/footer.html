@@ -2,7 +2,6 @@
 <footer class="container">
     <div class="row footer-widget">
         <div class="col-md-4 widget-1">
-            <!--<p class="copyright">&copy; {{ now format="Y" }} {{ author_name }}</p>-->
             <h5 class="bold">More Information</h5>
             <hr>
             <div>
@@ -34,15 +33,11 @@
 
         </div>
         <div class="col-md-4 widget-3">
-            <!--<p class="tribute">Built with Statamic</p>-->
-
             <h5 class="bold">Office Gallery</h5>
             <hr>
-
             <!-- full-width-simple-indicators.html - codecanyon-v2Cu3U7n-bootstrap-4-carousel-image-slideshow-and-gallery.zip - codecanyon "Bootstrap 4 Carousel - Image Slideshow and Gallery" -->
             <!-- Carousel Start -->
         	<div id="move-all-columns-2" class="carousel slide bs4-carousel bs4-carousel-move-all bs4-indicators-simple swipe_x bs4-easeOutInCubic thumb_scroll_x" data-ride="carousel" data-pause="hover" data-duration="1500" data-interval="5000" data-keyboard="false" data-wrap="true" data-padding="10px 5px 25px 5px">
-
         		<!-- Indicators Start -->
         		<ol class="carousel-indicators carousel-indicators-ip carousel-indicators-bottom-center" data-bgcolor="transparent" data-color="#dfef90">
         			<!-- Indicators 1 -->
@@ -55,7 +50,6 @@
         			<li data-target="#move-all-columns-2" data-slide-to="3"></li>
         		</ol>
         		<!-- Indicators End -->
-
         		<!-- Carousel Inner Start -->
         		<div class="carousel-inner" role="listbox" data-padding="5px 5px 5px 5px" data-border="1px solid rgba(150,150,150,0.5)" data-radius="25px">
 
@@ -67,7 +61,7 @@
                             <div class="col">
         						<!-- Image -->
                                 <img src="{{ glide:photo q="75" fm="webp" w="124" h="112" }}" alt="{{ Office page 1 }}" class="bs4-column-img" />
-        					</div> <!-- /.col --><!-- /.col-12 -->
+        					</div> <!-- /.col -->
         					<!-- Column 1 End -->
                             {{ /collection:footer-widget-images-1}}
                             {{ collection:footer-widget-images-2 }}
@@ -170,25 +164,6 @@
 
         	</div>
         	<!-- Carousel End -->
-
-
-            <!--<div class="black">
-                <div class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        {{ carousel }}
-                            <li data-slide-to="{{ zero_index }}" {{ if first }}class="active"{{/if}}></li>
-                        {{ /carousel }}
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        {{ carousel }}
-                            <div class="carousel-item {{ if first }}active{{/if}}">
-                                {{ glide class="d-block img-fluid" src="{{ glide:url width="1000" height="500" }}" alt="{{ alt }}">
-                            </div>
-                        {{ /carousel }}
-                    </div>
-                </div>
-            </div>-->
-
         </div>
     </div>
 </footer>
@@ -200,14 +175,10 @@
             <div class="col col-md-6">
                 <p class="copyright">&copy; {{ now format="Y" }} {{ site_name }}</p>
             </div>
-            <!--<div class="col col-md-4">
-                <p class="tribute"><a href="https:rockwynnwebdesign.ca" target="blank">Designed & Developed by Rockwynn Web Design</a></p>
 
-            </div>-->
             {{ assets:steelcase }}
             <!--<div class="col col-md-6">-->
             <div class="col col-md-6">
-                <!--<p class="tribute">Built with Statamic</p>-->
                 <img src="{{ glide:url q="75" fm="webp" }}" class="my-footer" />
             </div>
             {{ /assets:steelcase }}

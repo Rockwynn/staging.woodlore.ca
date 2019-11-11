@@ -16,7 +16,6 @@ performance-header:
     {{ assets:performance-header }}
         <div class="col">
             <img src="{{ glide:url q="75" fm="webp" }}" class="large-image" />
-            <!--<img src="/assets/img/performance-page/performance9.jpg" class="large-image">-->
         </div>
         {{ /assets:performance-header }}
     </div>

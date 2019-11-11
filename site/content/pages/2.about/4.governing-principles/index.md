@@ -16,7 +16,6 @@ governing-principles-header:
         {{ assets:governing-principles-header }}
         <div class="col">
             <img src="{{ glide:url q="75" fm="webp" }}" class="large-image" />
-            <!--<img src="/assets/img/governing-principles-page/sailtree3.jpg" class="large-image">-->
         </div>
         {{ /assets:governing-principles-header }}
     </div>

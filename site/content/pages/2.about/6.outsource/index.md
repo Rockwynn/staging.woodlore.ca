@@ -16,7 +16,6 @@ outsource-header:
         {{ assets:outsource-header }}
             <div class="col">
                 <img src="{{ glide:url q="75" fm="webp" }}" class="large-image" />
-                <!--<img src="/assets/img/outsource-page/globe4.jpg" class="large-image">-->
             </div>
         {{ /assets:outsource-header }}
     </div>

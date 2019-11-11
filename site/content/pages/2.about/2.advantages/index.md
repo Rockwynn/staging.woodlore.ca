@@ -21,7 +21,6 @@ our-team:
         {{ assets:advantages-header }}
             <div class="col">
                 <img src="{{ glide:url q="75" fm="webp" }}" class="large-image" />
-                <!--<img src="/assets/img/advantages-page/arrow.jpg" class="large-image">-->
             </div>
         {{ /assets:advantages-header }}
     </div>
@@ -42,7 +41,6 @@ our-team:
         {{ assets:quality-standards }}
             <div class="col">
                 <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
-                <!--<img src="/assets/img/advantages-page/save-money2.jpg" class="small-image">-->
             </div>
         {{ /assets:quality-standards }}
     </div>
@@ -56,7 +54,6 @@ our-team:
         {{ assets:environmental-standards }}
             <div class="col">
                 <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
-                <!--<img src="/assets/img/advantages-page/ECO1.jpg" class="small-image">-->
             </div>
         {{ /assets:environmental-standards }}
     </div>
@@ -70,7 +67,6 @@ our-team:
         {{ assets:our-team }}
             <div class="col">
                 <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
-                <!--<img src="/assets/img/advantages-page/teamwork2.jpg" class="small-image">-->
             </div>
         {{ /assets:our-team }}
     </div>

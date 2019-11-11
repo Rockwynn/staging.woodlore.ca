@@ -34,27 +34,6 @@ engineering:
                 <p>A major component of our business is our manufacturing alliances. If you’re looking to partner with a manufacturer to produce a casegoods line to your specifications, we can replicate or aesthetically match an existing line, or work collaboratively with you to develop an entirely new product offering.</p>
                 <p>Woodlore has earned its reputation for providing outstanding value by delivering uncompromising service, and unmatched quality in accelerated lead times. <strong class="dgreen bold">We have always believed that our customers deserve nothing less.</strong></p>
         </div>
-        <!--<div class="block">
-                <img src="/assets/img/about-us-page/tech1.jpg" class="small-image">
-                <h5 class="orange bold">Flexibility is key</h5>
-                <p>As our business model changes, our ability to change with it demands days, not months, of implementation. Our ERP system was developed to be modular, where all components complement one another. Since a large part of our business is OEM, we integrate into any system and any software. Our leading edge software was internally developed exclusively to meet all of these unique requirements.</p>
-                <p>Our in-house development team has over 25 years of experience in enterprise class database, manufacturing and engineering.</p>
-                <p>With Woodlore’s standard lead time of 8 days, we've engineered our infrastructure with next-to-no downtime. With redundant power supplies and mirrored data to protect against complete failovers, we have taken every measure possible to maintain services 24/7. We’ve acquired and written leading-edge tools to help us monitor all facets of our hardware. Regular, preventative maintenance keeps things running smoothly. In the very unlikely event of a complete failure, our commitment is to have our systems back up and running within an hour.</p>
-        </div>
-        <div class="block">
-            <div class="row aligner">
-                <div class="col">
-                    <h5 class="orange bold">Fully-automated Production</h5>
-                    <img src="/assets/img/about-us-page/saw1.jpg" class="small-image">
-                    <p>We pride ourselves on having fully-automated machinery and a highly organized, pristine, manufacturing facility. <a href="/our-facility"><strong class="dgreen bold">Learn more</strong></a></p>
-                </div>
-                <div class="col">
-                    <h5 class="orange bold">Engineering</h5>
-                    <img src="/assets/img/about-us-page/furniture-engineering.jpg" class="small-image">
-                    <p>Our proprietary in-house software, in conjunction with 20-20 Technology software, allow our engineering department to reduce product developmen time significantly.</p>
-                </div>
-            </div>
-        </div>-->
         <div class="block">
             <div class="row aligner">
                 <div class="col">
@@ -66,7 +45,6 @@ engineering:
                 {{ assets:flexibility-is-key }}
                 <div class="col">
                 <img src="{{ glide:url q="75" fm="webp"}}" class="small-image" />
-                    <!--<img src="/assets/img/about-us-page/tech1.jpg" class="small-image">-->
                 </div><!-- end of col -->
                 {{ /assets:flexibility-is-key }}
             </div><!-- end of row -->
@@ -79,7 +57,6 @@ engineering:
                 {{ assets:fully-automated-production }}
                 <div class="col">
                     <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
-                    <!--<img src="/assets/img/about-us-page/saw1.jpg" class="small-image">-->
                 </div>
                 {{ /assets:fully-automated-production }}
             </div>
@@ -93,7 +70,6 @@ engineering:
                 {{ assets:engineering }}
                 <div class="col">
                 <img src="{{ glide:url q="75" fm="webp" }}" class="small-image" />
-                    <!--<img src="/assets/img/about-us-page/furniture-engineering.jpg" class="small-image">-->
                 </div>
                 {{ /assets:engineering }}    
             </div>
