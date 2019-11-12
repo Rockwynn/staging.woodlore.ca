@@ -144,15 +144,23 @@ h3.woodlore-carousel-caption {
     color: #cccccc;
 }
 /* for picture source element in footer carousel */
+#move-all-columns-2 picture.col {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
 source.bs4-column-img {
     width:100%;
+    height: auto;
     margin:auto;
     display:block;
     border: none !important;
-    border-radius: none !important;
+    border-radius: unset !important;
 }
 .carousel-inner source {
     max-height: 110px;
+    object-fit: cover;
 }
 source {
     vertical-align: middle;
