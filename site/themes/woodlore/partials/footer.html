@@ -56,20 +56,41 @@
         			<!-- Slide 1 Start -->
         			<div class="carousel-item">
         				<div class="row">
+
+
+
+
                             {{collection:footer-widget-images-1 }}
         					<!-- Column 1 Start -->
                             <div class="col">
         						<!-- Image -->
-                                <img src="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}" alt="{{ Office page 1 }}" class="bs4-column-img" />
+
+                                <picture>
+                                    <source srcset="{{ glide:photo q="75" fm="webp" w="124" h="112" }}" alt="{{ Office page 1 }}" class="bs4-column-img" type="image/webp">
+                                    <source srcset="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}" alt="{{ Office page 1 }}" class="bs4-column-img" type="image/jpg">
+                                    <img src="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}" alt="{{ Office page 1 }}" class="bs4-column-img">
+                                </picture>
+
+
+                                <!--<img src="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}" alt="{{ Office page 1 }}" class="bs4-column-img" />-->
+
+
+
         					</div> <!-- /.col -->
         					<!-- Column 1 End -->
                             {{ /collection:footer-widget-images-1}}
+
+
+
+
+
+
                             {{ collection:footer-widget-images-2 }}
         					<!-- Column 2 Start -->
                             <div class="col">
         						<!-- Image -->
         						<img src="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}" alt="{{ L Shape Workstation page 8 }}" class="bs4-column-img" />
-        					</div>  <!-- /.col-12 -->
+        					</div>  <!-- /.col -->
         					<!-- Column 2 End -->
                             {{ /collection:footer-widget-images-2 }}
         				</div> <!-- /.row -->
@@ -84,7 +105,7 @@
                             <div class="col">
         						<!-- Image -->
         						<img src="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}"  alt="{{ Office page 12 }}" class="bs4-column-img" />
-        					</div>  <!-- /.col-12 -->
+        					</div>  <!-- /.col -->
         					<!-- Column 1 End -->
                             {{ /collection:footer-widget-images-3 }}
                             {{ collection:footer-widget-images-4 }}
@@ -92,7 +113,7 @@
                             <div class="col">
         						<!-- Image -->
         						<img src="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}"  alt="{{ Double Pedestal Desk page 13 }}" class="bs4-column-img" />
-        					</div>  <!-- /.col-12 -->
+        					</div>  <!-- /.col -->
         					<!-- Column 2 End -->
                             {{ /collection:footer-widget-images-4 }}
         				</div> <!-- /.row -->
@@ -107,7 +128,7 @@
                             <div class="col">
         						<!-- Image -->
         						<img src="{{ glide:photo q="70" fm="jpg" w="124" h="112" }}"  alt="{{ Single Pedestal Desk Left page 14 }}" class="bs4-column-img" />
-        					</div>  <!-- /.col-12 -->
+        					</div>  <!-- /.col -->
         					<!-- Column 1 End -->
                             {{ /collection:footer-widget-images-5 }}
                             {{ collection:footer-widget-images-6 }}
@@ -115,7 +136,7 @@
                             <div class="col">
         						<!-- Image -->
         						<img src="{{ glide:photo q="70" fm="jpg" w="124" h="112" }}"  alt="{{ SIngle Pedestal Desk Right page 15 }}" class="bs4-column-img" />
-        					</div>  <!-- /.col-12 -->
+        					</div>  <!-- /.col -->
         					<!-- Column 2 End -->
                             {{ /collection:footer-widget-images-6 }}
         				</div> <!-- /.row -->
@@ -130,7 +151,7 @@
                             <div class="col">
         						<!-- Image -->
         						<img src="{{ glide:photo q="70" fm="jpg" w="124" h="112" }}"  alt="{{ Executive Corner Desk page 16 }}" class="bs4-column-img" />
-        					</div>   <!-- /.col-12 -->
+        					</div>   <!-- /.col -->
         					<!-- Column 1 End -->
                             {{ /collection:footer-widget-images-7 }}
                             {{ collection:footer-widget-images-8 }}
@@ -138,7 +159,7 @@
                             <div class="col">
         						<!-- Image -->
         						<img src="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}"  alt="{{ Professional Office Furniture page 26 }}" class="bs4-column-img" />
-        					</div>  <!-- /.col-12 -->
+        					</div>  <!-- /.col -->
         					<!-- Column 2 End -->
                             {{ /collection:footer-widget-images-8 }}
         				</div> <!-- /.row -->
@@ -178,28 +199,12 @@
             <div class="col col-md-6">
                 <p class="copyright">&copy; {{ now format="Y" }} {{ site_name }}</p>
             </div>
-
-
-
             <!--{{ assets:steelcase }}-->
             <!--<div class="col col-md-6">-->
             <!--<div class="col col-md-6">
                 <img src="{{ glide:url q="75" fm="jpg" }}" class="my-footer" />
             </div>
             {{ /assets:steelcase }}-->
-
-
-
-
-
-
-
-
-
-
-
-
-
             {{ assets:steelcase }}
             <!--<div class="col col-md-6">-->
             <div class="col col-md-6">
@@ -210,37 +215,6 @@
                 </picture>
             </div>
             {{ /assets:steelcase }}
-
-
-
-
-
-
-
-
-            <!--<picture>
-                <source srcset="/path/to/image.webp" type="image/webp">
-                <img src="/path/to/image.jpg" alt="">
-            </picture>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
     </div>
     <div class="container-fluid">
