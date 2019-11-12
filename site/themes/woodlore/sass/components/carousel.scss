@@ -143,3 +143,18 @@ h3.woodlore-carousel-caption {
 .lb-caption, .lb-data .lb-number {
     color: #cccccc;
 }
+/* for picture source element in footer carousel */
+source.bs4-column-img {
+    width:100%;
+    margin:auto;
+    display:block;
+    border: none !important;
+    border-radius: none !important;
+}
+.carousel-inner source {
+    max-height: 110px;
+}
+source {
+    vertical-align: middle;
+    border-style: none;
+}

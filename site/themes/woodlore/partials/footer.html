@@ -62,10 +62,10 @@
 
                             {{collection:footer-widget-images-1 }}
         					<!-- Column 1 Start -->
-                            <div class="col">
+                            <!--<div class="col">-->
         						<!-- Image -->
 
-                                <picture>
+                                <picture class="col">
                                     <source srcset="{{ glide:photo q="75" fm="webp" w="124" h="112" }}" alt="{{ Office page 1 }}" class="bs4-column-img" type="image/webp">
                                     <source srcset="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}" alt="{{ Office page 1 }}" class="bs4-column-img" type="image/jpg">
                                     <img src="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}" alt="{{ Office page 1 }}" class="bs4-column-img">
@@ -76,7 +76,7 @@
 
 
 
-        					</div> <!-- /.col -->
+        					<!--</div>--> <!-- /.col -->
         					<!-- Column 1 End -->
                             {{ /collection:footer-widget-images-1}}
 
@@ -87,10 +87,22 @@
 
                             {{ collection:footer-widget-images-2 }}
         					<!-- Column 2 Start -->
-                            <div class="col">
-        						<!-- Image -->
-        						<img src="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}" alt="{{ L Shape Workstation page 8 }}" class="bs4-column-img" />
-        					</div>  <!-- /.col -->
+                                <!--<div class="col">-->
+                                <!-- Image -->
+
+
+                            <picture class="col">
+                                <source srcset="{{ glide:photo q="75" fm="webp" w="124" h="112" }}" alt="{{ L Shape Workstation page 8 }}" class="bs4-column-img" type="image/webp">
+                                <source srcset="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}" alt="{{ L Shape Workstation page 8 }}" class="bs4-column-img" type="image/jpg">
+                                <img src="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}" alt="{{ L Shape Workstation page 8 }}" class="bs4-column-img">
+                            </picture>
+
+
+
+        						<!--<img src="{{ glide:photo q="75" fm="jpg" w="124" h="112" }}" alt="{{ L Shape Workstation page 8 }}" class="bs4-column-img" />-->
+
+
+        					<!--</div>-->  <!-- /.col -->
         					<!-- Column 2 End -->
                             {{ /collection:footer-widget-images-2 }}
         				</div> <!-- /.row -->
