@@ -169,6 +169,9 @@
 </footer>
 </div>
 <footer class="page" style="background-image: url({{ glide path='/assets/img/logosandmisc/footerBG2-slice-optimized.png' fm='webp' }});">
+
+
+
     <div class="container-fluid">
         <div class="row">
             <!--<div class="col col-md-6">-->
@@ -176,12 +179,68 @@
                 <p class="copyright">&copy; {{ now format="Y" }} {{ site_name }}</p>
             </div>
 
+
+
+            <!--{{ assets:steelcase }}-->
+            <!--<div class="col col-md-6">-->
+            <!--<div class="col col-md-6">
+                <img src="{{ glide:url q="75" fm="jpg" }}" class="my-footer" />
+            </div>
+            {{ /assets:steelcase }}-->
+
+
+
+
+
+
+
+
+
+
+
+
+
             {{ assets:steelcase }}
             <!--<div class="col col-md-6">-->
             <div class="col col-md-6">
-                <img src="{{ glide:url q="75" fm="jpg" }}" class="my-footer" />
+                <picture>
+                    <source srcset="{{ glide:url q="75" fm="webp" }}" class="my-footer" type="image/webp">
+                    <source srcset="{{ glide:url q="75" fm="jpg" }}" class="my-footer" type="image/jpeg">
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="my-footer">
+                </picture>
             </div>
             {{ /assets:steelcase }}
+
+
+
+
+
+
+
+
+            <!--<picture>
+                <source srcset="/path/to/image.webp" type="image/webp">
+                <img src="/path/to/image.jpg" alt="">
+            </picture>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     </div>
     <div class="container-fluid">
