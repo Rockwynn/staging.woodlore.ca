@@ -21,3 +21,10 @@ routes:
     layout: feed
     template: feeds/things
     content_type: atom
+  /sitemap:
+    template: sitemap
+    layout: sitemap
+    content_type: xml
+  /resources/sitemap-html:
+    template: sitemap-html
+    layout: sitemap-html

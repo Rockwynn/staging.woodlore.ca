@@ -1,0 +1,34 @@
+<section class="regular">
+    <div class="sitemap-html container-fluid">
+<nav>
+    <div>
+            <!--<a class="navbar-brand" href="/">
+                {{ assets:woodlorelogo }}<img src="{{ glide:url q="75" fm="jpg" }}" alt="Woodlore International Inc.">{{ /assets:woodlorelogo }}</a>-->
+        <!--<button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+            <span ></span>
+        </button>
+     <div>
+            <ul>
+                {{ nav from="/" max_depth="2" include_home="true" scope="tag" }}
+                    {{ if !children }}
+                        <li class="dark" {{ if is_current }} active{{ endif }}">
+                          <a href="{{ url }}">{{ title }}</a>
+                        </li>
+                    {{ else }}
+                        <li class="dark" {{ if is_current || is_parent }} active {{ endif }}">
+                            <a href="{{ url }}" id="navbarDropdown{{ id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ title }}</a>
+                            <ul "dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown{{ id }}">
+                                {{ children }}
+                                    <li class="list-menu"{{ if is_current or is_parent }} class="active"{{ /if }}><a  href="{{ url }}">{{ title }}</a></li>
+                                    <div ></div>
+                                {{ /children }}
+                            </ul>
+                        </li>
+                    {{ endif }}
+                {{ /nav }}
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--end of nav-->
+</div></section>

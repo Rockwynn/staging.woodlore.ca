@@ -18,11 +18,11 @@
     a {
 
         color: #e6e6e6;
-        font-weight: 300;
+        font-weight: bold;
     }
     a:hover {
         text-decoration: none;
-        color: #fff;
+        color: $color_orange;
     }
 }
 
@@ -33,6 +33,7 @@
       padding-left: 30px;
       color: #e6e6e6;
       font-weight: 300;
+      margin: ($gap * 0.25) 0;
     /*font-family: 'FontAwesome';
     content: '\f0a9';
     margin:0 5px 0 -15px;

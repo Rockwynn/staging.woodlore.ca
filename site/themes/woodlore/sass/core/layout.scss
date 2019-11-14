@@ -133,7 +133,7 @@ footer.container {
 
 	}
 
-		.widget-1{
+		.widget-1, .widget-2 {
 			/*background: #fff;*/
 
 			h5 {
@@ -143,10 +143,12 @@ footer.container {
 			hr {
 				background-color: #e6e6e6;
 			}
-			ul {
+			ul.list-menu-ul {
 				list-style-type: none;
 				padding-left: 1px;
-				font-size: 13px;
+
+				/*font-size: 1rem;*/
+				margin-top: 1.3em;
 
 				li.list-menu {
 					background-image: url("/assets/img/logosandmisc/arrow-circle-right-solid.svg");
@@ -154,25 +156,28 @@ footer.container {
 					  background-repeat: no-repeat;
 					  padding-left: 30px;
 					  color: #e6e6e6;
-					  font-weight: 300;
+					  font-weight: bold;
+					  margin: ($gap * 0.125) 0;
+					max-height: 24px;
+					font-size: 1.1vw;
 					/*font-family: 'FontAwesome';
 					content: '\f0a9';
 					margin:0 5px 0 -15px;
 					color: #dfef90;*/
 
-					a {
+					/*a {
 
 						color: #e6e6e6;
 						font-weight: 300;
-					}
+					}*/
 				}
 			}
 		}
 
-		.widget-2{
+		/*.widget-2{*/
 			/*background: #ff0000;*/
 
-			h5{
+			/*h5{
 				color: #dfef90;
 				margin: 0 0 ($gap * .5) 0;
 			}
@@ -182,7 +187,7 @@ footer.container {
 			a {
 				color: #fff;
 			}
-		}
+		}*/
 
 		.widget-3{
 			/*background: #666;*/
@@ -198,7 +203,43 @@ footer.container {
 
 	}
 }
+.sitemap-html {
+	ul {
+		list-style-type: none;
+		padding-left: 2em;
+		font-size: 13px;
 
+		li.dark {
+
+			a {
+				color: $color_dgreen;
+				font-weight: bold;
+			}
+			a:hover {
+				color: $color_orange;
+			}
+		}
+	}
+}
+.sitemap-html {
+	ul {
+		list-style-type: none;
+		padding-left: 2em;
+		font-size: 13px;
+
+		li.list-menu {
+			background-image: url("/assets/img/logosandmisc/arrow-circle-right-solid.svg");
+			background-position: left center;
+			  background-repeat: no-repeat;
+			  padding-left: 30px;
+
+			  a {
+				  color: $color_dgreen;
+				  font-weight: bold;
+			  }
+		}
+	}
+}
 .block .meta {
 	margin: 5px 0 0;
 }
