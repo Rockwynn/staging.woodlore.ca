@@ -8681,6 +8681,20 @@ code {
   font-weight: bold;
 }
 
+.breadcrumb-phone {
+  text-align: right;
+}
+
+a.breadcrumb-phone-number {
+  margin-top: 15px;
+  display: block;
+  font-size: 1.5em;
+}
+
+a.breadcrumb-phone-number:hover {
+  color: #ff6600;
+}
+
 /*------------------------------------------------------*/
 
 /* RESPONSIVE
