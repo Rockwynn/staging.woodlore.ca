@@ -8393,6 +8393,12 @@ input.giant:active {
   display: none;
 }
 
+@media (max-width: 732px) {
+  .w-phone {
+    font-size: 200%;
+  }
+}
+
 .lgreen {
   color: #dfef90;
 }
@@ -8717,7 +8723,7 @@ a.breadcrumb-phone-number:hover {
 @media (max-width: 768px) {
   footer.container .footer-widget .widget-1 ul.list-menu-ul li.list-menu,
   footer.container .footer-widget .widget-2 ul.list-menu-ul li.list-menu {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .slide-text {
@@ -8893,6 +8899,117 @@ source {
   vertical-align: middle;
   border-style: none;
 }
+
+/*home page slider text */
+
+.row-class {
+  height: 100%;
+}
+
+#full-screen-parent-simple-indicators .header-col-class,
+#full-screen-parent-simple-indicators .blurb-col-class {
+  height: 50%;
+}
+
+#full-screen-parent-simple-indicators .header-col-class h2,
+#full-screen-parent-simple-indicators .blurb-col-class h2 {
+  font-weight: 900;
+}
+
+#full-screen-parent-simple-indicators .header-col-class.first-header-col-class h2,
+#full-screen-parent-simple-indicators .header-col-class.fourth-header-col-class h2 {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  padding: 2px 10px;
+  background: #ffffff;
+  background: RGBA(255, 255, 255, 0.6);
+  box-shadow: 0 1px 1px RGBA(0, 0, 0, 0.2);
+  border-radius: 25px;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+#full-screen-parent-simple-indicators .header-col-class.fourth-header-col-class {
+  letter-spacing: -0.15em;
+}
+
+#full-screen-parent-simple-indicators .header-col-class.sixth-header-col-class h2 {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  padding: 4px 15px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  border-radius: 25px;
+  background-color: rgba(128, 186, 38, 0.6);
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+}
+
+#full-screen-parent-simple-indicators .header-col-class.seventh-header-col-class h2 {
+  position: absolute;
+  bottom: 5.5em;
+  left: 1.5em;
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+}
+
+#full-screen-parent-simple-indicators .blurb-col-class.first-blurb-col-class h2 {
+  position: absolute;
+  bottom: 1.5em;
+  right: 1em;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+
+#full-screen-parent-simple-indicators .blurb-col-class.second-blurb-col-class h2 {
+  position: absolute;
+  bottom: 1.5em;
+  left: 1em;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+#full-screen-parent-simple-indicators .blurb-col-class.fifth-blurb-col-class h2 {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+#full-screen-parent-simple-indicators .blurb-col-class.sixth-blurb-col-class h2 {
+  position: absolute;
+  bottom: 2.5em;
+  left: 2em;
+  padding: 4px 15px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  border-radius: 25px;
+  background-color: rgba(128, 186, 38, 0.6);
+  font-size: 1.5em;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+@media (max-width: 732px) {
+  #full-screen-parent-simple-indicators .header-col-class h2,
+  #full-screen-parent-simple-indicators .blurb-col-class h2 {
+    font-size: 100%;
+  }
+
+  #full-screen-parent-simple-indicators .header-col-class.fourth-header-col-class {
+    letter-spacing: -0.05em;
+  }
+
+  .carousel-control-ip {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* end of home page slider text */
 
 .gallery header {
   padding: 64px 0 32px;

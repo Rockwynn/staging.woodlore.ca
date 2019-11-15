@@ -23,3 +23,8 @@ input.giant {
 .state {
 	display: none;
 }
+@media (max-width: 732px ){
+.w-phone {
+	font-size: 200%;
+}
+}
