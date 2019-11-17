@@ -8759,7 +8759,7 @@ a.breadcrumb-phone-number:hover {
 
 @media (max-width: 480px) {
   #full-screen-parent-simple-indicators {
-    height: 170px;
+    height: 190px;
   }
 
   .bs4-indicators-simple .carousel-indicators.carousel-indicators-bottom-center {
@@ -8997,7 +8997,7 @@ source {
   animation-delay: 1s;
 }
 
-@media (max-width: 732px) {
+@media (max-width: 768px) {
   #full-screen-parent-simple-indicators .header-col-class h2,
   #full-screen-parent-simple-indicators .blurb-col-class h2 {
     font-size: 100%;
