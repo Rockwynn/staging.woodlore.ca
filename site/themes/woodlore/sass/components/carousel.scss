@@ -203,7 +203,7 @@ source {
 
     h2 {
     position: absolute;
-    top: 1em;
+    top: 0.75em;
     left: 1em;
     animation-duration: 2s;
     animation-delay: 1s;
@@ -284,11 +284,12 @@ source {
 }
 #full-screen-parent-simple-indicators .header-col-class.fourth-header-col-class {
     letter-spacing: -0.05em;
+    top: 0.75em;
 }
 #full-screen-parent-simple-indicators .header-col-class.fifth-header-col-class {
 
     h2 {
-    top: 1em;
+    top: 0.75em;
     left: 2em;
 }
 #full-screen-parent-simple-indicators .header-col-class.sixth-header-col-class {
