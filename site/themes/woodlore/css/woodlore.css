@@ -8977,7 +8977,7 @@ source {
 
 #full-screen-parent-simple-indicators .blurb-col-class.second-blurb-col-class h2 {
   position: absolute;
-  bottom: 1em;
+  bottom: 0.75em;
   left: 1em;
   animation-duration: 2s;
   animation-delay: 1s;
