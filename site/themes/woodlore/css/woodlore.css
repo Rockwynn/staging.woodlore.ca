@@ -8957,7 +8957,7 @@ source {
 
 #full-screen-parent-simple-indicators .blurb-col-class.first-blurb-col-class h2 {
   position: absolute;
-  bottom: 1.5em;
+  bottom: 1em;
   right: 1em;
   animation-duration: 2s;
   animation-delay: 2s;
@@ -8965,7 +8965,7 @@ source {
 
 #full-screen-parent-simple-indicators .blurb-col-class.second-blurb-col-class h2 {
   position: absolute;
-  bottom: 1.5em;
+  bottom: 1em;
   left: 1em;
   animation-duration: 2s;
   animation-delay: 1s;
@@ -8973,7 +8973,7 @@ source {
 
 #full-screen-parent-simple-indicators .blurb-col-class.fifth-blurb-col-class h2 {
   position: absolute;
-  bottom: 1em;
+  bottom: 0.5em;
   left: 1em;
   animation-duration: 2s;
   animation-delay: 1s;
@@ -8981,7 +8981,7 @@ source {
 
 #full-screen-parent-simple-indicators .blurb-col-class.sixth-blurb-col-class h2 {
   position: absolute;
-  bottom: 2.5em;
+  bottom: 2em;
   left: 2em;
   padding: 4px 15px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -9001,6 +9001,25 @@ source {
 
   #full-screen-parent-simple-indicators .header-col-class.fourth-header-col-class {
     letter-spacing: -0.05em;
+  }
+
+  #full-screen-parent-simple-indicators .blurb-col-class.first-blurb-col-class h2 {
+    bottom: 1em;
+    right: 1em;
+  }
+
+  #full-screen-parent-simple-indicators .blurb-col-class.second-blurb-col-class h2 {
+    bottom: 1em;
+    left: 1em;
+  }
+
+  #full-screen-parent-simple-indicators .blurb-col-class.fifth-blurb-col-class h2 {
+    bottom: 0.5em;
+    left: 1em;
+  }
+
+  #full-screen-parent-simple-indicators .blurb-col-class.sixth-blurb-col-class h2 {
+    left: 2em;
   }
 
   .carousel-control-ip {
