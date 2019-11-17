@@ -8938,6 +8938,14 @@ source {
   letter-spacing: -0.15em;
 }
 
+#full-screen-parent-simple-indicators .header-col-class.fifth-header-col-class h2 {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
 #full-screen-parent-simple-indicators .header-col-class.sixth-header-col-class h2 {
   position: absolute;
   top: 1em;
@@ -8975,14 +8983,6 @@ source {
   animation-delay: 1s;
 }
 
-#full-screen-parent-simple-indicators .blurb-col-class.fifth-blurb-col-class h2 {
-  position: absolute;
-  bottom: 0.5em;
-  left: 1em;
-  animation-duration: 2s;
-  animation-delay: 1s;
-}
-
 #full-screen-parent-simple-indicators .blurb-col-class.sixth-blurb-col-class h2 {
   position: absolute;
   bottom: 2em;
@@ -9003,27 +9003,37 @@ source {
     font-size: 100%;
   }
 
+  #full-screen-parent-simple-indicators .header-col-class.first-header-col-class h2 {
+    top: 1em;
+    left: 3em;
+  }
+
   #full-screen-parent-simple-indicators .header-col-class.fourth-header-col-class {
     letter-spacing: -0.05em;
   }
 
-  #full-screen-parent-simple-indicators .blurb-col-class.first-blurb-col-class h2 {
+  #full-screen-parent-simple-indicators .header-col-class.fifth-header-col-class h2 {
+    top: 1em;
+    left: 2em;
+  }
+
+  #full-screen-parent-simple-indicators .header-col-class.fifth-header-col-class #full-screen-parent-simple-indicators .header-col-class.sixth-header-col-class h2 {
+    top: 1em;
+    left: 3em;
+  }
+
+  #full-screen-parent-simple-indicators .header-col-class.fifth-header-col-class #full-screen-parent-simple-indicators .blurb-col-class.first-blurb-col-class h2 {
     bottom: 1em;
-    right: 1em;
+    right: 2em;
   }
 
-  #full-screen-parent-simple-indicators .blurb-col-class.second-blurb-col-class h2 {
+  #full-screen-parent-simple-indicators .header-col-class.fifth-header-col-class #full-screen-parent-simple-indicators .blurb-col-class.second-blurb-col-class h2 {
     bottom: 0.75em;
-    left: 1em;
-  }
-
-  #full-screen-parent-simple-indicators .blurb-col-class.fifth-blurb-col-class h2 {
-    bottom: 0.5em;
-    left: 1em;
+    left: 3em;
   }
 
   #full-screen-parent-simple-indicators .blurb-col-class.sixth-blurb-col-class h2 {
-    left: 2em;
+    left: 2.5em;
   }
 
   .carousel-control-ip {
