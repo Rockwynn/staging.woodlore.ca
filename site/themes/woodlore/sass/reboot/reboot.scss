@@ -422,12 +422,19 @@ Element by thecodeblock.com
         }
     }
 }
+@media all and (min-width:576px){
+    .card-deck {
+        width: 100%;
+    }
+}
 @media screen and (min-width: 576px){
 .card-deck .card {
     max-width: 30%;
 }
 #mywidth.card {
+    margin: 0 auto;
     max-width: 20%;
+    width: 100%;
 }
 }
 .card-deck .card {
