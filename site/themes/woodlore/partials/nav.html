@@ -16,7 +16,7 @@
                     {{ else }}
                         <li class="nav-item dropdown{{ if is_current || is_parent }} active {{ endif }}">
                             <a href="{{ url }}" class="nav-link dropdown-toggle" id="navbarDropdown{{ id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ title }}</a>
-                            <ul class="dropdown-menu" dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown{{ id }}">
+                            <ul class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown{{ id }}">
                                 {{ children }}
                                 	<li{{ if is_current or is_parent }} class="active"{{ /if }}><a class="dropdown-item" href="{{ url }}">{{ title }}</a></li>
                                     <div class="dropdown-divider"></div>
