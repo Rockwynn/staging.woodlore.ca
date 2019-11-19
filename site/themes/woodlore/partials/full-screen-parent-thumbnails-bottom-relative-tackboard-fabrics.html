@@ -17,7 +17,7 @@
         <div class="carousel-inner" role="listbox">
             {{ assets:tackboard-fabrics }}
                 <!-- All Slides -->
-                <div class="carousel-item style="background-size: cover" {{ if first }}active{{/if}}">
+                <div class="carousel-item {{ if first }}active{{/if}}"><!--  style="background-size: cover" -->
                     <!-- Image -->
                     <img class="bs4-carousel-img" src="{{ glide:url q="60" fm="jpg" h="417"}}" alt="{{ filename }}" />
                     <!-- image caption -->

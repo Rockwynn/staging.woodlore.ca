@@ -11,7 +11,7 @@ woodlorelogo:
 steelcase:
   - /assets/img/logosandmisc/steelcase.png
 laminate-finishes:
-  - /assets/img/laminate-finishes/Chips2.png
+  - /assets/img/laminate-finishes/Chips.jpg
   - /assets/img/laminate-finishes/FlamencoCherry.jpg
   - /assets/img/laminate-finishes/Mahogany.jpg
   - /assets/img/laminate-finishes/Tuxedo.jpg
