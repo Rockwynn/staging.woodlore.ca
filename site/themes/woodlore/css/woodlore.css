@@ -8180,6 +8180,7 @@ footer.container .footer-widget .widget-2 ul.list-menu-ul {
 footer.container .footer-widget .widget-1 ul.list-menu-ul li.list-menu,
 footer.container .footer-widget .widget-2 ul.list-menu-ul li.list-menu {
   background-image: url("/assets/img/logosandmisc/arrow-circle-right-solid.svg");
+  -ms-background-position-x: -144px;
   background-position: left center;
   background-repeat: no-repeat;
   padding-left: 30px;
