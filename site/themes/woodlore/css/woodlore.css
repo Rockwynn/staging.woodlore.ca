@@ -8915,6 +8915,10 @@ source.bs4-column-img {
   background-size: cover;
 }
 
+.bs-one-hundred {
+  background-size: 100% 100%;
+}
+
 /*------------------------------------------------------*/
 
 /* RESPONSIVE
