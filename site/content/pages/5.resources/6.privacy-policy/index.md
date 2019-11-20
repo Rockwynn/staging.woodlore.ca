@@ -15,7 +15,7 @@ privacy-policy-header:
     <div class="row">
         {{ assets:privacy-policy-header }}
             <div class="col">
-                <img src="{{ glide:url fm="jpg" }}" class="large-image">
+                <img src="{{ glide:url fm="jpg" }}" class="large-image"alt="Woodlore Privacy Policy">
             </div>
         {{ /assets:privacy-policy-header }}
     </div>

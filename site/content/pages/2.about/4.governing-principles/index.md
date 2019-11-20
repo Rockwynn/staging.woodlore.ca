@@ -15,7 +15,7 @@ governing-principles-header:
     <div class="row">
         {{ assets:governing-principles-header }}
         <div class="col">
-            <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" />
+            <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" alt="Woodlore conducts business with integrity and dedication to excellence."/>
         </div>
         {{ /assets:governing-principles-header }}
     </div>
@@ -29,16 +29,16 @@ governing-principles-header:
     <h5 class="orange bold">To achieve these objectives we subscribe to the following governing principles:</h5>
 
     <ul>
-        <li>Act lawfully, ethically and responsibly in all areas of our business</li>
-        <li>Be a good corporate citizen within the community</li>
-        <li>Provide product and service of exceptional qualityProvide product and service of exceptional quality</li>
-        <li>Deal fairly with our customers, suppliers and competitors</li>
-        <li>Support fair and equal treatment of workers</li>
-        <li>Provide fair and competitive wages</li>
-        <li>Provide opportunity for employee growth and development</li>
-        <li>Provide a safe and healthy workplace</li>
-        <li>Commit to sustainable use of resources, through waste reduction, reuse, recycling, clean</li>
-        <li>Manufacturing processes and energy conservation</li>
-        <li>Dedicate ourselves to continual improvement</li>
+        <li class="orange"><span>Act lawfully, ethically and responsibly in all areas of our business</span></li>
+        <li class="orange"><span>Be a good corporate citizen within the community</span></li>
+        <li class="orange"><span>Provide product and service of exceptional qualityProvide product and service of exceptional quality</span></li>
+        <li class="orange"><span>Deal fairly with our customers, suppliers and competitors</span></li>
+        <li class="orange"><span>Support fair and equal treatment of workers</span></li>
+        <li class="orange"><span>Provide fair and competitive wages</span></li>
+        <li class="orange"><span>Provide opportunity for employee growth and development</span></li>
+        <li class="orange"><span>Provide a safe and healthy workplace</span></li>
+        <li class="orange"><span>Commit to sustainable use of resources, through waste reduction, reuse, recycling, clean</span></li>
+        <li class="orange"><span>Manufacturing processes and energy conservation</span></li>
+        <li class="orange"><span>Dedicate ourselves to continual improvement</span></li>
         </ul>
 </div>

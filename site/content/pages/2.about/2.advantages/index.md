@@ -20,7 +20,7 @@ our-team:
     <div class="row">
         {{ assets:advantages-header }}
             <div class="col">
-                <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" />
+                <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" alt="Woodlore Advantages: We focus on being the best at one thing!"/>
             </div>
         {{ /assets:advantages-header }}
     </div>
@@ -40,7 +40,7 @@ our-team:
         </div>
         {{ assets:quality-standards }}
             <div class="col">
-                <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" />
+                <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" alt="Stringent Quality Standards" />
             </div>
         {{ /assets:quality-standards }}
     </div>
@@ -53,7 +53,7 @@ our-team:
         </div>
         {{ assets:environmental-standards }}
             <div class="col">
-                <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" />
+                <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" alt="Environmental Standards"/>
             </div>
         {{ /assets:environmental-standards }}
     </div>
@@ -66,7 +66,7 @@ our-team:
         </div>
         {{ assets:our-team }}
             <div class="col">
-                <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" />
+                <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" alt="Dedicated and highly-trained workforce."/>
             </div>
         {{ /assets:our-team }}
     </div>

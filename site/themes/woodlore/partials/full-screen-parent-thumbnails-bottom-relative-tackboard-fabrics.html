@@ -1,4 +1,4 @@
-<div style="width: 100%; height: 500px; margin-top: 0px; margin-right: auto; margin-bottom: 50px; margin-left: auto;">
+<div style="width: 100%; height: 500px; margin-top: 1em; margin-right: auto; margin-bottom: 50px; margin-left: auto;">
     <!-- Carousel Start -->
     <div id="full-screen-thumb-btm-rel" class="carousel slide bs4-carousel bs4-full-screen-parent bs4-indicators-thumb swipe_x bs4-easeOutSine thumb_scroll_x" data-ride="carousel" data-pause="hover" data-duration="1500" data-interval="5000" data-keyboard="false" data-wrap="true" data-thumb="bottom">
         <!-- Indicators Start -->
@@ -7,7 +7,7 @@
                 <!-- Indicators 1 Start -->
                 <li data-target="#full-screen-thumb-btm-rel" data-slide-to="{{ zero_index }}" {{ if first }}class="active"{{/if}}">
                     <!-- Image -->
-                    <img src="{{ glide:url q="35" fm="jpg" h="66" w="66"}}" alt="{{ filename }}">
+                    <img src="{{ glide:url q="35" fm="jpg" h="66" w="66"}}" alt="Tackboard Fabric Swatch - {{ filename }}">
                 </li>
                 <!-- Indicators 1 End -->
             {{ /assets:tackboard-fabrics }}
@@ -17,9 +17,9 @@
         <div class="carousel-inner" role="listbox">
             {{ assets:tackboard-fabrics }}
                 <!-- All Slides -->
-                <div class="carousel-item {{ if first }}active{{/if}}"><!--  style="background-size: cover" -->
+                <div class="carousel-item {{ if first }}active{{/if}}" alt="Tackboard Fabric Swatch - {{ filename }}"><!--  style="background-size: cover" -->
                     <!-- Image -->
-                    <img class="bs4-carousel-img" src="{{ glide:url q="60" fm="jpg" h="417"}}" alt="{{ filename }}" />
+                    <img class="bs4-carousel-img" src="{{ glide:url q="60" fm="jpg" h="417"}}"/>
                     <!-- image caption -->
                     <div class="carousel-caption d-md-block"><!-- took out d-none -->
                         <h3 class="woodlore-carousel-caption bold">{{ filename }}</h3>

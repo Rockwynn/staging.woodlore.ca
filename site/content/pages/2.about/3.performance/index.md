@@ -15,7 +15,7 @@ performance-header:
     <div class="row">
     {{ assets:performance-header }}
         <div class="col">
-            <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" />
+            <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" alt="You can rely on Woodlore's commitment to you"/>
         </div>
         {{ /assets:performance-header }}
     </div>
@@ -45,7 +45,7 @@ performance-header:
     <h5 class="orange bold">Performance Driven</h5>
     <p>We insist on the best for our customers and set aggressive Performance Targets to prove it:</p>
     <ul>
-        <li class="orange">On-time Delivery: 99.75% (2500 DPPM)</li>
-        <li class="orange">Quality Objective: 99:80% (2007 DPPM)</li>
+        <li class="orange"><span>On-time Delivery: 99.75% (2500 DPPM)</span></li>
+        <li class="orange"><span>Quality Objective: 99:80% (2007 DPPM)</span></li>
         </ul>
 </div>

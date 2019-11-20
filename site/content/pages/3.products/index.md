@@ -25,7 +25,7 @@ distinctive-look:
     <div class="row">
         {{ assets:products-header }}
         <div class="col">
-            <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image">
+            <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" alt="Modular furniture components designed to come together to provide an endless variety of design options.">
         </div>
         {{ /assets:products-header }}
     </div>
@@ -40,23 +40,23 @@ distinctive-look:
         <h5 class="orange bold">Haven</h5>
         <p>Modular furniture components designed to come together to provide an endless variety of design options. Functional and refined, Haven’s extensive breadth of line and wide choice of finish selections deliver the ultimate in product modularity and flexibility.</p>
         <ul>
-            <li>1" thick worksurface</li>
-            <li>Titus Quickfit metal-to-metal pin and cam connectors</li>
-            <li>full extension, ball bearing <strong class="dgreen">box</strong> and file pedestal drawer slides</li>
-            <li>drawer fronts are grain matched</li>
-            <li>lateral file drawer interiors are 20 gauge steel finished in black</li>
-            <li>full overlay 165° hinges on overhead cabinet/storage tower doors</li>
-            <li>FSC certified board</li>
-            <li>2.5mm ABS edgebanding (environmentally superior)</li>
-            <li>MEETS ALL applicable ANSI/BIFMA strength & durability standards</li>
-            <li>Lifetime Warranty</li>
+            <li class="orange"><span>1" thick worksurface</span></li>
+            <li class="orange"><span>Titus Quickfit metal-to-metal pin and cam connectors</span></li>
+            <li class="orange"><span>full extension, ball bearing <strong class="dgreen">box</strong> and file pedestal drawer slides</span></li>
+            <li class="orange"><span>drawer fronts are grain matched</span></li>
+            <li class="orange"><span>lateral file drawer interiors are 20 gauge steel finished in black</span></li>
+            <li class="orange"><span>full overlay 165° hinges on overhead cabinet/storage tower doors</span></li>
+            <li class="orange"><span>FSC certified board</span></li>
+            <li class="orange"><span>2.5mm ABS edgebanding (environmentally superior)</span></li>
+            <li class="orange"><span>MEETS ALL applicable ANSI/BIFMA strength & durability standards</span></li>
+            <li class="orange"><span>Lifetime Warranty</span></li>
         </ul>
         </div>
         <div class="col">
             <div class="card-group">
                 {{ assets:haven }}
                 <div class="card">
-                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="...">
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="Haven delivers the ultimate in product modularity and flexibility.">
                     <div class="card-body">
                         <p class="centered card-text">Haven Modular Furniture Components</p>
                     </div>
@@ -73,25 +73,25 @@ distinctive-look:
         <h5 class="orange bold">Haven Plus</h5>
         <p>Haven Plus makes a distinctive statement with its substantial 1-1/2″ thick worksurfaces and distinguished styling details – an elegant design alternative.</p>
         <ul>
-            <li><span>1 1/2" thick worksurface</span></li>
-            <li><span>available with your choice of 5 handles</span></li>
-            <li><span>choice of 3 edge details</span></li>
-            <li><span>Titus Quickfit metal-to-metal pin and cam connectors</span></li>
-            <li><span>full extension, ball bearing box and file pedestal drawer slides</span></li>
-            <li><span>drawer fronts are grain matched</span></li>
-            <li><span>lateral file drawer interiors are 20 gauge steel finished in black</span></li>
-            <li><span>full overlay 165° hinges on overhead cabinet/storage tower doors</span></li>
-            <li><span>FSC certified board</span></li>
-            <li><span>2.5mm ABS edgebanding (environmentally superior)</span></li>
-            <li><span>MEETS ALL applicable ANSI/BIFMA strength & durability standards</span></li>
-            <li><span>Lifetime Warranty</span></li>
+            <li class="orange"><span>1 1/2" thick worksurface</span></li>
+            <li class="orange"><span>available with your choice of 5 handles</span></li>
+            <li class="orange"><span>choice of 3 edge details</span></li>
+            <li class="orange"><span>Titus Quickfit metal-to-metal pin and cam connectors</span></li>
+            <li class="orange"><span>full extension, ball bearing box and file pedestal drawer slides</span></li>
+            <li class="orange"><span>drawer fronts are grain matched</span></li>
+            <li class="orange"><span>lateral file drawer interiors are 20 gauge steel finished in black</span></li>
+            <li class="orange"><span>full overlay 165° hinges on overhead cabinet/storage tower doors</span></li>
+            <li class="orange"><span>FSC certified board</span></li>
+            <li class="orange"><span>2.5mm ABS edgebanding (environmentally superior)</span></li>
+            <li class="orange"><span>MEETS ALL applicable ANSI/BIFMA strength & durability standards</span></li>
+            <li class="orange"><span>Lifetime Warranty</span></li>
         </ul>
         </div>
         <div class="col">
             <div class="card-group">
                 {{ assets:haven-plus }}
                 <div class="card">
-                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="...">
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="Haven Plus makes a distinctive statement">
                     <div class="card-body">
                         <p class="centered card-text">Haven Plus</p>
                     </div>
@@ -108,17 +108,17 @@ distinctive-look:
         <h5 class="orange bold">Reception</h5>
         <p>Because first impression counts</p>
         <ul>
-            <li><span>creates a welcoming and professional atmosphere</span></li>
-            <li><span>provides an efficient and supportive work environment</span></li>
-            <li><span>available in coordinating or contrasting tops and bases</span></li>
-            <li><span>unlimited design versatility</span></li>
+            <li class="orange"><span>creates a welcoming and professional atmosphere</span></li>
+            <li class="orange"><span>provides an efficient and supportive work environment</span></li>
+            <li class="orange"><span>available in coordinating or contrasting tops and bases</span></li>
+            <li class="orange"><span>unlimited design versatility</span></li>
         </ul>
         </div>
         <div class="col">
             <div class="card-group">
                 {{ assets:reception }}
                 <div class="card">
-                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="...">
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="Custom Reception Office Furniture">
                     <div class="card-body">
                         <p class="centered card-text">Custom Reception Office Furniture</p>
                     </div>
@@ -135,18 +135,18 @@ distinctive-look:
             <h5 class="orange bold">Supporting the Open Plan</h5>
             <p>Precision engineering and uncompromising quality are built into every component</p>
             <ul>
-                <li><span>delivers a clean, contemporary aesthetic</span></li>
-                <li><span>available at a very attractive price point</span></li>
-                <li><span>choice of 24 laminate finish options</span></li>
-                <li><span>frosted acrylic panel dividers, available in 12" and 18" heights offer a simple, pleasing option for space division and visual privacy</span></li>
-                <li><span>extensive breadth of line delivers unlimited application possibilities</span></li>
+                <li class="orange"><span>delivers a clean, contemporary aesthetic</span></li>
+                <li class="orange"><span>available at a very attractive price point</span></li>
+                <li class="orange"><span>choice of 24 laminate finish options</span></li>
+                <li class="orange"><span>frosted acrylic panel dividers, available in 12" and 18" heights offer a simple, pleasing option for space division and visual privacy</span></li>
+                <li class="orange"><span>extensive breadth of line delivers unlimited application possibilities</span></li>
             </ul>
         </div>
         <div class="col">
             <div class="card-group">
                 {{ assets:open-plan }}
                 <div class="card">
-                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="...">
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="Frosted Acrylic Panel Dividers">
                     <div class="card-body">
                         <p class="centered card-text">Frosted Acrylic Panel Dividers</p>
                     </div>
@@ -163,18 +163,18 @@ distinctive-look:
         <h5 class="orange bold">Distinctive Look and Feel</h5>
         <p>A mix of materials combine to create a striking alternative aesthetic</p>
         <ul>
-            <li><span>creates a lighter more open space</span></li>
-            <li><span>integrates wire and cable management capability into anodized aluminum legs</span></li>
-            <li><span>incorporates frosted acrylic modesty and end panels</span></li>
-            <li><span>works equally well in the private office or open floor plan</span></li>
-            <li><span>coordinates with optional frosted doors on overheads and storage towers</span></li>
+            <li class="orange"><span>creates a lighter more open space</span></li>
+            <li class="orange"><span>integrates wire and cable management capability into anodized aluminum legs</span></li>
+            <li class="orange"><span>incorporates frosted acrylic modesty and end panels</span></li>
+            <li class="orange"><span>works equally well in the private office or open floor plan</span></li>
+            <li class="orange"><span>coordinates with optional frosted doors on overheads and storage towers</span></li>
         </ul>
         </div>
         <div class="col">
             <div class="card-group">
                 {{ assets:distinctive-look }}
                 <div class="card">
-                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="...">
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="Sophisticated Workspaces">
                     <div class="card-body">
                         <p class="centered card-text">Sophisticated Workspaces</p>
                     </div>

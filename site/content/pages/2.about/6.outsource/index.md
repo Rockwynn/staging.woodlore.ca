@@ -15,7 +15,7 @@ outsource-header:
     <div class="row">
         {{ assets:outsource-header }}
             <div class="col">
-                <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" />
+                <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" alt="Woodlore's is your competitive alternative to overseas sourcing."/>
             </div>
         {{ /assets:outsource-header }}
     </div>

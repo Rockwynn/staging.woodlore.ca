@@ -15,7 +15,7 @@ terms-of-use-header:
     <div class="row">
         {{ assets:terms-of-use-header }}
             <div class="col">
-                <img src="{{ glide:url fm="jpg" }}" class="large-image">
+                <img src="{{ glide:url fm="jpg" }}" class="large-image" alt="Woodlore Terms of Use">
             </div>
         {{ /assets:terms-of-use-header }}
     </div>

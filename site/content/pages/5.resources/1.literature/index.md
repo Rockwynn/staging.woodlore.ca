@@ -21,7 +21,7 @@ steelcase:
   		    <div class="row">
                 {{ assets:top-image }}
   		        <div class="col">
-                    <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" />
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" alt="Woodlore's 2019 Catalogues"/>
  		        </div>
                 {{ /assets:top-image }}
   		    </div>

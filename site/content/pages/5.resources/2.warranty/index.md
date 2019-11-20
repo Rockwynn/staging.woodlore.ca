@@ -15,7 +15,7 @@ warranty-header:
     <div class="row">
         {{ assets:warranty-header }}
             <div class="col">
-                <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image">
+                <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" alt="All Woodlore products carry a Lifetime Warranty against defects in material and workmanship.">
             </div>
         {{ /assets:warranty-header }}
     </div>

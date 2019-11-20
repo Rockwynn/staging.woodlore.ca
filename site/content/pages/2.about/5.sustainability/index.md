@@ -19,7 +19,7 @@ carb:
     <div class="row">
         {{ assets:sustainability-header }}
         <div class="col">
-            <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" />
+            <img src="{{ glide:url q="75" fm="jpg" }}" class="large-image" alt="Woodlore is commited to Sustainability"/>
         </div>
         {{ /assets:sustainability-header }}
     </div>
@@ -69,7 +69,7 @@ carb:
         </div>
         {{ assets:bifma }}
             <div class="col">
-                <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" />
+                <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" alt="Woodlore is environmentally and socially conscious"/>
             </div>
         {{ /assets:bifma }}
     </div>
@@ -92,7 +92,7 @@ carb:
         </div>
         {{ assets:carb }}
             <div class="col">
-                <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" />
+                <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" alt="Woodlore's products meet CARB Phase II requirements"/>
             </div>
         {{ /assets:carb }}
     </div>
