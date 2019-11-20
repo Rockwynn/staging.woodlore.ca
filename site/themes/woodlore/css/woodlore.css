@@ -9851,11 +9851,11 @@ Element by thecodeblock.com
   min-height: 480px;
 }
 
-@media all and (min-width: 576px) {
-  .card-deck {
-    width: 100%;
-  }
-}
+/*@media all and (min-width:576px){
+    .card-deck {
+        width: 100%;
+    }
+}*/
 
 @media screen and (min-width: 576px) {
   .card-deck .card {
