@@ -191,7 +191,9 @@ source.bs4-column-img {
         animation-delay: 1s;
     }
 }
-
+.bs-cover {
+    background-size: cover;
+}
 
 /*------------------------------------------------------*/
 /* RESPONSIVE
@@ -211,7 +213,7 @@ source.bs4-column-img {
 /*---------- MEDIA 480px ----------*/
 @media  (max-width: 767px) {
     #full-screen-parent-simple-indicators {
-        height: 190px;
+        height: 200px;
     }
     .bs4-indicators-simple .carousel-indicators.carousel-indicators-bottom-center {
         bottom: 0px;
