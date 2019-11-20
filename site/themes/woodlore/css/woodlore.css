@@ -8935,6 +8935,10 @@ source.bs4-column-img {
   #full-screen-parent-simple-indicators .blurb-col-class h2 {
     font-size: 1em;
   }
+
+  .row-class {
+    display: none;
+  }
 }
 
 /*---------- MEDIA 480px ----------*/

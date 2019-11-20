@@ -212,6 +212,9 @@ source.bs4-column-img {
         font-size: 1em;
         }
     }
+    .row-class {
+        display: none;
+    }
 }
 /*---------- MEDIA 480px ----------*/
 @media  (max-width: 767px) {
