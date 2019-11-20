@@ -8928,6 +8928,10 @@ source.bs4-column-img {
   #full-screen-parent-simple-indicators {
     height: 500px;
   }
+
+  .home-page-hero {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
@@ -8936,7 +8940,7 @@ source.bs4-column-img {
     font-size: 1em;
   }
 
-  .row-class {
+  .home-page-slider {
     display: none;
   }
 }
