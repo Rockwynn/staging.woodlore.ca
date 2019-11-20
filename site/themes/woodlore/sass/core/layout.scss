@@ -152,7 +152,7 @@ footer.container {
 
 				li.list-menu {
 					background-image: url("/assets/img/logosandmisc/arrow-circle-right-solid.svg");
-					/*background-position-x: -144px!important;*/
+					-ms-background-position-x: -144px!important;
 					background-position: left;
 					background-repeat: no-repeat;
 					padding-left: 30px;
@@ -171,9 +171,6 @@ footer.container {
 						color: #e6e6e6;
 						font-weight: 300;
 					}*/
-				}
-				_:-ms-fullscreen, :root .li.list-menu {
-					background-position: -140px;
 				}
 			}
 		}
