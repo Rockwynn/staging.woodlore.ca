@@ -2,7 +2,17 @@
 	<div class="row">
 		<div class="col">
 			<h3 class="dgreen"style="text-align: center;">{{ hero_sub_title }}</h3>
-			<img src="{{ glide:hero_image q="75" fm="jpg" }}" alt="Woodlore Office Furniture Manufacturing Inc"/>
+
+			<picture class="col">
+				<source srcset="{{ glide:hero_image q="75" fm="webp" w="" h="" }}"alt="Woodlore Office Furniture Manufacturing Inc" type="image/webp">
+				<source srcset="{{ glide:hero_image q="75" fm="jpg" w="" h="" }}" alt="Woodlore Office Furniture Manufacturing Inc" type="image/jpg">
+				<img src="{{ glide:hero_image q="75" fm="jpg" w="" h="" }}" alt="Woodlore Office Furniture Manufacturing Inc">
+			</picture>
+
+
+			<!--<img src="{{ glide:hero_image q="75" fm="jpg" }}" alt="Woodlore Office Furniture Manufacturing Inc"/>-->
+
+
 			<!--<img src="/assets/img/about-us-page/woodloreglass.jpg" class="large-image">-->
 		</div>
 	</div>
