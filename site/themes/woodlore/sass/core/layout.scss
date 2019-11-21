@@ -333,6 +333,10 @@ article.content img.mycard {
 span {
 	color: $color_grey_text;
 }
+.btop a, .btop a:hover, .btop a:visited, .btop a:active, .btop a:focus {
+	color: $color_dgreen;
+	text-decoration: none;
+}
 /*.caption {
 	margin-left: auto;
 	margin-right: auto;

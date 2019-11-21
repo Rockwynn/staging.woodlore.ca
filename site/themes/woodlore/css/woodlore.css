@@ -8354,6 +8354,15 @@ span {
   color: #212529;
 }
 
+.btop a,
+.btop a:hover,
+.btop a:visited,
+.btop a:active,
+.btop a:focus {
+  color: #005e32;
+  text-decoration: none;
+}
+
 /*.caption {
 	margin-left: auto;
 	margin-right: auto;
