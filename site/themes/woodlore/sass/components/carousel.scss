@@ -197,11 +197,22 @@ source.bs4-column-img {
 .bs-one-hundred {
     background-size: 100% 100%;
 }
+.carousel-control-ip, .carousel-control-ip:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.fill {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('path/to/image.jpg');
+}
 
 /*------------------------------------------------------*/
 /* RESPONSIVE
 /*------------------------------------------------------*/
-<!--@media (min-width: 768px) {-->
+/*@media (min-width: 768px)*/
 @media (min-width: 1025px) {
     #full-screen-parent-simple-indicators {
         height: 500px;
@@ -277,15 +288,5 @@ source.bs4-column-img {
         }
     }
 }
-.carousel-control-ip, .carousel-control-ip:hover {
-    width: 35px;
-    height: 35px;
-}
 
-.fill {
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url('path/to/image.jpg');
-}
 /* end of home page slider text */
