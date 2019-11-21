@@ -8365,7 +8365,7 @@ span {
   left: 96%;
   max-width: 30px;
   width: 100%;
-  font-size: 12px;
+  font-size: 1em;
   font-weight: bold;
   border-color: rgba(85, 85, 85, 0.2);
   background-color: #ff6600;
@@ -9059,6 +9059,10 @@ source.bs4-column-img {
 .gallery-images img {
   vertical-align: bottom;
   opacity: 0;
+}
+
+.card-block {
+  padding: 0 0.5em;
 }
 
 .card-deck .card {
