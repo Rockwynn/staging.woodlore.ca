@@ -205,24 +205,21 @@ source.bs4-column-img {
     #full-screen-parent-simple-indicators {
         height: 500px;
     }
-    .home-page-hero {
-        /*display: none;*/
-    }
-}
-@media (max-width: 767px) {
-    #full-screen-parent-simple-indicators .header-col-class, #full-screen-parent-simple-indicators .blurb-col-class {
-        h2 {
-        font-size: 1em;
-        }
-    }
-    .home-page-slider {
+    .hero {
         display: none;
     }
 }
 /*---------- MEDIA 480px ----------*/
 @media  (max-width: 767px) {
+
+    #full-screen-parent-simple-indicators {
+        display: none;
+    }
     #full-screen-parent-simple-indicators {
         height: 200px;
+    }
+    #full-screen-parent-simple-indicators .header-col-class h2, #full-screen-parent-simple-indicators .blurb-col-class h2 {
+        font-size: 1em;
     }
     .bs4-indicators-simple .carousel-indicators.carousel-indicators-bottom-center {
         bottom: 0px;

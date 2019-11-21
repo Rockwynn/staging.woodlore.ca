@@ -18,7 +18,7 @@
 	margin-top: -21px;
 
 	.hero-background {
-		background-size: cover;
+		background-size: 100% 100%;
 		background-repeat: no-repeat;
 		height: 700px;
 		position: relative;
@@ -27,7 +27,7 @@
 			height: 700px;
 			width: 100%;
 			position: absolute;
-			background: rgba(0,0,0,.55);
+			background: rgba(0,0,0,0.2);
 			z-index: 1;
 		}
 	}
@@ -67,7 +67,11 @@
 			display: block;
 			text-align: center;
 		}
-
+		.img-circle {
+			width: 48px;
+			height: 48px;
+			background-color: rgba(255,255,255,0.7);
+		}
 		.name {
 			color: #fff;
 			margin: 5px 0;
@@ -160,7 +164,7 @@ footer.container {
 					font-weight: bold;
 					margin: ($gap * 0.125) 0;
 					max-height: 24px;
-					font-size: 1.1vw;
+					/*font-size: 1.1vw;*/
 					/*font-family: 'FontAwesome';
 					content: '\f0a9';
 					margin:0 5px 0 -15px;
