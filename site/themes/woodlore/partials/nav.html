@@ -3,7 +3,21 @@
 <nav class="navbar navbar-woodlore navbar-expand-lg navbar-light bg-light navbar-redwood">
     <div class="container">
 	        <a class="navbar-brand" href="/">
-                {{ assets:woodlorelogo }}<img src="{{ glide:url q="75" fm="jpg" }}" alt="Woodlore International Inc.">{{ /assets:woodlorelogo }}</a>
+                {{ assets:woodlorelogo }}
+
+
+                    <picture>
+                        <source srcset="{{ glide:url q="75" fm="webp" w="" h="" }}" alt="Woodlore International Inc." type="image/webp">
+                        <source srcset="{{ glide:url q="75" fm="jpg" w="" h="" }}" alt="Woodlore International Inc." type="image/jpg">
+                        <img src="{{ glide:url q="75" fm="jpg" w="" h="" }}"  alt="Woodlore International Inc.">
+                    </picture>
+
+
+                    <!--<img src="{{ glide:url q="75" fm="jpg" }}" alt="Woodlore International Inc.">-->
+
+
+                {{ /assets:woodlorelogo }}
+            </a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 	  	</button>
