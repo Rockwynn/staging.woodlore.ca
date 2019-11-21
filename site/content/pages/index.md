@@ -3,7 +3,7 @@ title: Home
 nav-title: Home
 hero_title: 'Woodlore International Inc.'
 hero_sub_title: 'Custom Office Furniture'
-hero_image: /assets/img/logosandmisc/boardroom-table.jpg
+hero_image: /assets/img/logosandmisc/hero.jpg
 logo: /assets/img/logosandmisc/logo3.png
 layout: default
 template: home-page
