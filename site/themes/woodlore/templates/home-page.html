@@ -10,7 +10,6 @@
 
 
 
-
 <section class="regular">
 	<div class="container-fluid centered">
 		<div class="row">
@@ -18,7 +17,21 @@
 				{{ collection:home-4-up }}
 					<div id="mywidth" class="card">
 						<a class="example-image-link" width="552" height="552" fit="crop" ><!-- href="{{ photo }}" data-lightbox="example-set" data-title="{{ image_title }} - Click on right or left half of image to navigate." -->
-							<img class="example-image card-img-top" src="{{ glide:photo q="75" fm="jpg" }}" fit="crop" alt="{{ alt }}" />
+
+
+
+							<picture class="col">
+								<source class="example-image card-img-top" srcset="{{ glide:photo q="75" fm="webp" w="" h="" }}" fit="crop" alt="{{ alt }}" type="image/webp">
+								<source class="example-image card-img-top" srcset="{{ glide:photo q="75" fm="jpg" w="" h="" }}" fit="crop" alt="{{ alt }}" type="image/jpg">
+								<img class="example-image card-img-top" src="{{ glide:photo q="75" fm="jpg" w="" h="" }}" fit="crop" alt="{{ alt }}">
+							</picture>
+							<!--<img class="example-image card-img-top" src="{{ glide:photo q="75" fm="jpg" }}" fit="crop" alt="{{ alt }}" />-->
+
+
+
+
+
+
 						</a>
 						<div class="card-block">
 							<h5 class="dgreen bold card-title">{{ title }}</h5>
@@ -31,3 +44,28 @@
 		</div>
 	</div>
 </section>
+
+
+
+
+
+<!--<section class="regular">
+	<div class="container-fluid centered">
+		<div class="row">
+			<div class="card-deck">
+				{{ collection:home-4-up }}
+					<div id="mywidth" class="card">
+						<a class="example-image-link" width="552" height="552" fit="crop" ><!-- href="{{ photo }}" data-lightbox="example-set" data-title="{{ image_title }} - Click on right or left half of image to navigate." -->
+			<!--				<img class="example-image card-img-top" src="{{ glide:photo q="75" fm="jpg" }}" fit="crop" alt="{{ alt }}" />
+						</a>
+						<div class="card-block">
+							<h5 class="dgreen bold card-title">{{ title }}</h5>
+							<p class="card-text">{{ blurb }}</p>
+							<a href="{{ link }}"><span class="dgreen bold">Read More [...]</span></a>
+						</div>
+					</div>
+				{{ /collection:home-4-up }}
+			</div>
+		</div>
+	</div>
+</section>-->
