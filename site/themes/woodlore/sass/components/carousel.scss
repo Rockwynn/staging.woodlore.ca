@@ -205,14 +205,14 @@ source.bs4-column-img {
     #full-screen-parent-simple-indicators {
         height: 500px;
     }
-    .hero {
+    .home-hero {
         display: none;
     }
 }
 /*---------- MEDIA 480px ----------*/
 @media  (max-width: 767px) {
 
-    #full-screen-parent-simple-indicators {
+    #full-screen-parent-simple-indicators.home-page-slider {
         display: none;
     }
     #full-screen-parent-simple-indicators {
