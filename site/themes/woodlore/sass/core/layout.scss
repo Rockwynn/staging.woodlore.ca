@@ -334,13 +334,14 @@ span {
 	color: $color_grey_text;
 }
 /*Floating Back-To-Top Button*/
-    #myBtn {
+button#myBtn a {
+
         position: fixed;
         bottom: 10px;
         float: right;
         right: 18.5%;
         left: 77.25%;
-		left: 96%;
+		left: 90%;
         max-width: 30px;
         width: 100%;
         font-size: 1em;
@@ -350,11 +351,15 @@ span {
         padding: .5px;
         border-radius: 4px;
 
-    }
+
+}
 /*On Hover Color Change*/
-    #myBtn:hover {
+button#myBtn a:hover {
+
         background-color: rgb(223,239,144);
-    }
+		color: #fff;
+
+}
 /*products page to get images to drop below on narrow device width */
 #dropBelow.block {
 	img {

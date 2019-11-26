@@ -8356,13 +8356,13 @@ span {
 
 /*Floating Back-To-Top Button*/
 
-#myBtn {
+button#myBtn a {
   position: fixed;
   bottom: 10px;
   float: right;
   right: 18.5%;
   left: 77.25%;
-  left: 96%;
+  left: 90%;
   max-width: 30px;
   width: 100%;
   font-size: 1em;
@@ -8375,8 +8375,9 @@ span {
 
 /*On Hover Color Change*/
 
-#myBtn:hover {
+button#myBtn a:hover {
   background-color: #dfef90;
+  color: #fff;
 }
 
 /*products page to get images to drop below on narrow device width */
