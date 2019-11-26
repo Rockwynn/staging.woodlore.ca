@@ -334,7 +334,8 @@ span {
 	color: $color_grey_text;
 }
 /*Floating Back-To-Top Button*/
-button#myBtn a {
+
+button#myBtn, button#myBtn a {
 
         position: fixed;
         bottom: 10px;

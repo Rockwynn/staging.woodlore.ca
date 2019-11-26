@@ -8356,6 +8356,7 @@ span {
 
 /*Floating Back-To-Top Button*/
 
+button#myBtn,
 button#myBtn a {
   position: fixed;
   bottom: 10px;
