@@ -52,7 +52,7 @@ carb:
 
 
 
-<div class="block">
+<div id="dropBelow" class="block">
     <div class="row aligner">
         <div class="col">
             <h5 class="orange bold">BIFMA e3 – 2014 / Level Certification</h5>
@@ -67,11 +67,18 @@ carb:
             <h5 class="orange bold">Woodlore</h5>
             <p>Our furniture has been tested and is compliant with the requirements set forth by ANSI/BIFMA X7.1 – 2007, LEEDS EQ Credit 4.5 and Greenguard.</p>
         </div>
-        {{ assets:bifma }}
-            <div class="col">
-                <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" alt="Woodlore is environmentally and socially conscious"/>
+        <div class="col">
+            <div class="card-group">
+                {{ assets:bifma }}
+                <div class="card">
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="Woodlore is environmentally and socially conscious">
+                    <div class="card-body">
+                        <p class="centered card-text">Environmentally Conscious</p>
+                    </div>
+                {{ /assets:bifma }}
+                </div>
             </div>
-        {{ /assets:bifma }}
+        </div>
     </div>
 </div>
 
@@ -81,7 +88,7 @@ carb:
 
 
 
-<div class="block">
+<div id="dropBelow" class="block">
     <div class="row aligner">
         <div class="col">
             <h5 class="orange bold">CARB Rule 93120 Phase II</h5>
@@ -90,11 +97,18 @@ carb:
             <h5 class="orange bold">Woodlore</h5>
             <p>Our products meet CARB Phase II requirements</p>
         </div>
-        {{ assets:carb }}
-            <div class="col">
-                <img src="{{ glide:url q="75" fm="jpg" }}" class="small-image" alt="Woodlore's products meet CARB Phase II requirements"/>
+        <div class="col">
+            <div class="card-group">
+                {{ assets:carb }}
+                <div class="card">
+                    <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="Woodlore's products meet CARB Phase II requirements"/>
+                    <div class="card-body">
+                        <p class="centered card-text">Woodlore maintains stringent emission standards</p>
+                    </div>
+                {{ /assets:carb }}
+                </div>
             </div>
-        {{ /assets:carb }}
+        </div>
     </div>
 </div>
 
