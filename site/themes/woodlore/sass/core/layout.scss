@@ -355,6 +355,17 @@ span {
     #myBtn:hover {
         background-color: rgb(223,239,144);
     }
+/*products page to get images to drop below on narrow device width */
+#dropBelow.block {
+	img {
+		max-width: none;
+	}
+}
+#dropBelow.block {
+	img.card-img-top {
+		width: unset;
+	}
+}
 /*.caption {
 	margin-left: auto;
 	margin-right: auto;

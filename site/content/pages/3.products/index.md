@@ -34,7 +34,7 @@ distinctive-look:
     <h5 class="orange bold">Woodlore's most extensive laminate office solution</h5>
     <p>Create the look and function that best supports your working style. With a multitude of components, Haven delivers a unique and sophisticated design solution to every work environment – and does it at an affordable price.</p>
 </div>
-<div class="block">
+<div id="dropBelow" class="block">
     <div class="row aligner">
         <div class="col">
         <h5 class="orange bold">Haven</h5>
@@ -67,7 +67,7 @@ distinctive-look:
     </div>
 </div>
 
-<div class="block">
+<div id="dropBelow" class="block">
     <div class="row aligner">
         <div class="col">
         <h5 class="orange bold">Haven Plus</h5>
@@ -102,7 +102,7 @@ distinctive-look:
     </div>
 </div>
 
-<div class="block">
+<div id="dropBelow" class="block">
     <div class="row aligner">
         <div class="col">
         <h5 class="orange bold">Reception</h5>
@@ -129,7 +129,7 @@ distinctive-look:
     </div>
 </div>
 
-<div class="block">
+<div id="dropBelow" class="block">
     <div class="row aligner">
         <div class="col">
             <h5 class="orange bold">Supporting the Open Plan</h5>
@@ -157,35 +157,6 @@ distinctive-look:
     </div>
 </div>
 
-<!-- -->
-
-<div class="block">
-    <div class="row aligner">
-        <div class="col">
-            <h5 class="orange bold">Distinctive Look and Feel</h5>
-            <p>A mix of materials combine to create a striking alternative aesthetic</p>
-            <ul>
-                <li class="orange"><span>creates a lighter more open space</span></li>
-                <li class="orange"><span>integrates wire and cable management capability into anodized aluminum legs</span></li>
-                <li class="orange"><span>incorporates frosted acrylic modesty and end panels</span></li>
-                <li class="orange"><span>works equally well in the private office or open floor plan</span></li>
-                <li class="orange"><span>coordinates with optional frosted doors on overheads and storage towers</span></li>
-            </ul>
-        </div>
-        {{ assets:distinctive-look }}
-            <div class="col">
-            <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="Sophisticated Workspaces">
-            <div class="card-body">
-                <p class="centered card-text">Sophisticated Workspaces</p>
-            </div>
-            </div>
-        {{ /assets:distinctive-look }}
-    </div>
-</div>
-
-
-
-<!-- -->
 
 
 
@@ -201,7 +172,8 @@ distinctive-look:
 
 
 
-<div class="block">
+
+<div id="dropBelow" class="block">
     <div class="row aligner">
         <div class="col">
         <h5 class="orange bold">Distinctive Look and Feel</h5>
