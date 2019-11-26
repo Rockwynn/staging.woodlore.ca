@@ -86,7 +86,7 @@ our-team:
                 <div class="card">
                     <img src="{{ glide:url q="75" fm="jpg" }}" class="card-img-top" alt="Dedicated and highly-trained workforce."/>
                     <div class="card-body">
-                        <p class="centered card-text">Highly trained workforce</p>
+                        <p class="centered card-text">Highly Trained Workforce</p>
                     </div>
                 {{ /assets:our-team }}
                 </div>
