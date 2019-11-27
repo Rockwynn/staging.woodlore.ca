@@ -1,7 +1,7 @@
 fields:
   name:
     display: Name
-    validate: 'required'
+    validate: required
   email:
     display: 'Email Address'
     validate: required|email
@@ -17,36 +17,7 @@ columns:
   - comment
 email:
   -
-    to: info@woodlore.ca
+    to: info@rockwynnwebdesign.ca
     from: info@woodlore.ca
     reply_to: '{{email}}'
     subject: 'CONTACT FORM WOODLORE INTERNATIONAL INC.'
-
-
-#title: Contact Me
-
-#fields:
-#  name:
-#    display: Name
-#    validate: required|min:2
- # email:
-#    display: Email Address
-#    validate: required|email
- # number:
-#    display: Favorite Number
-#    validate: integer
- # comment:
-#    display: Comment
-
-#metrics:
- # -
-#    type: total
-#    label: Total Responses
- # -
-#    type: sum
-##    label: Sum of Favorite Number
-#  -
-#    type: average
-#    field: number
-#    label: Average Favorite Number
-#    precision: 1
