@@ -1,38 +1,8 @@
-title: 'Contact Me'
+
 fields:
-  section:
-    display: Article Hero
-    type: section
-  subtitle:
-    display: Subtitle
-    type: text
-  background_image:
-    display: Background Image
-    type: assets
-    container: main
-    max_files: 1
-  background_color:
-    display: Background Overlay Color
-    type: text
-    mode: color
-    width: 50
-  blend_mode:
-    display: Background Blend Mode
-    type: select
-    default: none
-    width: 50
-    options:
-      none: none
-      overlay: overlay
-      soft-light: soft-light
-      multiply: multiply
-  headline:
-    type: text
-  subhead:
-    type: text
   name:
     display: Name
-    validate: 'required|min:2'
+    validate: 'required'
   email:
     display: 'Email Address'
     validate: required|email
@@ -46,11 +16,6 @@ columns:
   - email
   - phone
   - comment
-metrics:
-  -
-    type: total
-    label: 'Total Responses'
-
 email:
   -
     to: info@rockwynnwebdesign.ca
