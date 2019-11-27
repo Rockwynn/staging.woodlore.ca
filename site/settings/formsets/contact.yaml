@@ -17,7 +17,7 @@ columns:
   - comment
 email:
   -
-    to: info@rockwynnwebdesign.ca
+    to: info@woodlore.ca
     from: info@woodlore.ca
     reply_to: '{{email}}'
     subject: 'CONTACT FORM WOODLORE INTERNATIONAL INC.'
