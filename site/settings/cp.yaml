@@ -1,17 +1,20 @@
+start_page: dashboard
+date_format: Y/n/d
+pagination_size: 50
 widgets:
   -
     type: collection
-    collection: blog
-    limit: 5
+    collection: home-page-slider
+    limit: 7
   -
     type: collection
     collection: facility
-    limit: 5
+    limit: 7
   -
     type: form
     form: contact
     limit: 5
-    title: Recent Submissions
+    title: 'Recent Submissions'
     width: full
     fields:
       - name

@@ -1,3 +1,5 @@
+title: contact
+honeypot: state
 fields:
   name:
     display: Name
@@ -9,7 +11,6 @@ fields:
     display: Phone
   comment:
     display: Comment
-honeypot: state
 columns:
   - name
   - email
@@ -18,6 +19,5 @@ columns:
 email:
   -
     to: info@rockwynnwebdesign.ca
-    from: info@rockwynnwebdesign.ca
     reply_to: '{{email}}'
     subject: 'CONTACT FORM WOODLORE INTERNATIONAL INC.'
