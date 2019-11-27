@@ -23,8 +23,9 @@ input.giant {
 .state {
 	display: none;
 }
-@media (max-width: 732px ){
+@media (max-width: 1024px ){
 .w-phone {
 	font-size: 200%;
+	margin-top: ($gap * 0.5);
 }
 }

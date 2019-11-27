@@ -53,8 +53,8 @@ metrics:
 
 email:
   -
-    to: info@woodlore.ca
-    from: info@woodlore.ca
+    to: whitehouseont@gmail.com
+    from: whitehouseont@gmail.com
     reply_to: '{{email}}'
     subject: 'CONTACT FORM WOODLORE INTERNATIONAL INC.'
 

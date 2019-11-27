@@ -8437,9 +8437,10 @@ input.giant:active {
   display: none;
 }
 
-@media (max-width: 732px) {
+@media (max-width: 1024px) {
   .w-phone {
     font-size: 200%;
+    margin-top: 16px;
   }
 }
 
@@ -9408,6 +9409,7 @@ img.zoom-img {
   color: #e6e6e6;
   font-weight: 300;
   margin: 8px 0;
+  max-height: 19px;
   /*font-family: 'FontAwesome';
     content: '\f0a9';
     margin:0 5px 0 -15px;
