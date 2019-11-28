@@ -3,10 +3,10 @@ honeypot: state
 fields:
   name:
     display: Name
-    validate: required
+    validate: required|min:2
   email:
     display: Email
-    validate: required
+    validate: required|email
   phone:
     display: Phone
     validate: ''
