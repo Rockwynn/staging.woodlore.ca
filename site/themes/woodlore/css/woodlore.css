@@ -8273,6 +8273,7 @@ footer.page p.copyright {
   font-weight: 600;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
   /*margin-bottom: 20px;*/
 }
 
@@ -8281,11 +8282,12 @@ footer.page p.tribute {
 		color: $color_light;*/
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.5);
   /*text-transform: uppercase;*/
-  letter-spacing: .05em;
+  /*letter-spacing: .05em;*/
   text-align: center;
+  white-space: nowrap;
 }
 
 footer.page p.tribute a {
@@ -8438,7 +8440,7 @@ input.giant:active {
 }
 
 .thanks {
-  min-height: 285px;
+  min-height: 485px;
   background-color: #eaeaea;
 }
 
@@ -8463,6 +8465,7 @@ input.giant:active {
   font-size: 100px;
   text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.4);
   width: 100%;
+  letter-spacing: .05em;
 }
 
 @media (max-width: 1024px) {
@@ -8483,6 +8486,7 @@ input.giant:active {
     font-size: 64px;
     text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.4);
     width: 100%;
+    letter-spacing: .05em;
   }
 }
 

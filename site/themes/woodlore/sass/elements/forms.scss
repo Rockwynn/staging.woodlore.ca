@@ -24,7 +24,7 @@ input.giant {
 	display: none;
 }
 .thanks {
-	min-height: 285px;
+	min-height: 485px;
 	background-color: #eaeaea;
 }
 .content-area {
@@ -46,6 +46,7 @@ input.giant {
 		font-size: 100px;
 		text-shadow: 3px 3px 0 rgba(0,0,0,.4);
 		width: 100%;
+		letter-spacing: .05em;
 	}
 }
 @media (max-width: 1024px ){
@@ -64,6 +65,8 @@ input.giant {
 		font-size: 64px;
 		text-shadow: 3px 3px 0 rgba(0,0,0,.4);
 		width: 100%;
+		letter-spacing: .05em;
+
 	}
 }
 }

@@ -264,6 +264,7 @@ footer.page {
 		font-weight: 600;
 		font-size: 14px;
 		color: rgba(0,0,0,.5);
+		white-space: nowrap;
 		/*margin-bottom: 20px;*/
 	}
 	p.tribute {
@@ -271,11 +272,12 @@ footer.page {
 		color: $color_light;*/
 		font-family: $font_sans;
 		font-weight: 600;
-		font-size: 13px;
+		font-size: 14px;
 		color: rgba(0,0,0,.5);
 		/*text-transform: uppercase;*/
-		letter-spacing: .05em;
+		/*letter-spacing: .05em;*/
 		text-align: center;
+		white-space: nowrap;
 
 		a {
 		text-decoration: none;

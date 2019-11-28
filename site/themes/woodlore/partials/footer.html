@@ -247,8 +247,16 @@
     <div class="container-fluid">
         <div class="row">
             <!--<div class="col col-md-6">-->
-            <div class="col col-md-6">
-                <p class="copyright">&copy; {{ now format="Y" }} {{ site_name }}</p>
+            <div class="col col-md-4">
+                <p class="copyright">&copy; {{ now format="Y" }} {{ site_name|widont }}</p>
+            </div>
+            <div class="col col-md-4">
+                <p class="tribute">{{ tribute|widont }}</p>
+                <!--<p class="tribute">
+                    <a href="https:rockwynnwebdesign.ca" target="blank">
+                        <img src="/assets/img/logosandmisc/rwd-site-credit-logo-for-light-bg-177x37.png" alt="Designed & Developed by Rockwynn Web Design">
+                    </a>
+                </p>-->
             </div>
             <!--{{ assets:steelcase }}-->
             <!--<div class="col col-md-6">-->
@@ -258,7 +266,7 @@
             {{ /assets:steelcase }}-->
             {{ assets:steelcase }}
             <!--<div class="col col-md-6">-->
-            <div class="col col-md-6">
+            <div class="col col-md-4 mb-3">
                 <picture>
                     <source srcset="{{ glide:url q="75" fm="webp" }}" class="my-footer" type="image/webp" alt="Woodlore International Inc.">
                     <source srcset="{{ glide:url q="75" fm="jpg" }}" class="my-footer" type="image/jpg" alt="Woodlore International Inc.">
@@ -266,9 +274,10 @@
                 </picture>
             </div>
             {{ /assets:steelcase }}
+
         </div>
     </div>
-    <div class="container-fluid">
+    <!--<div class="container-fluid">
         <div class="row">
             <div class="col">
                 <p class="tribute">
@@ -278,6 +287,6 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div>-->
 </footer>
 <button id="myBtn"><a href="#top" class="white">Top</a></button>
