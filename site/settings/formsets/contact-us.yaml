@@ -9,7 +9,6 @@ fields:
     validate: required|email
   phone:
     display: Phone
-    validate: ''
   comment:
     display: Comment
 columns:
