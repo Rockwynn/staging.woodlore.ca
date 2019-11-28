@@ -8194,6 +8194,7 @@ footer.container .footer-widget .widget-2 ul.list-menu-ul li.list-menu {
   font-weight: bold;
   margin: 4px 0;
   max-height: 24px;
+  white-space: nowrap;
   /*font-size: 1.1vw;*/
   /*font-family: 'FontAwesome';
 					content: '\f0a9';
