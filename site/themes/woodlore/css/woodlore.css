@@ -8437,10 +8437,52 @@ input.giant:active {
   display: none;
 }
 
+.thanks {
+  min-height: 285px;
+  background-color: #eaeaea;
+}
+
+.content-area {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.standout {
+  -webkit-font-smoothing: antialiased;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.standout h1 {
+  font-family: Bangers,sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+
 @media (max-width: 1024px) {
   .w-phone {
     font-size: 200%;
     margin-top: 16px;
+  }
+
+  .standout {
+    font-size: 18px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .standout h1 {
+    font-family: Bangers,sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.4);
+    width: 100%;
   }
 }
 

@@ -23,9 +23,47 @@ input.giant {
 .state {
 	display: none;
 }
+.thanks {
+	min-height: 285px;
+	background-color: #eaeaea;
+}
+.content-area {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: ($gap * .75);
+	padding-right: ($gap * .75);
+}
+.standout {
+	-webkit-font-smoothing: antialiased;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.75;
+
+	h1 {
+		font-family: Bangers,sans-serif;
+		font-weight: 400;
+		font-size: 100px;
+		text-shadow: 3px 3px 0 rgba(0,0,0,.4);
+		width: 100%;
+	}
+}
 @media (max-width: 1024px ){
 .w-phone {
 	font-size: 200%;
 	margin-top: ($gap * 0.5);
+}
+.standout {
+	font-size: 18px;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+
+	h1 {
+		font-family: Bangers,sans-serif;
+		font-weight: 400;
+		font-size: 64px;
+		text-shadow: 3px 3px 0 rgba(0,0,0,.4);
+		width: 100%;
+	}
 }
 }
