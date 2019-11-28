@@ -1,2 +1,3 @@
 driver: sendmail
+from: info@rockwynnwebdesign.ca
 from_name: Administrator

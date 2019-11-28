@@ -20,5 +20,6 @@ columns:
 email:
   -
     to: info@rockwynnwebdesign.ca
+    from: info@rockwynnwebdesign.ca
     reply_to: '{{email}}'
     subject: 'Woodlore Contact Form Submission'
