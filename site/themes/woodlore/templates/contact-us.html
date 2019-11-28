@@ -1,4 +1,15 @@
 <section class="regular">
+    <div class="pt-3">
+        {{ if {form:errors in="contact-us"} }}
+            <div class="alert alert-danger">
+                {{ form:errors in="contact-us"}}
+                    {{ value }}<br>
+                {{ /form:errors }}
+                {{else}}
+                <h1></h1>
+            </div>
+        {{ /if }}
+    </div>
 
     <div class="block">
         <div class="row aligner">
@@ -36,21 +47,15 @@
         </div>
     </div>
 
-    <article class="content">
+    <article class="form content">
 
 
 
         {{ form:create in="contact-us" redirect="/contact-us/thanks"}}
 
-            {{ if errors }}
-                <div class="alert alert-danger">
-                    {{ errors }}
-                        {{ value }}<br>
-                    {{ /errors }}
-                </div>
-            {{ /if }}
 
-            {{ if success }}
+
+        {{ if success }}
                 <div class="alert alert-success">
                     Form was submitted successfully.
                 </div>

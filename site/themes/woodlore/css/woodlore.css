@@ -8490,6 +8490,10 @@ input.giant:active {
   }
 }
 
+.form {
+  margin-top: 24px;
+}
+
 .lgreen {
   color: #dfef90;
 }
