@@ -36,9 +36,11 @@
         </div>
     </div>
 
-    <div class="block">
+    <article class="content">
 
-        {{ form:create in="contact" }}
+        
+
+        {{ form:create in="contact-us" }}
 
             {{ if errors }}
                 <div class="alert alert-danger">
@@ -50,39 +52,34 @@
 
             {{ if success }}
                 <div class="alert alert-success">
-                    Thanks we'll be in touch as soon as (super) humanly possible!
+                    Form was submitted successfully.
                 </div>
             {{ /if }}
 
-
             <div class="form-group">
-                <label class="list-menu-form">Name</label>
-                <input type="text" name="name" value="{{ old:name }}" placeholder="Name" class="form-control" />
+                <label>Name</label>
+                <input type="text" name="name" value="{{ old:name }}" class="form-control" />
             </div>
 
             <div class="form-group">
-                <label class="list-menu-form">Email</label>
-                <input type="text" name="email" value="{{ old:email }}" placeholder="Email" class="form-control" />
+                <label>Email</label>
+                <input type="text" name="email" value="{{ old:email }}" class="form-control" />
             </div>
 
             <div class="form-group">
-                <label class="list-menu-form">Phone</label>
-                <input type="text" name="phone" value="{{ old:phone }}" placeholder="Phone Number" class="form-control" />
-            </div>
-
-            <div class="state form-group">
-                <label class="list-menu-form">State</label>
-                <input type="text" name="state" value="(( old:state ))" placeholder="State" class="state" />
+                <label>Phone</label>
+                <input type="phone" name="phone" value="{{ old:phone }}" class="form-control" />
             </div>
 
             <div class="form-group">
-                <label class="list-menu-form">Message</label>
-                <textarea name="comment" placeholder="Add a note..." class="form-control">{{ old:comment }}</textarea>
+                <label>Comment</label>
+                <textarea name="comment" class="form-control">{{ old:comment }}</textarea>
             </div>
 
             <button class="btn btn-primary">Submit</button>
 
         {{ /form:create }}
 
-    </div>
+    </article>
+
 </section>

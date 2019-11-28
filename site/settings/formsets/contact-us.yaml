@@ -1,0 +1,24 @@
+title: contact-us
+honeypot: state
+fields:
+  name:
+    display: Name
+    validate: required
+  email:
+    display: Email
+    validate: required
+  phone:
+    display: Phone
+    validate: ''
+  comment:
+    display: Comment
+columns:
+  - name
+  - email
+  - phone
+  - comment
+email:
+  -
+    to: info@rockwynnwebdesign.ca
+    reply_to: '{{email}}'
+    subject: 'Woodlore Contact Form Submission'
