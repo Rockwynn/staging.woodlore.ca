@@ -23,10 +23,10 @@
 	  	</button>
      <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                {{ nav from="/" max_depth="2" include_home="true" scope="tag" }}
+                {{ nav from="/" hide_from_nav:isnt="true" max_depth="2" include_home="true" scope="tag" }}
                     {{ if !children }}
                         <li class="nav-item{{ if is_current }} active{{ endif }}">
-                          <a class="nav-link" href="{{ url }}">{{ title }}</a>
+                          <a {{ if id == "c549ddad-d9e9-4e3c-81a3-f004d71ab061" }}class="nav-link brochure btn-md btn-primary" style="color:#fff;"{{ /if }} class="nav-link" href="{{ url }}">{{ title }}</a>
                         </li>
                     {{ else }}
                         <li class="nav-item dropdown{{ if is_current || is_parent }} active {{ endif }}">

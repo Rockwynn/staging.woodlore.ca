@@ -38,9 +38,9 @@
 
     <article class="content">
 
-        
 
-        {{ form:create in="contact-us" }}
+
+        {{ form:create in="contact-us" redirect="/contact-us/thanks"}}
 
             {{ if errors }}
                 <div class="alert alert-danger">
