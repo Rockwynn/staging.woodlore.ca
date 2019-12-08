@@ -9024,12 +9024,12 @@ source.bs4-column-img {
   height: 35px;
 }
 
-.fill {
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  background-image: url("path/to/image.jpg");
-}
+/*.fill {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('path/to/image.jpg');
+}*/
 
 /*------------------------------------------------------*/
 
