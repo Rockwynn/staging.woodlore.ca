@@ -60,7 +60,7 @@ engineering:
             <div class="row aligner">
                 <div class="col">
                     <h5 class="orange bold">Fully-automated Production</h5>
-                    <p>We pride ourselves on having fully-automated machinery and a highly organized, pristine, manufacturing facility. <a href="/our-facility"><strong class="dgreen bold">Learn more</strong></a></p>
+                    <p>We pride ourselves on having fully-automated machinery and a highly organized, pristine, manufacturing facility. <a href="/facility"><strong class="dgreen bold">Learn more</strong></a></p>
                 </div>
                 <div class="col">
                     <div class="card-group">
