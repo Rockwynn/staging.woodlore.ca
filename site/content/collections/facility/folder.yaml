@@ -1,8 +1,11 @@
 title: facility
+order: number
+type: numeric
 fieldset: things
 template: things
 columns:
   - title
+  - number
   - image_title
   - photo
   - blurb

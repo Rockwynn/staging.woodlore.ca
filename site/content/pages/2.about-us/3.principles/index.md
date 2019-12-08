@@ -3,13 +3,13 @@ title: Governing-Principles
 nav-title: 'Governing Principles'
 fieldset: default
 template: about
-id: b7f7cee5-a169-4dcf-85de-60fa1fe4e7bd
 woodlorelogo:
   - /assets/img/logosandmisc/logo3.png
 steelcase:
   - /assets/img/logosandmisc/steelcase.png
 governing-principles-header:
   - /assets/img/governing-principles-page/ethics5.jpg
+id: b7f7cee5-a169-4dcf-85de-60fa1fe4e7bd
 ---
 <div class="block">
     <div class="row">

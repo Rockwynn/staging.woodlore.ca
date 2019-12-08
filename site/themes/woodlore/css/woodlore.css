@@ -9303,6 +9303,37 @@ a.black-text {
   border-color: #005e32;
 }
 
+ul.navbar-nav li.dropdown {
+  display: inline-block;
+  /*padding: 5px;*/
+  /*vertical-align: top;*/
+}
+
+ul.navbar-nav li.dropdown ul.dropdown-menu {
+  display: none;
+  /*border-top: 5px solid #b9c07e;*/
+  margin: 5px -5px -5px;
+}
+
+ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+  margin: 0;
+  border: none;
+}
+
+ul.navbar-nav li.dropdown ul.dropdown-menu li {
+  display: block;
+  /*padding: 5px;*/
+}
+
+/*.navbar-woodlore li.nav-item.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.navbar-woodlore li.nav-item.dropdown > .dropdown-menu {*/
+
+/*display: block;
+    padding: 5px;*/
+
 .tags {
   display: block;
   margin: 0 0 32px;
@@ -10005,6 +10036,10 @@ Element by thecodeblock.com
   flex: auto;
   margin: 1em;
   padding-bottom: 1em;
+}
+
+.card {
+  border-radius: unset;
 }
 
 p.card-text {

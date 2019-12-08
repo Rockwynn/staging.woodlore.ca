@@ -1,11 +1,9 @@
----
 title: 'Tackboard Fabrics'
 blurb: 'A wide selection of patterns and colours designed to complement your office environment.'
 nav-title: 'Tackboard Fabrics'
 fieldset: default
 template: tackboard-fabrics
 layout: materials
-id: 9714ff2e-e7d4-46f3-997e-64a0574d6fb5
 woodlorelogo:
   - /assets/img/logosandmisc/logo3.png
 steelcase:
@@ -50,4 +48,4 @@ tackboard-fabrics:
   - /assets/img/tackboard-fabrics/Dune-Cocoweed-1219.jpg
   - /assets/img/tackboard-fabrics/Dune-Basin-1214.jpg
   - /assets/img/tackboard-fabrics/Dune-HotSun-1212.jpg
----
+id: 9714ff2e-e7d4-46f3-997e-64a0574d6fb5

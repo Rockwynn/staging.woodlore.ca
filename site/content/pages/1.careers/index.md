@@ -1,14 +1,16 @@
 ---
 title: Careers
 nav-title: Careers
-page_title: Contract Office Furniture Manufacturer - Brampton, Ontario
-sub_title: Career Opportunities
+page_title: 'Contract Office Furniture Manufacturer - Brampton, Ontario'
+sub_title: 'Career Opportunities'
+custom_url: view/careers
 template: about
-id: 51a48ba1-903c-4fdc-bcc7-917f47491ed8
 woodlorelogo:
   - /assets/img/logosandmisc/logo3.png
 steelcase:
   - /assets/img/logosandmisc/steelcase.png
+id: 51a48ba1-903c-4fdc-bcc7-917f47491ed8
+fieldset: default
 ---
 <div class="block">
 <h4 class="orange bold">Contract Office Furniture Manufacturer – Brampton, Ontario</h4>

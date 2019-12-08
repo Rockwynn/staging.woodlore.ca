@@ -16,15 +16,15 @@
 		<hr>
 		<div class="row">
 		    <div class="card-deck">
-				{{ collection:facility }}
+				{{ collection:facility sort="number" }}
 			        <div class="card">
-						<a class="example-image-link" href="{{ photo }}" width="552" height="552" fit="crop" data-lightbox="example-set" data-title="{{ image_title }} - Click on right or left half of image to navigate.">
+						<a class="example-image-link" href="{{ link }}" width="552" height="552" fit="crop"><!-- data-lightbox="example-set" data-title="{{ image_title }} - Click on right or left half of image to navigate." -->
 					    	<img class="example-image card-img-top" src="{{ glide:photo q="75" fm="jpg" }}" width="270" height="150" fit="crop" alt="{{ title }}" />
 						</a>
 				        <div class="card-block">
-				            <h5 class="dgreen bold card-title">{{ title }}</h5>
+				            <h5 class="orange bold card-title">{{ title }}</h5>
 				            <p class="card-text">{{ blurb }}</p>
-							<a href="{{ link }}"><span class="dgreen bold">Read More [...]</span></a>
+							<a href="{{ link }}"><span class="dgreen bold">More Pictures</span></a>
 				        </div>
 			        </div>
 			    {{ /collection:facility }}

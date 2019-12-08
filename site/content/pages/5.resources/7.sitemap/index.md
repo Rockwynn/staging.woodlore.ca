@@ -8,4 +8,6 @@ woodlorelogo:
   - /assets/img/logosandmisc/logo3.png
 steelcase:
   - /assets/img/logosandmisc/steelcase.png
+sitemap-header:
+  - /assets/img/sitemap-page/sitemap1.jpg
 ---
