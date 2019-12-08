@@ -10040,6 +10040,7 @@ Element by thecodeblock.com
 
 .card {
   border-radius: unset;
+  border: none;
 }
 
 p.card-text {
