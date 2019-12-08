@@ -1,6 +1,6 @@
-title: 'Contact'
+title: Contact
 address: '160 Delta Park Blvd Brampton ON L6T 5T6'
-nav-title: 'Contact'
+nav-title: 'Contact Us'
 template: contact
 contact-image:
   - /assets/img/logosandmisc/160DeltaPark.jpg
