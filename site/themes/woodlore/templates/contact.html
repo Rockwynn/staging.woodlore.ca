@@ -1,8 +1,8 @@
 <section class="regular pt-0">
     <div>
-        {{ if {form:errors in="contact-us"} }}
+        {{ if {form:errors in="contact"} }}
             <div class="alert alert-danger">
-                {{ form:errors in="contact-us"}}
+                {{ form:errors in="contact"}}
                     {{ value }}<br>
                 {{ /form:errors }}
                 {{else}}
@@ -19,7 +19,7 @@
 
 
 
-        {{ form:create in="contact-us" redirect="/contact-us/thanks"}}
+        {{ form:create in="contact" redirect="/contact/thanks"}}
 
 
 

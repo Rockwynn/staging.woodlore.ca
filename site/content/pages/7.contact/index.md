@@ -1,7 +1,7 @@
 title: 'Contact Us'
 address: '160 Delta Park Blvd Brampton ON L6T 5T6'
 nav-title: 'Contact Us'
-template: contact-us
+template: contact
 contact-image:
   - /assets/img/logosandmisc/160DeltaPark.jpg
 woodlorelogo:
