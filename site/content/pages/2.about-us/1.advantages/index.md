@@ -56,7 +56,7 @@ our-team:
     <div class="row aligner">
         <div class="col">
             <h5 class="orange bold">Environmental Standards</h5>
-            <p>All Woodlore products meet stringent environmental standards. We use only ABS edgebanding, FSC certified board, and we are compliant with the requirements set forth by ANSI/BIFMA X7.1 – 2007, LEEDS EQ Credit 4.5 and Greenguard. Our packaging methods are designed to minimize waste, and use almost 100% recycled or recyclable materials. Woodlore also has a goal to achieve 100% solid waste diversion from landfill by 2025. <a href="/about/sustainability"><strong class="dgreen bold">Learn more</strong></a></p>
+            <p>All Woodlore products meet stringent environmental standards. We use only ABS edgebanding, FSC certified board, and we are compliant with the requirements set forth by ANSI/BIFMA X7.1 – 2007, LEEDS EQ Credit 4.5 and Greenguard. Our packaging methods are designed to minimize waste, and use almost 100% recycled or recyclable materials. Woodlore also has a goal to achieve 100% solid waste diversion from landfill by 2025. <a href="/about-us/sustainability"><strong class="dgreen bold">Learn more</strong></a></p>
         </div>
         <div class="col">
             <div class="card-group">
