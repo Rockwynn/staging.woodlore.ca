@@ -73,3 +73,6 @@ input.giant {
 .form {
 	margin-top: ($gap * .75);
 }
+#iefix.col {
+	flex-basis: auto;
+}

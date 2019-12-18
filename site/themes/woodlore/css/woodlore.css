@@ -8496,6 +8496,11 @@ input.giant:active {
   margin-top: 24px;
 }
 
+#iefix.col {
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+}
+
 .lgreen {
   color: #dfef90;
 }
