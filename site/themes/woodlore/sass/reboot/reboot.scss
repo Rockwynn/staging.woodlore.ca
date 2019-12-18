@@ -447,7 +447,8 @@ Element by thecodeblock.com
     padding-bottom: 1em;
 }
 .card {
-    border-radius: unset;
+    border-radius: 0;
+    /*border-radius: unset;*/
     border: none;
 }
 p.card-text {
