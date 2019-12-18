@@ -235,9 +235,10 @@ footer.container {
 
 		li.list-menu {
 			background-image: url("/assets/img/logosandmisc/arrow-circle-right-solid-orange.svg");
+			-ms-background-position-x: -449px!important;
 			background-position: left center;
-			  background-repeat: no-repeat;
-			  padding-left: 30px;
+			background-repeat: no-repeat;
+			padding-left: 30px;
 
 			  a {
 				  color: $color_dgreen;

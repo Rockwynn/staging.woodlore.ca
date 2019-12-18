@@ -28,13 +28,14 @@
 
 .list-menu-dark{
     background-image: url("/assets/img/logosandmisc/arrow-circle-right-solid-dgreen.svg");
+    -ms-background-position-x: -474px!important;
     background-position: left center;
-      background-repeat: no-repeat;
-      padding-left: 30px;
-      color: #e6e6e6;
-      font-weight: 300;
-      margin: ($gap * 0.25) 0;
-      max-height: 19px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    color: #e6e6e6;
+    font-weight: 300;
+    margin: ($gap * 0.25) 0;
+    max-height: 19px;
     /*font-family: 'FontAwesome';
     content: '\f0a9';
     margin:0 5px 0 -15px;

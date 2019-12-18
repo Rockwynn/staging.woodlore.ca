@@ -8243,6 +8243,7 @@ footer.container .footer-widget .widget-3 hr {
 
 .sitemap-html ul li.list-menu {
   background-image: url("/assets/img/logosandmisc/arrow-circle-right-solid-orange.svg");
+  -ms-background-position-x: -449px !important;
   background-position: left center;
   background-repeat: no-repeat;
   padding-left: 30px;
@@ -9501,6 +9502,7 @@ img.zoom-img {
 
 .list-menu-dark {
   background-image: url("/assets/img/logosandmisc/arrow-circle-right-solid-dgreen.svg");
+  -ms-background-position-x: -474px !important;
   background-position: left center;
   background-repeat: no-repeat;
   padding-left: 30px;
