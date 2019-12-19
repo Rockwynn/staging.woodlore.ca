@@ -1,14 +1,10 @@
-start_page: dashboard
+start_page: pages
 date_format: Y/n/d
 pagination_size: 50
 widgets:
   -
     type: collection
     collection: home-page-slider
-    limit: 7
-  -
-    type: collection
-    collection: facility
     limit: 7
   -
     type: form
