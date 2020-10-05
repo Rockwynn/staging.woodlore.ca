@@ -8,4 +8,4 @@ local/temp/*
 installer.php
 site/themes/woodlore/yarn.lock
 yarn.lock
-composer.lock
+statamic/composer.lock
