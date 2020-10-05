@@ -3,7 +3,7 @@ title: Careers
 nav-title: Careers
 page_title: 'Contract Office Furniture Manufacturer - Brampton, Ontario'
 sub_title: 'Career Opportunities'
-custom_url: view/careers
+meta_description: 'meta description for careers'
 template: about
 woodlorelogo:
   - /assets/img/logosandmisc/logo3.png

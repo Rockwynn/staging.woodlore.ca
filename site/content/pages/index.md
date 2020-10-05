@@ -5,6 +5,7 @@ hero_title: 'Woodlore International Inc.'
 hero_sub_title: 'Custom Office Furniture'
 hero_image: /assets/img/logosandmisc/hero.jpg
 logo: /assets/img/logosandmisc/logo3.png
+meta_description: 'the home page meta description'
 layout: default
 template: home-page
 fieldset: home
