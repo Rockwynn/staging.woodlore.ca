@@ -7,3 +7,4 @@ local/storage/*
 local/temp/*
 installer.php
 yarn.lock
+composer.lock
