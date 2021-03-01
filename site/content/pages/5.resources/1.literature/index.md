@@ -42,7 +42,7 @@ steelcase:
     </div>
     <div class="row">
         <div class="col">
-            <iframe allowfullscreen="true" style="border:none;width:100%;height:700px;" src="//e.issuu.com/embed.html?d=havencatalogue-can-march-2021..&u=woodloretech"></iframe>
+            <iframe allowfullscreen="true" style="border:none;width:100%;max-height:700px;" src="//e.issuu.com/embed.html?d=havencatalogue-can-march-2021..&u=woodloretech"></iframe>
         </div>
     </div>
     <div class="row">
