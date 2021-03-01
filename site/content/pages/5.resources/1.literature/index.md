@@ -39,6 +39,13 @@ steelcase:
         <div class="col brochure bg-dgreen m-1 centered">
             <span class="list-menu"><a class="white" href="https://issuu.com/woodloretech/docs/havencatalogue-can-march-2021..?e=3452000/59408765" target="blank" >VIEW THE WOODLORE 2021 CANADIAN HAVEN CATALOGUE PRICELIST</a></span>
         </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <iframe allowfullscreen="true" style="border:none;width:100%;height:326px;" src="//e.issuu.com/embed.html?d=havencatalogue-can-march-2021..&u=woodloretech"></iframe>
+        </div>
+    </div>
+    <div class="row">
         <div class="col brochure bg-dgreen m-1 centered">
             <span class="list-menu"><a class="white" href="https://issuu.com/woodloretech/docs/havencatalogue-usa-march-2021..?e=3452000/59409006" target="blank" >VIEW THE WOODLORE 2021 US HAVEN CATALOGUE PRICELIST</a></span>
         </div>
@@ -48,6 +55,7 @@ steelcase:
             <iframe allowfullscreen="true" style="border:none;width:100%;height:326px;" src="//e.issuu.com/embed.html?d=havencatalogue-usa-march-2021..&u=woodloretech"></iframe>
         </div>
     </div>
+
     <div class="row">
 
         <div class="col brochure bg-dgreen m-1 centered">
