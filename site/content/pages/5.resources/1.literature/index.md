@@ -66,7 +66,7 @@ steelcase:
         </div>
     </div>
 </section>
-<section class="regular">
+<!--<section class="regular">
        <h5 class="orange bold">{{ brochure }}</h5>
 
       <iframe src="https://drive.google.com/file/d/0B1eyCcUUAXA0bHhLSnoxUXJOLUc3aDVONkxpb2ZEclhjWm13/preview" width="100%" height="550"></iframe>
@@ -78,4 +78,4 @@ steelcase:
 
           </div>
       </div>
-</section>
+</section>-->
