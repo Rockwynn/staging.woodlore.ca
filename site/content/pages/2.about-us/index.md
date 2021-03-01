@@ -1,7 +1,6 @@
 ---
 title: 'About Us'
 nav-title: 'About Us'
-meta_description: sandywhite
 id: d8f4a89a-fe62-42ac-a168-619eba594162
 template: about
 woodlorelogo:

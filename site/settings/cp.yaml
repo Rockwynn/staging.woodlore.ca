@@ -7,6 +7,10 @@ widgets:
     collection: home-page-slider
     limit: 7
   -
+    type: collection
+    collection: facility
+    limit: 7
+  -
     type: form
     form: contact
     limit: 5
