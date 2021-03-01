@@ -7,7 +7,7 @@ brochure: 'Woodlore Brochure'
 top-image-caption: 'At Woodlore, quick-ship is standard. We ship any catalogued product, in any of our 24 standard finishes in 8 business days from receipt of order, with no quantity limitations. If you need it faster, just let us know. Processes are in place to expedite shipping for those times when it just can’t wait. When it comes to custom product, Woodlore can design, engineer and deliver the majority of custom product requirements in 2-4 weeks, depending on the level of complexity.'
 template: about
 top-image:
-  - /assets/img/logosandmisc/HAVENCATALOGUE2021.jpg
+  - /assets/img/logosandmisc/HAVENCATALOGUE2021-628-781.jpg
 fieldset: default
 id: 01a012e7-ad6a-4df9-95af-1138ffda6744
 woodlorelogo:
