@@ -51,10 +51,10 @@ steelcase:
     <div class="row">
 
         <div class="col brochure bg-dgreen m-1 centered">
-            <span class="list-menu"><a class="white" href="/assets/downloads/HAVENCATALOGUE-CAN-MARCH-2019...pdf" target="blank">DOWNLOAD THE WOODLORE 2021 CANADIAN HAVEN CATALOGUE PRICELIST</a></span>
+            <span class="list-menu"><a class="white" href="/assets/downloads/HAVENCATALOGUE-CAN-MARCH-2021...pdf" target="blank">DOWNLOAD THE WOODLORE 2021 CANADIAN HAVEN CATALOGUE PRICELIST</a></span>
         </div>
         <div class="col brochure bg-dgreen m-1 centered">
-            <span class="list-menu"><a class="white" href="/assets/downloads/HAVENCATALOGUE-USA-MARCH-2019...pdf" target="blank">DOWNLOAD THE WOODLORE 2021 US HAVEN CATALOGUE PRICELIST</a></span>
+            <span class="list-menu"><a class="white" href="/assets/downloads/HAVENCATALOGUE-USA-MARCH-2021...pdf" target="blank">DOWNLOAD THE WOODLORE 2021 US HAVEN CATALOGUE PRICELIST</a></span>
         </div>
     </div>
 </section>
